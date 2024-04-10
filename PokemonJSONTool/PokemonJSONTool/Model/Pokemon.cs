@@ -1,4 +1,4 @@
-﻿namespace PokemonJSONTool
+﻿namespace PokemonJSONTool.Model
 {
     public struct Types
     {
@@ -27,8 +27,9 @@
     {
         public Pokemon() { }
 
-        public Pokemon(int pokedexNumber) {
-            this.PokedexNumber = pokedexNumber;
+        public Pokemon(int pokedexNumber)
+        {
+            PokedexNumber = pokedexNumber;
         }
 
         public int PokedexNumber { get; set; }
