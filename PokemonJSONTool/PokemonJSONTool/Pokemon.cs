@@ -1,4 +1,4 @@
-﻿namespace BattleFactoryBlindPracticer.Models
+﻿namespace PokemonJSONTool
 {
     public struct Types
     {
