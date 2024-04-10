@@ -2,8 +2,8 @@
 {
     public struct Types
     {
-        Type Type1;
-        Type Type2;
+        PokemonType Type1;
+        PokemonType Type2;
     }
 
     public struct Stats
