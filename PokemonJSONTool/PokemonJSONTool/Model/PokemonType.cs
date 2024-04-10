@@ -1,4 +1,4 @@
-﻿namespace PokemonJSONTool
+﻿namespace PokemonJSONTool.Model
 {
     public enum PokemonType{
         NONE,

@@ -5,10 +5,10 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Linq;
 
-namespace PokemonJSONTool.NewFolder
+namespace PokemonJSONTool.JSONStrategy
 {
     public interface IJSONStrategy
     {
-        public void SaveJSON(string fileName);
+        public void SaveJSON(string filePath, object obj);
     }
 }

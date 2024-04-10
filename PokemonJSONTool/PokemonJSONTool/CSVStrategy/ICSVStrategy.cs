@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace PokemonJSONTool.CSVStrategy
 {
-    internal interface ICSVStrategy
+    public interface ICSVStrategy
     {
+        public List<string> Load(string filePath);
     }
 }

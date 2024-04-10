@@ -10,6 +10,6 @@ namespace PokemonJSONTool.PokemonDataStrategy
 {
     public interface IPokemonDataStategy
     {
-        public void ConvertDataToJson(ICSVStrategy csvStrategy, IJSONStrategy jSONStrategy,string csvFilePath, string jsonSavePath) { }
+        public void ConvertDataToJson(ICSVStrategy csvStrategy, IJSONStrategy jSONStrategy, string csvFilePath, string jsonSavePath);
     }
 }

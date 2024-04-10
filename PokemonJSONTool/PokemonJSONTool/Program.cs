@@ -90,14 +90,6 @@ namespace PokemonJSONTool
                 }
             }
             return 0;
-        }
-
-        private static string GetSaveFilePath()
-        {
-            return string.Empty;
-        }
-
-        
-
+        }      
     }
 }
