@@ -1,9 +1,17 @@
-﻿namespace PokemonJSONTool.Model
+﻿using System.ComponentModel;
+
+namespace PokemonJSONTool.Model
 {
     public struct Types
     {
         PokemonType Type1;
         PokemonType Type2;
+
+        public Types(PokemonType type1, PokemonType type2)
+        {
+            this.Type1 = type1;
+            this.Type2 = type2;
+        }
     }
 
     public struct Stats
@@ -14,6 +22,16 @@
         int SpAtt;
         int SpDef;
         int Spe;
+
+        public Stats(int hp, int att, int def, int spatt, int spdef, int spe)
+        {
+            this.HP = hp;
+            this.Att = att;
+            this.Def = def;
+            this.SpAtt = spatt;
+            this.SpDef = spdef;
+            this.Spe = spe;
+        }
     }
 
     public struct Abilities
