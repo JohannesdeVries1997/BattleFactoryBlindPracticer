@@ -11,7 +11,12 @@ namespace PokemonJSONTool.JSONStrategy
     {
         public void SaveJSON(string filePath, object obj)
         {
-            string jsonString = JsonSerializer.Serialize(obj);
+            JsonSerializerOptions options = new JsonSerializerOptions()
+            {
+                WriteIndented = true,
+                
+            };
+            string jsonString = JsonSerializer.Serialize(obj, options);
             File.WriteAllText(filePath, jsonString);
         }
     }

@@ -20,6 +20,7 @@ namespace PokemonJSONTool.JSONStrategy
             using (StreamWriter sw = new StreamWriter(filePath))
             using (JsonWriter writer = new JsonTextWriter(sw))
             {
+                writer.Formatting = Formatting.Indented;
                 serializer.Serialize(writer, obj);
             }
         }

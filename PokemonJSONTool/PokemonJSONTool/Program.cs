@@ -2,6 +2,7 @@
 using PokemonJSONTool.Helper;
 using PokemonJSONTool.JSONStrategy;
 using PokemonJSONTool.PokemonDataStrategy;
+using System.Runtime.CompilerServices;
 using System.Text.Json.Serialization;
 
 namespace PokemonJSONTool
@@ -53,6 +54,7 @@ namespace PokemonJSONTool
                 {
                     continue;
                 }
+                csvFilePath = csvFilePath.RemoveQuoteMarks();
 
                 string saveFilePath = string.Empty;
                 Console.WriteLine("Specify where the data is saved...");
@@ -62,6 +64,7 @@ namespace PokemonJSONTool
                 {
                     continue;
                 }
+                saveFilePath = saveFilePath.RemoveQuoteMarks();
 
                 ICSVStrategy csvStrategy = new StreamReaderStrategy();
                 IJSONStrategy jsonStrategy = new NewtonSoftStrategy();
@@ -90,6 +93,6 @@ namespace PokemonJSONTool
                 }
             }
             return 0;
-        }      
+        }
     }
 }
