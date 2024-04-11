@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel;
+using System.Runtime.CompilerServices;
 
 namespace PokemonJSONTool.Model
 {
@@ -38,6 +39,12 @@ namespace PokemonJSONTool.Model
     {
         Ability Ability1;
         Ability Ability2;
+
+        public Abilities(Ability ability1, Ability ability2)
+        {
+            this.Ability1 = ability1;
+            this.Ability2 = ability2;
+        }
     }
 
 
