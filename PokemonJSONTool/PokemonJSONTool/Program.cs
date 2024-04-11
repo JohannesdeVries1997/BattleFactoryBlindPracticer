@@ -52,6 +52,7 @@ namespace PokemonJSONTool
 
                 if(csvFilePath == string.Empty)
                 {
+                    ResetConsole();
                     continue;
                 }
                 csvFilePath = csvFilePath.RemoveQuoteMarks();
@@ -62,6 +63,7 @@ namespace PokemonJSONTool
 
                 if (saveFilePath == string.Empty)
                 {
+                    ResetConsole();
                     continue;
                 }
                 saveFilePath = saveFilePath.RemoveQuoteMarks();
@@ -73,6 +75,8 @@ namespace PokemonJSONTool
                     jsonStrategy,
                     csvFilePath,
                     saveFilePath);
+
+                ResetConsole();
             }
         }
 
@@ -93,6 +97,13 @@ namespace PokemonJSONTool
                 }
             }
             return 0;
+        }
+
+        private static void ResetConsole()
+        {
+            Console.WriteLine("Resetting console, press enter to continue");
+            Console.ReadLine();
+            Console.Clear();
         }
     }
 }

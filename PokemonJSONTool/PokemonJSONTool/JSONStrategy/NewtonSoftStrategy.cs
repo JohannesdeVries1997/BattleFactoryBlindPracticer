@@ -22,6 +22,7 @@ namespace PokemonJSONTool.JSONStrategy
             {
                 writer.Formatting = Formatting.Indented;
                 serializer.Serialize(writer, obj);
+                sw.Close();
             }
         }
     }
