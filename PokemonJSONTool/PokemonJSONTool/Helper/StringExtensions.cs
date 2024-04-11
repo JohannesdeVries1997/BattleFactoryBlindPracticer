@@ -26,5 +26,15 @@ namespace PokemonJSONTool.Helper
             str = result;
             return str;
         }
+
+        public static string[] SubArray(this string[] stringArray, int startIndex, int count)
+        {
+            var result = new string[count];
+            for(int i = 0; i < count; i++)
+            {
+                result[i] = stringArray[startIndex + i];
+            }
+            return result;
+        }
     }
 }

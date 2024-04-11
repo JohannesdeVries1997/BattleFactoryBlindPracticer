@@ -1,4 +1,5 @@
-﻿using System.ComponentModel;
+﻿using Newtonsoft.Json.Converters;
+using System.ComponentModel;
 using System.Runtime.CompilerServices;
 
 namespace PokemonJSONTool.Model
@@ -16,8 +17,8 @@ namespace PokemonJSONTool.Model
 
         public string Name { get; set; } = string.Empty;
 
-        public PokemonType Type1 { get; set; }
-        public PokemonType Type2 { get; set; }
+        public string Type1 { get; set; } = string.Empty;
+        public string Type2 { get; set; } = string.Empty;
 
         public int HP { get; set; }
         public int Att { get; set; }
@@ -26,7 +27,7 @@ namespace PokemonJSONTool.Model
         public int SpDef { get; set; }
         public int Spe { get; set; }
 
-        public Ability Ability1 { get; set; }
-        public Ability Ability2 { get; set; }
+        public string Ability1 { get; set; } = string.Empty;
+        public string Ability2 { get; set; } = string.Empty;
     }
 }

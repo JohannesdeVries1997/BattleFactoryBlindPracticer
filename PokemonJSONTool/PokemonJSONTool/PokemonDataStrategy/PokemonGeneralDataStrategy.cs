@@ -54,16 +54,8 @@ namespace PokemonJSONTool.PokemonDataStrategy
 
             pokemon.Name = pokemonData[1];
 
-            if (!Enum.TryParse(pokemonData[2], out PokemonType type1))
-            {
-                Console.WriteLine($"Failed to parse pokemonType:{pokemonData[2]}");
-            }
-            if (!Enum.TryParse(pokemonData[3], out PokemonType type2))
-            {
-                Console.WriteLine($"Failed to parse pokemonType:{pokemonData[3]}");
-            }
-            pokemon.Type1 = type1;
-            pokemon.Type2 = type2;
+            pokemon.Type1 = pokemonData[2];
+            pokemon.Type2 = pokemonData[3];
 
             if (!int.TryParse(pokemonData[4], out int hp))
             {
@@ -96,16 +88,8 @@ namespace PokemonJSONTool.PokemonDataStrategy
             pokemon.SpDef = spdef;
             pokemon.Spe = spe;
 
-            if (!Enum.TryParse(pokemonData[10], out Ability ability1))
-            {
-                Console.WriteLine($"Failed to parse Ability:{pokemonData[10]}");
-            }
-            if (!Enum.TryParse(pokemonData[11], out Ability ability2))
-            {
-                Console.WriteLine($"Failed to parse Ability:{pokemonData[11]}");
-            }
-            pokemon.Ability1 = ability1;
-            pokemon.Ability2 = ability2;
+            pokemon.Ability1 = pokemonData[10];
+            pokemon.Ability2 = pokemonData[11];
 
             return pokemon;
         }
