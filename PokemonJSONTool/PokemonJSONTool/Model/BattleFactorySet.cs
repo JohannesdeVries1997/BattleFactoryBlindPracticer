@@ -22,6 +22,5 @@ namespace PokemonJSONTool.Model
         public int SpAttEv { get; set; }
         public int SpDefEv { get; set; }
         public int SpeEv { get; set; }
-
     }
 }

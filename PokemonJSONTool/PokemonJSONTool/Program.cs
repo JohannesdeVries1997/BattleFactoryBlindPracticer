@@ -17,6 +17,7 @@ namespace PokemonJSONTool
                 Console.WriteLine("Which JSON do you want to update? : ");
                 Console.WriteLine("Pokemon General Data: 1");
                 Console.WriteLine("Pokemon Moveset Data: 2");
+                Console.WriteLine("Pokemon Moves Data: 3");
 
                 int option = GetOption();
                 IPokemonDataStategy pokemonDataStategy;
@@ -28,6 +29,9 @@ namespace PokemonJSONTool
                         break;
                     case 2:
                         pokemonDataStategy = new PokemonMovesetDataStrategy();
+                        break;
+                    case 3:
+                        pokemonDataStategy = new PokemonMovesStrategy();
                         break;
                     default:
                         continue;
@@ -86,14 +90,9 @@ namespace PokemonJSONTool
             while (reading)
             {
                 var input = Console.ReadLine();
-                switch (input)
+                if(int.TryParse(input, out int result))
                 {
-                    case "1":
-                        return 1;
-                    case "2":
-                        return 2;
-                    default:
-                        continue;
+                    return result;
                 }
             }
             return 0;
