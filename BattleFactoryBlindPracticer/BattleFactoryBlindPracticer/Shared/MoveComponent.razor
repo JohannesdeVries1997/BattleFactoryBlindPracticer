@@ -1,0 +1,41 @@
+﻿<style>
+    .input{
+
+    }
+</style>
+
+
+@if (IsGuessable)
+{
+    <input type="text" list="moves" value="@Value" />
+}
+else
+{
+    <input type="text" value="@Move"/>
+}
+
+<datalist id="moves">
+    @foreach (string s in PossibleMoves)
+    {
+        <option>s</option>
+    }
+</datalist>
+
+
+@code {
+    [Parameter]
+    public bool IsGuessable { get; set; } = false;
+
+    [Parameter]
+    public string Move { get; set; } = string.Empty;
+
+    [Parameter]
+    public List<string> PossibleMoves { get; set; } = new();
+
+    public string Value { get; set; } = "";
+
+    public bool IsCorrect()
+    {
+        return (Value == Move);
+    }
+}
