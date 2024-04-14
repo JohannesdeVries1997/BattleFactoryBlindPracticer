@@ -5,19 +5,14 @@
 </style>
 
 
-@if (IsGuessable)
-{
-    <input type="text" list="moves" value="@Value" />
-}
-else
-{
-    <input type="text" value="@Move"/>
-}
+<input type="text" list="moves" value="@Value" disabled="@InputBoxDisabled" onclick="this.select()"/>
+
+<input type="text" value="@DisplayedMove" disabled>
 
 <datalist id="moves">
     @foreach (string s in PossibleMoves)
     {
-        <option>s</option>
+        <option>@s</option>
     }
 </datalist>
 
@@ -32,10 +27,29 @@ else
     [Parameter]
     public List<string> PossibleMoves { get; set; } = new();
 
+    public bool InputBoxDisabled = true;
+
+    public string DisplayedMove = "";
+
     public string Value { get; set; } = "";
 
     public bool IsCorrect()
     {
         return (Value == Move);
+    }
+
+    protected override void OnInitialized()
+    {
+        base.OnInitialized();
+        InputBoxDisabled = !IsGuessable;
+        if (!IsGuessable)
+        {
+            ShowMove();
+        }
+    }
+
+    public void ShowMove()
+    {
+        DisplayedMove = Move;
     }
 }
