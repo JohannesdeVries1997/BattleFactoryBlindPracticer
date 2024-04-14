@@ -1,0 +1,16 @@
+﻿@inject HttpClient _client
+@using BattleFactoryBlindPracticer.Model
+
+<h3>TestComponent</h3>
+
+@code {
+    public List<Pokemon> pokemons = new();
+
+    public List<BattleFactorySet> sets = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        pokemons = await PokemonFactory.GetPokemonData(_client);
+        sets = await PokemonFactory.GetBattleFactoryData(_client);
+    }
+}

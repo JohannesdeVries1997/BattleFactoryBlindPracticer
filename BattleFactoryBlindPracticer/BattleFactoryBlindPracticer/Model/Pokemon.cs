@@ -1,4 +1,4 @@
-﻿namespace BattleFactoryBlindPracticer.Models
+﻿namespace BattleFactoryBlindPracticer.Model
 {
     public class Pokemon
     {
