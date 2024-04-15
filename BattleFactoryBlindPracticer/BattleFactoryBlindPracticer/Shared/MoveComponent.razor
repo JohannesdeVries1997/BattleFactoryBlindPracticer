@@ -1,16 +1,17 @@
-﻿<style>
+﻿@using System.Text.RegularExpressions;
+<style>
     .input{
 
     }
 </style>
 
 
-<input type="text" list="moves" value="@Value" disabled="@InputBoxDisabled" onclick="this.select()"/>
+<input type="text" list="@Move" @bind="BindingValue" @bind:event="oninput" disabled="@InputBoxDisabled" onclick="this.select()" />
 
 <input type="text" value="@DisplayedMove" disabled>
 
-<datalist id="moves">
-    @foreach (string s in PossibleMoves)
+<datalist id="@Move">
+    @foreach (string s in AutoCompleteMoves)
     {
         <option>@s</option>
     }
@@ -27,15 +28,18 @@
     [Parameter]
     public List<string> PossibleMoves { get; set; } = new();
 
+    private List<string> AutoCompleteMoves { get; set; } = new();
+
     public bool InputBoxDisabled = true;
 
     public string DisplayedMove = "";
 
-    public string Value { get; set; } = "";
+    private string _bindingValue { get; set; } = string.Empty;
+    public string BindingValue { get { return _bindingValue; } set { _bindingValue = value; UpdateAutoCompleteMoves(); } }
 
     public bool IsCorrect()
     {
-        return (Value == Move);
+        return (BindingValue == Move);
     }
 
     protected override void OnInitialized()
@@ -51,5 +55,22 @@
     public void ShowMove()
     {
         DisplayedMove = Move;
+    }
+
+    private void UpdateAutoCompleteMoves()
+    {
+        string input = BindingValue.ToLower();
+        AutoCompleteMoves.Clear();
+        foreach(string s in PossibleMoves)
+        {
+            if (AutoCompleteMoves.Count > 6) continue;
+
+            var move = s.ToLower();
+            if (move.StartsWith(input))
+            {
+                AutoCompleteMoves.Add(s);
+            }
+        }
+        StateHasChanged();
     }
 }
