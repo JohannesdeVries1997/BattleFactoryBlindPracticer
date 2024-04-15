@@ -1,0 +1,27 @@
+﻿@inject HttpClient _client;
+
+<style>
+    #speakerImg{
+        width: 30px;
+        height: 30px;
+    }
+</style>
+
+<button onclick="document.getElementById('sound').play()">
+    <img id="speakerImg" src="/Resources/Images/speaker-filled-audio-tool_59284.png"/>
+</button>
+<audio id="sound" src="@SourceString"></audio>
+
+@code {
+    [Parameter]
+    public int pokedexNumber { get; set; } = 0;
+
+    private string SourceString { get; set; } = string.Empty;
+
+    protected override void OnParametersSet()
+    {
+        base.OnParametersSet();
+        SourceString = $"/Resources/Cries/{pokedexNumber.ToString()}.mp3";
+        StateHasChanged();
+    }
+}

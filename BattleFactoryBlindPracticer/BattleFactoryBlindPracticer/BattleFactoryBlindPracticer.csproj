@@ -13,7 +13,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="wwwroot\Resources\Cries\" />
     <Folder Include="wwwroot\Resources\Sprites\" />
   </ItemGroup>
 
