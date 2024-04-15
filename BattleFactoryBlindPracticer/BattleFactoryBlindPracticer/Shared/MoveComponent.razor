@@ -30,12 +30,12 @@
 
     private List<string> AutoCompleteMoves { get; set; } = new();
 
-    public bool InputBoxDisabled = true;
+    private bool InputBoxDisabled = true;
 
-    public string DisplayedMove = "";
+    private string DisplayedMove = "";
 
     private string _bindingValue { get; set; } = string.Empty;
-    public string BindingValue { get { return _bindingValue; } set { _bindingValue = value; UpdateAutoCompleteMoves(); } }
+    private string BindingValue { get { return _bindingValue; } set { _bindingValue = value; UpdateAutoCompleteMoves(); } }
 
     public bool IsCorrect()
     {
