@@ -260,7 +260,7 @@
       "Needle Arm",
       "Faint Attack",
       "Cotton Spore",
-      "Sand Attack"
+      "Sand-Attack"
     ],
     "Item": "Sitrus Berry",
     "Nature": "Hardy",
@@ -430,7 +430,7 @@
       "Aerial Ace",
       "Quick Attack",
       "Feather Dance",
-      "Sand Attack"
+      "Sand-Attack"
     ],
     "Item": "White Herb",
     "Nature": "Hardy",
@@ -497,7 +497,7 @@
     "Moves": [
       "Mega Drain",
       "Ancient Power",
-      "Sand Attack",
+      "Sand-Attack",
       "Protect"
     ],
     "Item": "Sitrus Berry",
@@ -547,7 +547,7 @@
     "PokemonName": "Aipom",
     "Moves": [
       "Fury Swipes",
-      "Sand Attack",
+      "Sand-Attack",
       "Baton Pass",
       "Agility"
     ],
@@ -633,7 +633,7 @@
     "Moves": [
       "Double Kick",
       "Water Pulse",
-      "Mud Slap",
+      "Mud-Slap",
       "Flatter"
     ],
     "Item": "Focus Band",
@@ -923,7 +923,7 @@
       "Slam",
       "Brick Break",
       "Lick",
-      "Mud Slap"
+      "Mud-Slap"
     ],
     "Item": "Sitrus Berry",
     "Nature": "Hardy",
@@ -1126,7 +1126,7 @@
     "Moves": [
       "Water Pulse",
       "Bite",
-      "Mud Slap",
+      "Mud-Slap",
       "Yawn"
     ],
     "Item": "Focus Band",
@@ -1348,7 +1348,7 @@
       "Ember",
       "Double Kick",
       "Quick Attack",
-      "Sand Attack"
+      "Sand-Attack"
     ],
     "Item": "Scope Lens",
     "Nature": "Hardy",
@@ -1365,7 +1365,7 @@
       "Mud Shot",
       "Water Gun",
       "Rock Tomb",
-      "Mud Slap"
+      "Mud-Slap"
     ],
     "Item": "Focus Band",
     "Nature": "Hardy",
@@ -1584,7 +1584,7 @@
     "PokemonName": "Linoone",
     "Moves": [
       "Secret Power",
-      "Sand Attack",
+      "Sand-Attack",
       "Covet",
       "Tickle"
     ],
@@ -2162,7 +2162,7 @@
     "PokemonName": "Banette",
     "Moves": [
       "Night Shade",
-      "Will O Wisp",
+      "Will-O-Wisp",
       "Spite",
       "Knock Off"
     ],
@@ -2317,7 +2317,7 @@
       "Extrasensory",
       "Confuse Ray",
       "Stomp",
-      "Sand Attack"
+      "Sand-Attack"
     ],
     "Item": "Twisted Spoon",
     "Nature": "Gentle ( +SpDef, -Def)",
@@ -2384,7 +2384,7 @@
     "Moves": [
       "Aerial Ace",
       "Feather Dance",
-      "Mud Slap",
+      "Mud-Slap",
       "Faint Attack"
     ],
     "Item": "Sharp Beak",
@@ -2503,7 +2503,7 @@
     "Moves": [
       "Whirlpool",
       "Scary Face",
-      "Mud Slap",
+      "Mud-Slap",
       "Bite"
     ],
     "Item": "Persim Berry",
@@ -3133,7 +3133,7 @@
       "Flamethrower",
       "Sky Uppercut",
       "Slash",
-      "Sand Attack"
+      "Sand-Attack"
     ],
     "Item": "Scope Lens",
     "Nature": "Hardy",
@@ -3149,7 +3149,7 @@
     "Moves": [
       "Muddy Water",
       "Earthquake",
-      "Mud Slap",
+      "Mud-Slap",
       "Protect"
     ],
     "Item": "Focus Band",
@@ -3201,7 +3201,7 @@
       "Mega Kick",
       "Earthquake",
       "Low Kick",
-      "Self Destruct"
+      "Selfdestruct"
     ],
     "Item": "Focus Band",
     "Nature": "Hardy",
@@ -3371,7 +3371,7 @@
       "Trick",
       "Frustration",
       "Thunder Wave",
-      "Sand Attack"
+      "Sand-Attack"
     ],
     "Item": "Choice Band",
     "Nature": "Jolly ( +Speed, -SpAtk)",
@@ -3929,7 +3929,7 @@
   {
     "PokemonName": "Hitmontop",
     "Moves": [
-      "Double Edge",
+      "Double-Edge",
       "Seismic Toss",
       "Rock Slide",
       "Counter"
@@ -3949,7 +3949,7 @@
       "Shadow Ball",
       "Frustration",
       "Screech",
-      "Will O Wisp"
+      "Will-O-Wisp"
     ],
     "Item": "Lax Incense",
     "Nature": "Adamant ( +Atk, -SpAtk)",
@@ -4031,7 +4031,7 @@
   {
     "PokemonName": "Sharpedo",
     "Moves": [
-      "Double Edge",
+      "Double-Edge",
       "Crunch",
       "Earthquake",
       "Surf"
@@ -4116,7 +4116,7 @@
   {
     "PokemonName": "Absol",
     "Moves": [
-      "Double Edge",
+      "Double-Edge",
       "Shadow Ball",
       "Aerial Ace",
       "Iron Tail"
@@ -4170,7 +4170,7 @@
       "Frustration",
       "Aerial Ace",
       "Steel Wing",
-      "Mud Slap"
+      "Mud-Slap"
     ],
     "Item": "Scope Lens",
     "Nature": "Adamant ( +Atk, -SpAtk)",
@@ -4272,7 +4272,7 @@
       "Octazooka",
       "Fire Blast",
       "Thunder Wave",
-      "Mud Slap"
+      "Mud-Slap"
     ],
     "Item": "Lax Incense",
     "Nature": "Hardy",
@@ -4424,7 +4424,7 @@
     "Moves": [
       "Surf",
       "Psychic",
-      "Mud Slap",
+      "Mud-Slap",
       "Swagger"
     ],
     "Item": "Lax Incense",
@@ -4510,7 +4510,7 @@
       "Drill Peck",
       "Tri Attack",
       "Facade",
-      "Mud Slap"
+      "Mud-Slap"
     ],
     "Item": "Sharp Beak",
     "Nature": "Adamant ( +Atk, -SpAtk)",
@@ -4558,7 +4558,7 @@
   {
     "PokemonName": "Dusclops",
     "Moves": [
-      "Will O Wisp",
+      "Will-O-Wisp",
       "Seismic Toss",
       "Pain Split",
       "Confuse Ray"
@@ -4643,7 +4643,7 @@
   {
     "PokemonName": "Forretress",
     "Moves": [
-      "Double Edge",
+      "Double-Edge",
       "Rock Slide",
       "Light Screen",
       "Spikes"
@@ -4731,7 +4731,7 @@
       "Earthquake",
       "Brick Break",
       "Counter",
-      "Mud Slap"
+      "Mud-Slap"
     ],
     "Item": "Focus Band",
     "Nature": "Adamant ( +Atk, -SpAtk)",
@@ -5018,7 +5018,7 @@
     "PokemonName": "Weezing",
     "Moves": [
       "Sludge Bomb",
-      "Will O Wisp",
+      "Will-O-Wisp",
       "Shadow Ball",
       "Smokescreen"
     ],
@@ -5377,7 +5377,7 @@
       "Flamethrower",
       "Shadow Ball",
       "Counter",
-      "Will O Wisp"
+      "Will-O-Wisp"
     ],
     "Item": "Focus Band",
     "Nature": "Hardy",
@@ -5445,7 +5445,7 @@
       "Flamethrower",
       "Roar",
       "Confuse Ray",
-      "Will O Wisp"
+      "Will-O-Wisp"
     ],
     "Item": "Rawst Berry",
     "Nature": "Modest ( +SpAtk, -Atk)",
@@ -5683,7 +5683,7 @@
       "Flamethrower",
       "Roar",
       "Bite",
-      "Sand Attack"
+      "Sand-Attack"
     ],
     "Item": "Sitrus Berry",
     "Nature": "Modest ( +SpAtk, -Atk)",
@@ -6242,7 +6242,7 @@
     "PokemonName": "Dodrio",
     "Moves": [
       "Drill Peck",
-      "Double Edge",
+      "Double-Edge",
       "Faint Attack",
       "Protect"
     ],
@@ -6310,7 +6310,7 @@
     "PokemonName": "Forretress",
     "Moves": [
       "Earthquake",
-      "Double Edge",
+      "Double-Edge",
       "Counter",
       "Protect"
     ],
@@ -6429,7 +6429,7 @@
     "PokemonName": "Dewgong",
     "Moves": [
       "Blizzard",
-      "Double Edge",
+      "Double-Edge",
       "Encore",
       "Disable"
     ],
@@ -6700,7 +6700,7 @@
   {
     "PokemonName": "Tauros",
     "Moves": [
-      "Double Edge",
+      "Double-Edge",
       "Earthquake",
       "Double Team",
       "Rest"
@@ -6785,7 +6785,7 @@
   {
     "PokemonName": "Nidoqueen",
     "Moves": [
-      "Double Edge",
+      "Double-Edge",
       "Earthquake",
       "Aerial Ace",
       "Rock Slide"
@@ -6924,7 +6924,7 @@
       "Sludge Bomb",
       "Shadow Ball",
       "Confuse Ray",
-      "Will O Wisp"
+      "Will-O-Wisp"
     ],
     "Item": "Leftovers",
     "Nature": "Adamant ( +Atk, -SpAtk)",
@@ -6989,7 +6989,7 @@
   {
     "PokemonName": "Ursaring",
     "Moves": [
-      "Double Edge",
+      "Double-Edge",
       "Earthquake",
       "Brick Break",
       "Counter"
@@ -7057,7 +7057,7 @@
   {
     "PokemonName": "Wailord",
     "Moves": [
-      "Double Edge",
+      "Double-Edge",
       "Rest",
       "Curse",
       "Amnesia"
@@ -7314,7 +7314,7 @@
     "Moves": [
       "Curse",
       "Attract",
-      "Double Edge",
+      "Double-Edge",
       "Shadow Ball"
     ],
     "Item": "Quick Claw",
@@ -7366,7 +7366,7 @@
       "Curse",
       "Screech",
       "Double Team",
-      "Double Edge"
+      "Double-Edge"
     ],
     "Item": "Leftovers",
     "Nature": "Adamant ( +Atk, -SpAtk)",
@@ -7669,7 +7669,7 @@
   {
     "PokemonName": "Salamence",
     "Moves": [
-      "Double Edge",
+      "Double-Edge",
       "Crunch",
       "Swagger",
       "Protect"
@@ -7721,7 +7721,7 @@
     "PokemonName": "Dugtrio",
     "Moves": [
       "Earthquake",
-      "Double Edge",
+      "Double-Edge",
       "Sludge Bomb",
       "Fissure"
     ],
@@ -7788,7 +7788,7 @@
   {
     "PokemonName": "Granbull",
     "Moves": [
-      "Double Edge",
+      "Double-Edge",
       "Earthquake",
       "Sludge Bomb",
       "Rock Slide"
@@ -7839,7 +7839,7 @@
   {
     "PokemonName": "Dodrio",
     "Moves": [
-      "Double Edge",
+      "Double-Edge",
       "Drill Peck",
       "Steel Wing",
       "Faint Attack"
@@ -7994,7 +7994,7 @@
     "Moves": [
       "Earthquake",
       "Sludge Bomb",
-      "Double Edge",
+      "Double-Edge",
       "Curse"
     ],
     "Item": "Quick Claw",
@@ -8181,7 +8181,7 @@
     "Moves": [
       "Blizzard",
       "Earthquake",
-      "Double Edge",
+      "Double-Edge",
       "Shadow Ball"
     ],
     "Item": "Shell Bell",
@@ -8332,7 +8332,7 @@
   {
     "PokemonName": "Tauros",
     "Moves": [
-      "Double Edge",
+      "Double-Edge",
       "Earthquake",
       "Flamethrower",
       "Ice Beam"
@@ -8641,7 +8641,7 @@
       "Overheat",
       "Shadow Ball",
       "Sludge Bomb",
-      "Double Edge"
+      "Double-Edge"
     ],
     "Item": "White Herb",
     "Nature": "Hardy",
@@ -8791,7 +8791,7 @@
   {
     "PokemonName": "Aerodactyl",
     "Moves": [
-      "Double Edge",
+      "Double-Edge",
       "Rock Slide",
       "Fire Blast",
       "Dragon Claw"
@@ -8893,7 +8893,7 @@
   {
     "PokemonName": "Venusaur",
     "Moves": [
-      "Double Edge",
+      "Double-Edge",
       "Sludge Bomb",
       "Earthquake",
       "Sleep Powder"
@@ -9148,7 +9148,7 @@
   {
     "PokemonName": "Lapras",
     "Moves": [
-      "Double Edge",
+      "Double-Edge",
       "Psychic",
       "Confuse Ray",
       "Dragon Dance"
@@ -9166,7 +9166,7 @@
     "PokemonName": "Crobat",
     "Moves": [
       "Air Cutter",
-      "Double Edge",
+      "Double-Edge",
       "Shadow Ball",
       "Screech"
     ],
@@ -9301,7 +9301,7 @@
   {
     "PokemonName": "Salamence",
     "Moves": [
-      "Double Edge",
+      "Double-Edge",
       "Earthquake",
       "Crunch",
       "Endure"
@@ -9353,7 +9353,7 @@
     "PokemonName": "Dugtrio",
     "Moves": [
       "Earthquake",
-      "Double Edge",
+      "Double-Edge",
       "Rock Slide",
       "Fissure"
     ],
@@ -9404,7 +9404,7 @@
     "PokemonName": "Fearow",
     "Moves": [
       "Drill Peck",
-      "Double Edge",
+      "Double-Edge",
       "Steel Wing",
       "Sky Attack"
     ],
@@ -9454,7 +9454,7 @@
   {
     "PokemonName": "Dusclops",
     "Moves": [
-      "Double Edge",
+      "Double-Edge",
       "Shadow Ball",
       "Curse",
       "Rest"
@@ -9542,7 +9542,7 @@
       "Explosion",
       "Earthquake",
       "Rock Slide",
-      "Double Edge"
+      "Double-Edge"
     ],
     "Item": "Quick Claw",
     "Nature": "Adamant ( +Atk, -SpAtk)",
@@ -9744,7 +9744,7 @@
     "PokemonName": "Victreebel",
     "Moves": [
       "Giga Drain",
-      "Double Edge",
+      "Double-Edge",
       "Sludge Bomb",
       "Synthesis"
     ],
@@ -9865,7 +9865,7 @@
       "Explosion",
       "Earthquake",
       "Rock Slide",
-      "Double Edge"
+      "Double-Edge"
     ],
     "Item": "Quick Claw",
     "Nature": "Adamant ( +Atk, -SpAtk)",
@@ -9964,7 +9964,7 @@
   {
     "PokemonName": "Tauros",
     "Moves": [
-      "Double Edge",
+      "Double-Edge",
       "Rock Tomb",
       "Thunderbolt",
       "Surf"
@@ -10015,7 +10015,7 @@
   {
     "PokemonName": "Miltank",
     "Moves": [
-      "Double Edge",
+      "Double-Edge",
       "Curse",
       "Double Team",
       "Milk Drink"
@@ -10117,7 +10117,7 @@
   {
     "PokemonName": "Armaldo",
     "Moves": [
-      "Double Edge",
+      "Double-Edge",
       "Earthquake",
       "Aerial Ace",
       "Rock Slide"
@@ -10152,7 +10152,7 @@
     "PokemonName": "Rapidash",
     "Moves": [
       "Overheat",
-      "Double Edge",
+      "Double-Edge",
       "Iron Tail",
       "Double Kick"
     ],
@@ -10253,7 +10253,7 @@
   {
     "PokemonName": "Ursaring",
     "Moves": [
-      "Double Edge",
+      "Double-Edge",
       "Earthquake",
       "Rock Slide",
       "Aerial Ace"
@@ -10339,9 +10339,9 @@
     "PokemonName": "Ninetales",
     "Moves": [
       "Overheat",
-      "Double Edge",
+      "Double-Edge",
       "Confuse Ray",
-      "Will O Wisp"
+      "Will-O-Wisp"
     ],
     "Item": "White Herb",
     "Nature": "Hardy",
@@ -10391,7 +10391,7 @@
     "Moves": [
       "Earthquake",
       "Iron Tail",
-      "Double Edge",
+      "Double-Edge",
       "Explosion"
     ],
     "Item": "Quick Claw",
@@ -10423,7 +10423,7 @@
   {
     "PokemonName": "Aerodactyl",
     "Moves": [
-      "Double Edge",
+      "Double-Edge",
       "Earthquake",
       "Fire Blast",
       "Bite"
@@ -10510,7 +10510,7 @@
     "Moves": [
       "Earthquake",
       "Dragon Claw",
-      "Double Edge",
+      "Double-Edge",
       "Crunch"
     ],
     "Item": "Scope Lens",
@@ -10578,7 +10578,7 @@
     "Moves": [
       "Overheat",
       "Sunny Day",
-      "Double Edge",
+      "Double-Edge",
       "Shadow Ball"
     ],
     "Item": "Quick Claw",
@@ -10678,7 +10678,7 @@
   {
     "PokemonName": "Aggron",
     "Moves": [
-      "Double Edge",
+      "Double-Edge",
       "Earthquake",
       "Rock Slide",
       "Aerial Ace"
@@ -10848,7 +10848,7 @@
   {
     "PokemonName": "Snorlax",
     "Moves": [
-      "Double Edge",
+      "Double-Edge",
       "Shadow Ball",
       "Brick Break",
       "Curse"
@@ -10865,7 +10865,7 @@
   {
     "PokemonName": "Kingdra",
     "Moves": [
-      "Double Edge",
+      "Double-Edge",
       "Ice Beam",
       "Dragon Dance",
       "Rest"
@@ -10919,7 +10919,7 @@
       "Overheat",
       "Extreme Speed",
       "Crunch",
-      "Double Edge"
+      "Double-Edge"
     ],
     "Item": "White Herb",
     "Nature": "Hardy",
@@ -10933,7 +10933,7 @@
   {
     "PokemonName": "Salamence",
     "Moves": [
-      "Double Edge",
+      "Double-Edge",
       "Earthquake",
       "Aerial Ace",
       "Dragon Dance"
