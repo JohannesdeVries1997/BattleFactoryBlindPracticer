@@ -1,16 +1,21 @@
 ﻿@inject HttpClient _client
 @using BattleFactoryBlindPracticer.Model
 
-<h3>TestComponent</h3>
+<MoveListComponent IsGuessable=true Moves=@chosenSet.Moves></MoveListComponent>
+
+
 
 @code {
     public List<Pokemon> pokemons = new();
 
     public List<BattleFactorySet> sets = new();
 
+    public BattleFactorySet chosenSet = new BattleFactorySet();
+
     protected override async Task OnInitializedAsync()
     {
-        pokemons = await PokemonFactory.GetPokemonData(_client);
-        sets = await PokemonFactory.GetBattleFactoryData(_client);
+        pokemons = await DataGetter.GetPokemonData(_client);
+        sets = await DataGetter.GetBattleFactoryData(_client);
+        chosenSet = sets[0];
     }
 }

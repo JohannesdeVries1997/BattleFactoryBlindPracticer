@@ -10,7 +10,7 @@ namespace BattleFactoryBlindPracticer.Model
     {
         public string PokemonName { get; set; } = string.Empty;
 
-        public string[] Moves { get; set; } = new string[4];
+        public string[] Moves { get; set; } = { "None", "None", "None", "None" };
 
         public string Item { get; set; } = string.Empty;
 

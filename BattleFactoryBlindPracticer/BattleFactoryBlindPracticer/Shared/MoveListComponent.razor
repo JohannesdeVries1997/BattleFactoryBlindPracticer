@@ -1,0 +1,57 @@
+﻿@inject HttpClient _client
+@using Newtonsoft.Json
+@using BattleFactoryBlindPracticer.Model
+
+<ul>
+    <li><MoveComponent @ref=@Move1 IsGuessable=@IsGuessable PossibleMoves=@AllMoves Move=@Moves[0]></MoveComponent></li>
+    <li><MoveComponent @ref=@Move2 IsGuessable=@IsGuessable PossibleMoves=@AllMoves Move=@Moves[1]></MoveComponent></li>
+    <li><MoveComponent @ref=@Move3 IsGuessable=@IsGuessable PossibleMoves=@AllMoves Move=@Moves[2]></MoveComponent></li>
+    <li><MoveComponent @ref=@Move4 IsGuessable=@IsGuessable PossibleMoves=@AllMoves Move=@Moves[3]></MoveComponent></li>
+</ul>
+
+<button @onclick="ConfirmClick">Confirm</button>
+
+@code {
+    [Parameter]
+    public bool IsGuessable { get; set; } = false;
+
+    [Parameter]
+    public string[] Moves { get; set; } = { "None", "None", "None", "None" };
+
+    private List<string> AllMoves = new();
+
+    private MoveComponent Move1 { get; set; } = new();
+    private MoveComponent Move2 { get; set; } = new();
+    private MoveComponent Move3 { get; set; } = new();
+    private MoveComponent Move4 { get; set; } = new();
+
+    private void ConfirmClick()
+    {
+        HandleMoveCheck(Move1);
+        HandleMoveCheck(Move2);
+        HandleMoveCheck(Move3);
+        HandleMoveCheck(Move4);
+    }
+
+    private void HandleMoveCheck(MoveComponent move)
+    {
+        move.ShowMove();
+        if (move.IsCorrect()){
+            move.SetInputBoxStyle("border-color: lightgreen");
+        }
+        else
+        {
+            move.SetInputBoxStyle("border-color: salmon");
+        }
+    }
+
+    protected override async Task OnInitializedAsync()
+    {
+        AllMoves = await DataGetter.GetAllMoves(_client);
+    }
+
+    protected override void OnParametersSet()
+    {
+        base.OnParametersSet();
+    }
+}

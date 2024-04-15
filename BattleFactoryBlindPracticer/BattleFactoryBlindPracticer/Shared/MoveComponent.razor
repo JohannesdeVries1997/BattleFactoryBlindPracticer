@@ -1,14 +1,16 @@
 ﻿@using System.Text.RegularExpressions;
 <style>
-    .input{
-
+    .InputBoxMoves{
+        border-block-width: 4px;
+        margin-top: 5px;
+        margin-bottom: 5px;
     }
 </style>
 
 
-<input type="text" list="@Move" @bind="BindingValue" @bind:event="oninput" disabled="@InputBoxDisabled" onclick="this.select()" />
+<input type="text" class="InputBoxMoves" list="@Move" style="@inputBoxStyling" @bind="InputValue" @bind:event="oninput" disabled="@InputBoxDisabled" onclick="this.select()" />
 
-<input type="text" value="@DisplayedMove" disabled>
+<input type="text" class="InputBoxMoves" value="@DisplayedMove" disabled>
 
 <datalist id="@Move">
     @foreach (string s in AutoCompleteMoves)
@@ -34,13 +36,10 @@
 
     private string DisplayedMove = "";
 
-    private string _bindingValue { get; set; } = string.Empty;
-    private string BindingValue { get { return _bindingValue; } set { _bindingValue = value; UpdateAutoCompleteMoves(); } }
+    private string _inputValue { get; set; } = string.Empty;
+    private string InputValue { get { return _inputValue; } set { _inputValue = value; UpdateAutoCompleteMoves(); } }
 
-    public bool IsCorrect()
-    {
-        return (BindingValue == Move);
-    }
+    private string inputBoxStyling = "";
 
     protected override void OnInitialized()
     {
@@ -52,14 +51,33 @@
         }
     }
 
+    protected override void OnParametersSet()
+    {
+        base.OnParametersSet();
+        UpdateAutoCompleteMoves();
+    }
+
+    public bool IsCorrect()
+    {
+        return (_inputValue == Move);
+    }
+
     public void ShowMove()
     {
+        InputBoxDisabled = true;
         DisplayedMove = Move;
+        StateHasChanged();
+    }
+
+    public void SetInputBoxStyle(string styling)
+    {
+        inputBoxStyling = styling;
+        StateHasChanged();
     }
 
     private void UpdateAutoCompleteMoves()
     {
-        string input = BindingValue.ToLower();
+        string input = _inputValue.ToLower();
         AutoCompleteMoves.Clear();
         foreach(string s in PossibleMoves)
         {
@@ -71,6 +89,7 @@
                 AutoCompleteMoves.Add(s);
             }
         }
+        if (AutoCompleteMoves.Count == 1) AutoCompleteMoves.Clear();
         StateHasChanged();
     }
 }
