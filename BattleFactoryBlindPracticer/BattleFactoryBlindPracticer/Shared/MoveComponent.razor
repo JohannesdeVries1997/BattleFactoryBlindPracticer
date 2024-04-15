@@ -59,7 +59,9 @@
 
     public bool IsCorrect()
     {
-        return (_inputValue == Move);
+        string inputLower = _inputValue.ToLower();
+        string moveLower = Move.ToLower();
+        return (inputLower == moveLower);
     }
 
     public void ShowMove()
@@ -89,7 +91,7 @@
                 AutoCompleteMoves.Add(s);
             }
         }
-        if (AutoCompleteMoves.Count == 1) AutoCompleteMoves.Clear();
+        if (AutoCompleteMoves.Count == 1 && _inputValue == AutoCompleteMoves.FirstOrDefault()) AutoCompleteMoves.Clear();
         StateHasChanged();
     }
 }
