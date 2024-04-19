@@ -20,10 +20,10 @@
 
     private List<string> AllMoves = new();
 
-    private MoveComponent Move1 { get; set; } = new();
-    private MoveComponent Move2 { get; set; } = new();
-    private MoveComponent Move3 { get; set; } = new();
-    private MoveComponent Move4 { get; set; } = new();
+    private MoveComponent Move1 = new();
+    private MoveComponent Move2 = new();
+    private MoveComponent Move3 = new();
+    private MoveComponent Move4 = new();
 
     private void ConfirmClick()
     {
@@ -33,13 +33,16 @@
         Move4.HandleMoveCheck();
     }
 
+    public void ResetComponent()
+    {
+        Move1.ResetComponent();
+        Move2.ResetComponent();
+        Move3.ResetComponent();
+        Move4.ResetComponent();
+    }
+
     protected override async Task OnInitializedAsync()
     {
         AllMoves = await DataGetter.GetAllMoves(_client);
-    }
-
-    protected override void OnParametersSet()
-    {
-        base.OnParametersSet();
     }
 }

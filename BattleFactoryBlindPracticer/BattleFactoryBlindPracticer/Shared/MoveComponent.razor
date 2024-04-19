@@ -8,12 +8,11 @@
 </style>
 
 
-<input type="text" class="InputBoxMoves" list="@Move" style="@inputBoxStyling" @bind="InputValue" @bind:event="oninput" disabled="@InputBoxDisabled" onclick="this.select()" />
-
-<input type="text" class="InputBoxMoves" value="@DisplayedMove" disabled>
+<input type="text" class="InputBoxMoves" list="@Move" style="@inputBoxStyling" @bind="inputValue" @bind:event="oninput" disabled="@inputBoxDisabled" onclick="this.select()" />
+<input type="text" class="InputBoxMoves" value="@displayedMove" disabled>
 
 <datalist id="@Move">
-    @foreach (string s in AutoCompleteMoves)
+    @foreach (string s in autoCompleteMoves)
     {
         <option>@s</option>
     }
@@ -24,27 +23,28 @@
     [Parameter]
     public bool IsGuessable { get; set; } = false;
 
+    private bool inputBoxDisabled = true;
+
     [Parameter]
     public string Move { get; set; } = string.Empty;
 
     [Parameter]
     public List<string> PossibleMoves { get; set; } = new();
 
-    private List<string> AutoCompleteMoves { get; set; } = new();
+    private List<string> autoCompleteMoves { get; set; } = new();
 
-    private bool InputBoxDisabled = true;
 
-    private string DisplayedMove = "";
+    private string displayedMove = string.Empty;
 
     private string _inputValue { get; set; } = string.Empty;
-    private string InputValue { get { return _inputValue; } set { _inputValue = value; UpdateAutoCompleteMoves(); } }
+    private string inputValue { get { return _inputValue; } set { _inputValue = value; UpdateAutoCompleteMoves(); } }
 
-    private string inputBoxStyling = "";
+    private string inputBoxStyling = string.Empty;
 
     protected override void OnInitialized()
     {
         base.OnInitialized();
-        InputBoxDisabled = !IsGuessable;
+        inputBoxDisabled = !IsGuessable;
         if (!IsGuessable)
         {
             ShowMove();
@@ -55,26 +55,6 @@
     {
         base.OnParametersSet();
         UpdateAutoCompleteMoves();
-    }
-
-    public bool IsCorrect()
-    {
-        string inputLower = _inputValue.ToLower();
-        string moveLower = Move.ToLower();
-        return (inputLower == moveLower);
-    }
-
-    public void ShowMove()
-    {
-        InputBoxDisabled = true;
-        DisplayedMove = Move;
-        StateHasChanged();
-    }
-
-    public void SetInputBoxStyle(string styling)
-    {
-        inputBoxStyling = styling;
-        StateHasChanged();
     }
 
     public void HandleMoveCheck()
@@ -90,21 +70,51 @@
         }
     }
 
+    public void ResetComponent()
+    {
+        OnInitialized();
+        displayedMove = string.Empty;
+        inputValue = string.Empty;
+        inputBoxStyling = string.Empty;
+        StateHasChanged();
+    }
+
+    private void ShowMove()
+    {
+        inputBoxDisabled = true;
+        displayedMove = Move;
+        StateHasChanged();
+    }
+
+    private bool IsCorrect()
+    {
+        string inputLower = _inputValue.ToLower();
+        string moveLower = Move.ToLower();
+        return (inputLower == moveLower);
+    }
+
+    private void SetInputBoxStyle(string styling)
+    {
+        inputBoxStyling = styling;
+        StateHasChanged();
+    }
+
+
     private void UpdateAutoCompleteMoves()
     {
         string input = _inputValue.ToLower();
-        AutoCompleteMoves.Clear();
+        autoCompleteMoves.Clear();
         foreach(string s in PossibleMoves)
         {
-            if (AutoCompleteMoves.Count > 6) continue;
+            if (autoCompleteMoves.Count > 6) continue;
 
             var move = s.ToLower();
             if (move.StartsWith(input))
             {
-                AutoCompleteMoves.Add(s);
+                autoCompleteMoves.Add(s);
             }
         }
-        if (AutoCompleteMoves.Count == 1 && _inputValue == AutoCompleteMoves.FirstOrDefault()) AutoCompleteMoves.Clear();
+        if (autoCompleteMoves.Count == 1 && _inputValue == autoCompleteMoves.FirstOrDefault()) autoCompleteMoves.Clear();
         StateHasChanged();
     }
 }
