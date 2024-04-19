@@ -77,6 +77,19 @@
         StateHasChanged();
     }
 
+    public void HandleMoveCheck()
+    {
+        ShowMove();
+        if (IsCorrect())
+        {
+            SetInputBoxStyle("border-color: lightgreen");
+        }
+        else
+        {
+            SetInputBoxStyle("border-color: salmon");
+        }
+    }
+
     private void UpdateAutoCompleteMoves()
     {
         string input = _inputValue.ToLower();

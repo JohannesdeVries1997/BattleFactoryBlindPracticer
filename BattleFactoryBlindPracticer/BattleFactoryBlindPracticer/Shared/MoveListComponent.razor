@@ -27,22 +27,10 @@
 
     private void ConfirmClick()
     {
-        HandleMoveCheck(Move1);
-        HandleMoveCheck(Move2);
-        HandleMoveCheck(Move3);
-        HandleMoveCheck(Move4);
-    }
-
-    private void HandleMoveCheck(MoveComponent move)
-    {
-        move.ShowMove();
-        if (move.IsCorrect()){
-            move.SetInputBoxStyle("border-color: lightgreen");
-        }
-        else
-        {
-            move.SetInputBoxStyle("border-color: salmon");
-        }
+        Move1.HandleMoveCheck();
+        Move2.HandleMoveCheck();
+        Move3.HandleMoveCheck();
+        Move4.HandleMoveCheck();
     }
 
     protected override async Task OnInitializedAsync()
