@@ -1,6 +1,6 @@
 ﻿@using System.Text.RegularExpressions;
 <style>
-    .InputBoxMoves{
+    .InputBox {
         border-block-width: 4px;
         margin-top: 5px;
         margin-bottom: 5px;
@@ -8,11 +8,11 @@
 </style>
 
 
-<input type="text" class="InputBoxMoves" list="@Move" style="@inputBoxStyling" @bind="inputValue" @bind:event="oninput" disabled="@inputBoxDisabled" onclick="this.select()" />
-<input type="text" class="InputBoxMoves" value="@displayedMove" disabled>
+<input type="text" class="InputBox" list="@GuessString" style="@inputBoxStyling" @bind="inputValue" @bind:event="oninput" disabled="@inputBoxDisabled" onclick="this.select()" />
+<input type="text" class="InputBox" value="@displayedValue" disabled>
 
-<datalist id="@Move">
-    @foreach (string s in autoCompleteMoves)
+<datalist id="@GuessString">
+    @foreach (string s in autoCompleteList)
     {
         <option>@s</option>
     }
@@ -26,18 +26,18 @@
     private bool inputBoxDisabled = true;
 
     [Parameter]
-    public string Move { get; set; } = string.Empty;
+    public string GuessString { get; set; } = string.Empty;
 
     [Parameter]
-    public List<string> PossibleMoves { get; set; } = new();
+    public List<string> OptionList { get; set; } = new();
 
-    private List<string> autoCompleteMoves { get; set; } = new();
+    private List<string> autoCompleteList { get; set; } = new();
 
 
-    private string displayedMove = string.Empty;
+    private string displayedValue = string.Empty;
 
     private string _inputValue { get; set; } = string.Empty;
-    private string inputValue { get { return _inputValue; } set { _inputValue = value; UpdateAutoCompleteMoves(); } }
+    private string inputValue { get { return _inputValue; } set { _inputValue = value; UpdateAutoCompleteList(); } }
 
     private string inputBoxStyling = string.Empty;
 
@@ -47,19 +47,19 @@
         inputBoxDisabled = !IsGuessable;
         if (!IsGuessable)
         {
-            ShowMove();
+            ShowAnswer();
         }
     }
 
     protected override void OnParametersSet()
     {
         base.OnParametersSet();
-        UpdateAutoCompleteMoves();
+        UpdateAutoCompleteList();
     }
 
     public void HandleMoveCheck()
     {
-        ShowMove();
+        ShowAnswer();
         if (IsCorrect())
         {
             SetInputBoxStyle("border-color: lightgreen");
@@ -73,23 +73,23 @@
     public void ResetComponent()
     {
         OnInitialized();
-        displayedMove = string.Empty;
+        displayedValue = string.Empty;
         inputValue = string.Empty;
         inputBoxStyling = string.Empty;
         StateHasChanged();
     }
 
-    private void ShowMove()
+    private void ShowAnswer()
     {
         inputBoxDisabled = true;
-        displayedMove = Move;
+        displayedValue = GuessString;
         StateHasChanged();
     }
 
     private bool IsCorrect()
     {
         string inputLower = _inputValue.ToLower();
-        string moveLower = Move.ToLower();
+        string moveLower = GuessString.ToLower();
         return (inputLower == moveLower);
     }
 
@@ -100,21 +100,21 @@
     }
 
 
-    private void UpdateAutoCompleteMoves()
+    private void UpdateAutoCompleteList()
     {
         string input = _inputValue.ToLower();
-        autoCompleteMoves.Clear();
-        foreach(string s in PossibleMoves)
+        autoCompleteList.Clear();
+        foreach (string str in OptionList)
         {
-            if (autoCompleteMoves.Count > 6) continue;
+            if (autoCompleteList.Count > 6) continue;
 
-            var move = s.ToLower();
-            if (move.StartsWith(input))
+            var lowercase = str.ToLower();
+            if (lowercase.StartsWith(input))
             {
-                autoCompleteMoves.Add(s);
+                autoCompleteList.Add(str);
             }
         }
-        if (autoCompleteMoves.Count == 1 && _inputValue == autoCompleteMoves.FirstOrDefault()) autoCompleteMoves.Clear();
+        if (autoCompleteList.Count == 1 && _inputValue == autoCompleteList.FirstOrDefault()) autoCompleteList.Clear();
         StateHasChanged();
     }
 }

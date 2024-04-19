@@ -3,10 +3,10 @@
 @using BattleFactoryBlindPracticer.Model
 
 <ul>
-    <li><MoveComponent @ref=@Move1 IsGuessable=@IsGuessable PossibleMoves=@AllMoves Move=@Moves[0]></MoveComponent></li>
-    <li><MoveComponent @ref=@Move2 IsGuessable=@IsGuessable PossibleMoves=@AllMoves Move=@Moves[1]></MoveComponent></li>
-    <li><MoveComponent @ref=@Move3 IsGuessable=@IsGuessable PossibleMoves=@AllMoves Move=@Moves[2]></MoveComponent></li>
-    <li><MoveComponent @ref=@Move4 IsGuessable=@IsGuessable PossibleMoves=@AllMoves Move=@Moves[3]></MoveComponent></li>
+    <li><GuessComponent @ref=@Move1 IsGuessable=@IsGuessable OptionList=@AllMoves GuessString=@Moves[0]></GuessComponent></li>
+    <li><GuessComponent @ref=@Move2 IsGuessable=@IsGuessable OptionList=@AllMoves GuessString=@Moves[1]></GuessComponent></li>
+    <li><GuessComponent @ref=@Move3 IsGuessable=@IsGuessable OptionList=@AllMoves GuessString=@Moves[2]></GuessComponent></li>
+    <li><GuessComponent @ref=@Move4 IsGuessable=@IsGuessable OptionList=@AllMoves GuessString=@Moves[3]></GuessComponent></li>
 </ul>
 
 <button @onclick="ConfirmClick">Confirm</button>
@@ -20,10 +20,10 @@
 
     private List<string> AllMoves = new();
 
-    private MoveComponent Move1 = new();
-    private MoveComponent Move2 = new();
-    private MoveComponent Move3 = new();
-    private MoveComponent Move4 = new();
+    private GuessComponent Move1 = new();
+    private GuessComponent Move2 = new();
+    private GuessComponent Move3 = new();
+    private GuessComponent Move4 = new();
 
     private void ConfirmClick()
     {
