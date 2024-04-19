@@ -1,0 +1,15 @@
+﻿<img src="@sourceString"/>
+
+@code {
+    [Parameter]
+    public string PokemonType { get; set; } = "None";
+
+    private string sourceString { get; set; } = string.Empty;
+
+    protected override void OnParametersSet()
+    {
+        base.OnParametersSet();
+        sourceString = $"/Resources/Types/{PokemonType}.png";
+        StateHasChanged();
+    }
+}
