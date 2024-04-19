@@ -1,0 +1,26 @@
+﻿<div>
+    <img src="@sourceString" width="128" height="128"/>
+</div>
+
+@code {
+    [Parameter]
+    public int pokedexNumber { get; set; } = 0;
+
+    private string sourceString { get; set; } = string.Empty;
+
+    protected override void OnParametersSet()
+    {
+        base.OnParametersSet();
+        sourceString = $"/Resources/Sprites/spr_rs_{DexNumberToString(pokedexNumber)}.png";
+        StateHasChanged();
+    }
+
+    private string DexNumberToString(int pokedexNumber)
+    {
+        string result = string.Empty;
+        if (pokedexNumber < 100) result += "0";
+        if (pokedexNumber < 10) result += "0";
+        result += pokedexNumber.ToString();
+        return result;
+    }
+}
