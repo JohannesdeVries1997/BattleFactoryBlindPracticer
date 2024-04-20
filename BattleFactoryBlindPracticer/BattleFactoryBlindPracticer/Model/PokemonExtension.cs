@@ -52,7 +52,7 @@ namespace BattleFactoryBlindPracticer.Model
         {
             string aLower = a.ToLower();
             string bLower = b.ToLower();
-            return (a == b);
+            return (aLower == bLower);
         }
     }
 }
