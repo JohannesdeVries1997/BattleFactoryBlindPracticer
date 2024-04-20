@@ -1,0 +1,16 @@
+﻿body {
+}
+.round-selector-label{
+    grid-area: round-selector-label;
+    text-align: center;
+}
+.round-buttons{
+    grid-area: round-buttons;
+    text-align: center;
+}
+.round-selector-container{
+    display: grid;
+    grid-template-areas: 
+        'round-selector-label'
+        'round-buttons';
+}

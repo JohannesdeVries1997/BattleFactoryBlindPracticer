@@ -7,26 +7,36 @@ namespace BattleFactoryBlindPracticer.Shared
         [Parameter]
         public int RoundNumber { get; set; } = 0;
 
-        public EventCallback<int> EventCallback { get; set; } = new();
+        [Parameter]
+        public EventCallback<int> OnRoundButtonClick { get; set; }
 
-        private string styleString = "unpressed";
+        private bool Pressed { get; set; } = false;
 
-        protected override void OnInitialized()
+        private string styleString { get; set; } = "unpressed";
+
+        protected override void OnParametersSet()
         {
-            base.OnInitialized();
+            base.OnParametersSet();
+            if(Pressed)
+            {
+                styleString = "pressed";
+            }
+            else
+            {
+                styleString = "unpressed";
+            }
+            StateHasChanged();
         }
 
-        public void OnClick()
+        public async Task OnClick()
         {
-            EventCallback.InvokeAsync(this.RoundNumber);
-            styleString = "pressed";
-            StateHasChanged();
+            Pressed = true;
+            await OnRoundButtonClick.InvokeAsync(this.RoundNumber);
         }
 
         public void Unpress()
         {
-            styleString = "unpressed";
-            StateHasChanged();
+            Pressed = false;
         }
     }
 }

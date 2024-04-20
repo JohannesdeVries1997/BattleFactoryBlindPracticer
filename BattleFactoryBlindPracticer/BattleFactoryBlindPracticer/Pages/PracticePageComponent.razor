@@ -3,4 +3,5 @@
 
 <PokemonGuesserComponent AnswerPokedexNumber="@pokedexNumber" Pokemons="@pokemons" @key="@(pokemonGuesser_Id)"/>
 <MoveListComponent IsGuessable=true Moves=@chosenSet.Moves @key="@(moveList_Id)"/>
+<RoundSelectorComponent></RoundSelectorComponent>
 <button @onclick="@HandleNextClick">Next</button>
