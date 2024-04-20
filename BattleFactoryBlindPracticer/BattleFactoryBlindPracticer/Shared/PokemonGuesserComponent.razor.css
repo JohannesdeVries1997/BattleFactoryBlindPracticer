@@ -1,0 +1,82 @@
+﻿body {
+}
+.answer-pokemon-grid-item {
+    grid-area: answer-pokemon-grid-item;
+}
+
+.guess-pokemon-grid-item {
+    grid-area: guess-pokemon-grid-item;
+}
+
+.guess-inputbox-item {
+    grid-area: guess-inputbox-item;
+}
+
+.confirm-button-item {
+    grid-area: confirm-button-item;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+        'guess-pokemon-grid-item answer-pokemon-grid-item'
+        'guess-inputbox-item guess-inputbox-item'
+        'confirm-button-item confirm-button-item';
+    padding: 10px;
+    width: 35%;
+}
+
+    .grid-container > div {
+        text-align: center;
+    }
+
+.sprite {
+    grid-area: sprite;
+}
+
+.cryButton {
+    grid-area: cryButton;
+}
+
+.types {
+    grid-area: types;
+}
+
+.pokemon-container {
+    display: grid;
+    grid-template-areas:
+        'sprite sprite'
+        'sprite sprite'
+        'types types'
+        'cryButton cryButton';
+    gap: 1px;
+    background-color: white;
+    padding: 1px;
+}
+
+    .pokemon-container > div {
+        background-color: rgba(255, 255, 255, 0.8);
+        text-align: center;
+        padding: 2px;
+        margin: 2px;
+    }
+
+.confirm-button {
+    grid-area: confirm-button;
+}
+
+.guess-inputbox {
+    grid-area: guess-inputbox;
+}
+
+.input-container {
+    display: grid;
+    grid-template-areas: 'confirm-button guess-inputbox';
+}
+
+#confirm-button {
+    display: block;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
