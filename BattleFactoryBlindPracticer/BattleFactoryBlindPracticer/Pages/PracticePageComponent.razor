@@ -1,7 +1,7 @@
 ﻿@page "/practice"
 @inject HttpClient _client;
 
-<PokemonGuesserComponent AnswerPokedexNumber="@pokedexNumber" Pokemons="@pokemons" @key="@(pokemonGuesser_Id)"/>
-<MoveListComponent IsGuessable=true Moves=@chosenSet.Moves @key="@(moveList_Id)"/>
-<RoundSelectorComponent></RoundSelectorComponent>
+<RoundSelectorComponent OnRoundButtonClicked="HandleRoundButtonClick" />
+<PokemonGuesserComponent AnswerPokedexNumber="@pokedexNumber" Pokemons="@pokemons" @key="@(pokemonGuesser_Id)"></PokemonGuesserComponent>
+<MoveListComponent IsGuessable=true Moves=@chosenSet.Moves @key="@(moveList_Id)"></MoveListComponent>
 <button @onclick="@HandleNextClick">Next</button>

@@ -1,4 +1,5 @@
 ﻿using BattleFactoryBlindPracticer.Model;
+using BattleFactoryBlindPracticer.Shared;
 using System.Net;
 
 namespace BattleFactoryBlindPracticer.Pages
@@ -36,6 +37,8 @@ namespace BattleFactoryBlindPracticer.Pages
             new RoundInfo(360, 455),
             new RoundInfo(456, 551)
         };
+
+        private PokemonGuesserComponent pokemonGuesser { get; set; } = new();
         
         protected override async Task OnInitializedAsync()
         {
@@ -74,6 +77,11 @@ namespace BattleFactoryBlindPracticer.Pages
             }
 
             return 0;
+        }
+
+        private void HandleRoundButtonClick(int roundNumberClicked)
+        {
+            this.roundNumber = roundNumberClicked;
         }
     }
 }
