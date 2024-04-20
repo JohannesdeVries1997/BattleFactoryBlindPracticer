@@ -26,14 +26,6 @@ namespace BattleFactoryBlindPracticer.Shared
             Move4.HandleGuessCheck();
         }
 
-        public void ResetComponent()
-        {
-            Move1.ResetComponent();
-            Move2.ResetComponent();
-            Move3.ResetComponent();
-            Move4.ResetComponent();
-        }
-
         protected override async Task OnInitializedAsync()
         {
             AllMoves = await DataGetter.GetAllMoves(_client);

@@ -54,15 +54,6 @@ namespace BattleFactoryBlindPracticer.Shared
             }
         }
 
-        public void ResetComponent()
-        {
-            OnInitialized();
-            displayedValue = string.Empty;
-            inputValue = string.Empty;
-            inputBoxStyling = string.Empty;
-            StateHasChanged();
-        }
-
         public string GetInputValue()
         {
             return inputValue;

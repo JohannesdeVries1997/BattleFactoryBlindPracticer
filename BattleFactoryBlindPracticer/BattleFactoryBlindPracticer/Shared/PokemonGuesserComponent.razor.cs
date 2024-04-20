@@ -49,11 +49,6 @@ namespace BattleFactoryBlindPracticer.Shared
             StateHasChanged();
         }
 
-        public void ResetComponent()
-        {
-
-        }
-
         private void CreateOptionList()
         {
             optionList.Clear();
