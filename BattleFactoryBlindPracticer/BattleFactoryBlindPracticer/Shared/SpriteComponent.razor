@@ -1,16 +1,33 @@
 ﻿<div>
-    <img src="@sourceString" width="128" height="128"/>
+    <img src="@sourceString" width="@Width" height="@Height"/>
 </div>
 
 @code {
     [Parameter]
     public int pokedexNumber { get; set; } = 0;
 
-    private string sourceString { get; set; } = string.Empty;
+    [Parameter]
+    public int Height { get; set; } = 64;
+
+    [Parameter]
+    public int Width { get; set; } = 64;
+
+    [Parameter]
+    public bool IsGuessable { get; set; } = true;
+
+    private string sourceString { get; set; } = $"/Resources/Sprites/spr_rs_000.png";
 
     protected override void OnParametersSet()
     {
         base.OnParametersSet();
+        if (!IsGuessable)
+        {
+            ShowSprite();
+        }
+    }
+
+    public void ShowSprite()
+    {
         sourceString = $"/Resources/Sprites/spr_rs_{DexNumberToString(pokedexNumber)}.png";
         StateHasChanged();
     }

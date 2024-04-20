@@ -4,11 +4,22 @@
     [Parameter]
     public string PokemonType { get; set; } = "None";
 
-    private string sourceString { get; set; } = string.Empty;
+    [Parameter]
+    public bool IsShown { get; set; } = false;
+
+    private string sourceString { get; set; } = $"/Resources/Types/Unknown.png";
 
     protected override void OnParametersSet()
     {
         base.OnParametersSet();
+        if (IsShown)
+        {
+            ShowType();
+        }
+    }
+
+    public void ShowType()
+    {
         sourceString = $"/Resources/Types/{PokemonType}.png";
         StateHasChanged();
     }

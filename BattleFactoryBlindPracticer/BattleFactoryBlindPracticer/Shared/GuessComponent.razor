@@ -2,8 +2,8 @@
 <style>
     .InputBox {
         border-block-width: 4px;
-        margin-top: 5px;
-        margin-bottom: 5px;
+        margin: 2%;
+        width: 45%;
     }
 </style>
 
@@ -57,7 +57,7 @@
         UpdateAutoCompleteList();
     }
 
-    public void HandleMoveCheck()
+    public void HandleGuessCheck()
     {
         ShowAnswer();
         if (IsCorrect())
@@ -79,6 +79,11 @@
         StateHasChanged();
     }
 
+    public string GetInputValue()
+    {
+        return inputValue;
+    }
+
     private void ShowAnswer()
     {
         inputBoxDisabled = true;
@@ -89,8 +94,8 @@
     private bool IsCorrect()
     {
         string inputLower = _inputValue.ToLower();
-        string moveLower = GuessString.ToLower();
-        return (inputLower == moveLower);
+        string answerLower = GuessString.ToLower();
+        return (inputLower == answerLower);
     }
 
     private void SetInputBoxStyle(string styling)
