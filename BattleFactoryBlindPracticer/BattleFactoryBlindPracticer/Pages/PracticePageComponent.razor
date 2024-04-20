@@ -1,0 +1,6 @@
+﻿@page "/practice"
+@inject HttpClient _client;
+
+<PokemonGuesserComponent AnswerPokedexNumber="@pokedexNumber" Pokemons="@pokemons" @key="@(pokemonGuesser_Id)"/>
+<MoveListComponent IsGuessable=true Moves=@chosenSet.Moves @key="@(moveList_Id)"/>
+<button @onclick="@HandleNextClick">Next</button>
