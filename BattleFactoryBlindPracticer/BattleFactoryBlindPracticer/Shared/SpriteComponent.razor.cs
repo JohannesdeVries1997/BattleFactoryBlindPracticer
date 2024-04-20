@@ -14,14 +14,14 @@ namespace BattleFactoryBlindPracticer.Shared
         public int Width { get; set; } = 64;
 
         [Parameter]
-        public bool IsGuessable { get; set; } = true;
+        public bool IsShown { get; set; } = true;
 
         private string sourceString { get; set; } = $"/Resources/Sprites/spr_rs_000.png";
 
         protected override void OnParametersSet()
         {
             base.OnParametersSet();
-            if (!IsGuessable)
+            if (IsShown)
             {
                 ShowSprite();
             }

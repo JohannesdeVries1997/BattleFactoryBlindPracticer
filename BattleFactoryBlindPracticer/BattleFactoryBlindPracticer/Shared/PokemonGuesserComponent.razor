@@ -2,7 +2,7 @@
     <div class="guess-pokemon-grid-item">
         <div class="pokemon-container" id="GuessPokemon">
             <div class="sprite">
-                <SpriteComponent Height="128" Width="128" IsGuessable=false pokedexNumber="@guessPokemon.PokedexNumber" @ref="@pokemonGuess_SpriteComponent" />
+                <SpriteComponent Height="128" Width="128" IsShown=true pokedexNumber="@guessPokemon.PokedexNumber" @ref="@pokemonGuess_SpriteComponent" />
             </div>
             <div class="cryButton">
                 <CryButton IsDisabled=true pokedexNumber="@guessPokemon.PokedexNumber" @ref="@pokemonGuess_CryButton" />
@@ -16,7 +16,7 @@
     <div class="answer-pokemon-grid-item">
         <div class="pokemon-container" id="AnswerPokemon">
             <div class="sprite">
-                <SpriteComponent Height="128" Width="128" pokedexNumber="@AnswerPokedexNumber" @ref="@pokemonAnswer_SpriteComponent" />
+                <SpriteComponent Height="128" Width="128" IsShown=false pokedexNumber="@AnswerPokedexNumber" @ref="@pokemonAnswer_SpriteComponent" />
             </div>
             <div class="cryButton">
                 <CryButton IsDisabled=false pokedexNumber="@AnswerPokedexNumber" @ref="@pokemonAnswer_CryButton" />
