@@ -1,2 +1,28 @@
-﻿body {
+﻿.movelist-component{
+    display: block;
+}
+
+.movelist-container{
+    display: block;
+}
+
+.guess-component-container{
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.confirm-button-container{
+    position: absolute;
+    left: auto;
+}
+
+.confirm-button {
+    background-color: #81a4f7;
+    color: black;
+    border-radius: 10%;
+}
+
+.confirm-button:hover{
+    background-color: white;
+    color: black;
 }

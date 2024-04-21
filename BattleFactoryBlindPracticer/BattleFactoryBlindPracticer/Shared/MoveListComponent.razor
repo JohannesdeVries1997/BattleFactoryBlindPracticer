@@ -1,10 +1,21 @@
 ﻿@inject HttpClient _client
 
-<ul>
-    <li><GuessComponent @ref=@Move1 IsGuessable=@IsGuessable OptionList=@AllMoves GuessString=@Moves[0]></GuessComponent></li>
-    <li><GuessComponent @ref=@Move2 IsGuessable=@IsGuessable OptionList=@AllMoves GuessString=@Moves[1]></GuessComponent></li>
-    <li><GuessComponent @ref=@Move3 IsGuessable=@IsGuessable OptionList=@AllMoves GuessString=@Moves[2]></GuessComponent></li>
-    <li><GuessComponent @ref=@Move4 IsGuessable=@IsGuessable OptionList=@AllMoves GuessString=@Moves[3]></GuessComponent></li>
-</ul>
-
-<button @onclick="ConfirmClick">Confirm</button>
+<div class="movelist-component">
+    <div class="movelist-container">
+        <div class="guess-component-container">
+            <GuessComponent @ref=@Move1 IsGuessable=@IsGuessable OptionList=@AllMoves GuessString=@Moves[0]></GuessComponent>
+        </div>
+        <div class="guess-component-container">
+            <GuessComponent @ref=@Move2 IsGuessable=@IsGuessable OptionList=@AllMoves GuessString=@Moves[1]></GuessComponent>
+        </div>
+        <div class="guess-component-container">
+            <GuessComponent @ref=@Move3 IsGuessable=@IsGuessable OptionList=@AllMoves GuessString=@Moves[2]></GuessComponent>
+        </div>
+        <div class="guess-component-container">
+            <GuessComponent @ref=@Move4 IsGuessable=@IsGuessable OptionList=@AllMoves GuessString=@Moves[3]></GuessComponent>
+        </div>
+    </div>
+    <div class="confirm-button-container">
+        <button class="confirm-button" @onclick="ConfirmClick">Confirm</button>
+    </div>
+</div>
