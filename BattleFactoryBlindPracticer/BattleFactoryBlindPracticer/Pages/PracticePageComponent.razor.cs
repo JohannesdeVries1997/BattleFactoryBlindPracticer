@@ -37,8 +37,6 @@ namespace BattleFactoryBlindPracticer.Pages
             new RoundInfo(360, 455),
             new RoundInfo(456, 551)
         };
-
-        private PokemonGuesserComponent pokemonGuesser { get; set; } = new();
         
         protected override async Task OnInitializedAsync()
         {
