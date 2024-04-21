@@ -1,36 +1,34 @@
-﻿<div class="grid-container">
-    <div class="guess-pokemon-grid-item">
-        <div class="pokemon-container" id="GuessPokemon">
-            <div class="sprite">
-                <SpriteComponent Height="128" Width="128" IsShown=true pokedexNumber="@guessPokemon.PokedexNumber" @ref="@pokemonGuess_SpriteComponent" />
+﻿<div class="guesser-component-container">
+    <div class="pokemons-info-container">
+        <div class="pokemon-container">
+            <div class="sprite pokemon-info">
+                <SpriteComponent Height="150" Width="150" IsShown=true pokedexNumber="@guessPokemon.PokedexNumber" @ref="@pokemonGuess_SpriteComponent" />
+            </div>
+            <div class="types pokemon-info">
+                <TypeImageComponent IsShown=true PokemonType="@guessPokemon.Type1" @ref="@pokemonGuess_TypeImageComponent1" />
+                <TypeImageComponent IsShown=true PokemonType="@guessPokemon.Type2" @ref="@pokemonGuess_TypeImageComponent2" />
             </div>
             <div class="cryButton">
                 <CryButton IsDisabled=true pokedexNumber="@guessPokemon.PokedexNumber" @ref="@pokemonGuess_CryButton" />
             </div>
-            <div class="types">
-                <TypeImageComponent IsShown=true PokemonType="@guessPokemon.Type1" @ref="@pokemonGuess_TypeImageComponent1" />
-                <TypeImageComponent IsShown=true PokemonType="@guessPokemon.Type2" @ref="@pokemonGuess_TypeImageComponent2" />
-            </div>
         </div>
-    </div>
-    <div class="answer-pokemon-grid-item">
-        <div class="pokemon-container" id="AnswerPokemon">
-            <div class="sprite">
-                <SpriteComponent Height="128" Width="128" IsShown=false pokedexNumber="@AnswerPokedexNumber" @ref="@pokemonAnswer_SpriteComponent" />
+        <div class="pokemon-container">
+            <div class="sprite pokemon-info">
+                <SpriteComponent Height="150" Width="150" IsShown=false pokedexNumber="@AnswerPokedexNumber" @ref="@pokemonAnswer_SpriteComponent" />
             </div>
-            <div class="cryButton">
-                <CryButton IsDisabled=false pokedexNumber="@AnswerPokedexNumber" @ref="@pokemonAnswer_CryButton" />
-            </div>
-            <div class="types">
+            <div class="types pokemon-info">
                 <TypeImageComponent IsShown=false PokemonType="@answerPokemon.Type1" @ref="pokemonAnswer_TypeImageComponent1" />
                 <TypeImageComponent IsShown=false PokemonType="@answerPokemon.Type2" @ref="pokemonAnswer_TypeImageComponent2" />
             </div>
+            <div class="cryButton pokemon-info">
+                <CryButton IsDisabled=false pokedexNumber="@AnswerPokedexNumber" @ref="@pokemonAnswer_CryButton" />
+            </div>
         </div>
     </div>
-    <div class="guess-inputbox-item">
+    <div class="guess-component-container">
         <GuessComponent IsGuessable=true GuessString="@answerPokemon.Name" OptionList="@optionList" @ref="@pokemonNameGuessComponent" />
     </div>
-    <div class="confirm-button-item">
+    <div class="confirm-button-container">
         <button id="confirm-button" @onclick="ConfirmClick" disabled="@ConfirmDisabled">
             Confirm
         </button>
