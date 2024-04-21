@@ -1,6 +1,6 @@
 ﻿<div class="inputs-container">
     <div class="guess-input">
-        <input type="text" class="InputBox" list="@GuessString" style="@inputBoxStyling" @bind="inputValue" @bind:event="oninput" disabled="@inputBoxDisabled" onclick="this.select()" />
+        <input type="text" class="InputBox" list="@GuessString" style="@inputBoxStyling" @bind="inputValue" @bind:event="oninput" disabled="@inputBoxDisabled" onclick="this.select()" @onkeydown="@HandleOnKeyDown" />
     </div>
     <div class="guess-input">
         <input type="text" class="InputBox" value="@displayedValue" disabled>

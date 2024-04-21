@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Components;
+using Microsoft.AspNetCore.Components.Web;
 
 namespace BattleFactoryBlindPracticer.Shared
 {
@@ -9,6 +10,8 @@ namespace BattleFactoryBlindPracticer.Shared
 
         private bool inputBoxDisabled = true;
 
+        private EventCallback PressedEnter { get; set; }
+
         [Parameter]
         public string GuessString { get; set; } = string.Empty;
 
@@ -16,7 +19,6 @@ namespace BattleFactoryBlindPracticer.Shared
         public List<string> OptionList { get; set; } = new();
 
         private List<string> autoCompleteList { get; set; } = new();
-
 
         private string displayedValue = string.Empty;
 
@@ -52,6 +54,12 @@ namespace BattleFactoryBlindPracticer.Shared
             {
                 SetInputBoxStyle("border-color: salmon");
             }
+        }
+
+        public void HandleOnKeyPress(KeyboardEventArgs args)
+        {
+            if (args.Code != "Enter" || args.Code != "NumpadEnter") return;
+            PressedEnter.InvokeAsync();
         }
 
         public string GetInputValue()
