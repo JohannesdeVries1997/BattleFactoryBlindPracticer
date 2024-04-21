@@ -56,7 +56,7 @@ namespace BattleFactoryBlindPracticer.Shared
             }
         }
 
-        public void HandleOnKeyPress(KeyboardEventArgs args)
+        public void HandleOnKeyDown(KeyboardEventArgs args)
         {
             if (args.Code != "Enter" || args.Code != "NumpadEnter") return;
             OnEnterPressed.InvokeAsync();
