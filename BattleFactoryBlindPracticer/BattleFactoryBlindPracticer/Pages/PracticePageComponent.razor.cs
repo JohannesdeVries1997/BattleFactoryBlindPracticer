@@ -44,6 +44,7 @@ namespace BattleFactoryBlindPracticer.Pages
         {
             pokemons = await DataGetter.GetPokemonData(_client);
             sets = await DataGetter.GetBattleFactoryData(_client);
+
             GenerateNewPokemon();
         }
 
@@ -82,6 +83,7 @@ namespace BattleFactoryBlindPracticer.Pages
         private void HandleRoundButtonClick(int roundNumberClicked)
         {
             this.roundNumber = roundNumberClicked;
+            HandleNextClick();
         }
     }
 }
