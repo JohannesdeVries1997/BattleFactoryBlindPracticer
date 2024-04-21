@@ -1,7 +1,22 @@
 ﻿@page "/practice"
 @inject HttpClient _client;
 
-<RoundSelectorComponent OnRoundButtonClicked="HandleRoundButtonClick" />
-<PokemonGuesserComponent AnswerPokedexNumber="@pokedexNumber" Pokemons="@pokemons" @key="@(pokemonGuesser_Id)"></PokemonGuesserComponent>
-<MoveListComponent IsGuessable=true Moves=@chosenSet.Moves @key="@(moveList_Id)"></MoveListComponent>
-<button @onclick="@HandleNextClick">Next</button>
+<div class="practice-container">
+    <div class="title-container">
+        <h3>
+            <b>Pokemon Factory Practicer</b>
+        </h3>
+    </div>
+    <div class="round_selector-container">
+        <RoundSelectorComponent OnRoundButtonClicked="HandleRoundButtonClick" />
+    </div>
+    <div class="guesser-container">
+        <PokemonGuesserComponent AnswerPokedexNumber="@pokedexNumber" Pokemons="@pokemons" @key="@(pokemonGuesser_Id)"></PokemonGuesserComponent>
+    </div>
+    <div class="movelist-component-container">
+        <MoveListComponent IsGuessable=true Moves=@chosenSet.Moves @key="@(moveList_Id)"></MoveListComponent>
+    </div>
+    <div class="next-container">
+        <button id="next-button" @onclick="@HandleNextClick">Next</button>
+    </div>
+</div>

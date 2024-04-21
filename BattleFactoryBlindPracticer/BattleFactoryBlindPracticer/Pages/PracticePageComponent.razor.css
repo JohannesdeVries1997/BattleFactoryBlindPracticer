@@ -1,2 +1,60 @@
 ﻿body {
 }
+
+.title-container{
+    grid-column: span 2;
+    grid-row: span 1;
+    margin-top: 2%;
+    margin-bottom: auto;
+}
+
+.round_selector-container {
+    grid-column: span 4;
+    grid-row: span 1;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.guesser-container {
+    grid-column: span 2;
+    grid-row: span 3;
+    margin-top: auto;
+    margin-bottom: 0;
+}
+
+.movelist-component-container {
+    grid-column: span 4;
+    grid-row: span 3;
+    margin-top: auto;
+    margin-bottom: 0;
+}
+
+.next-container {
+    grid-column: span 1;
+    grid-row: span 1;
+    margin-top: 0;
+    margin-bottom: auto;
+}
+
+.practice-container {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(6, 1fr);
+    grid-auto-rows: 100px;
+}
+
+.practice-container > div{
+    align-content: end;
+}
+
+#next-button {
+    box-sizing: border-box;
+    color: white;
+    background-color: #115217;
+    border-radius: 10%;
+}
+
+    #next-button:hover {
+        color: #115217;
+        background-color: white;
+    }
