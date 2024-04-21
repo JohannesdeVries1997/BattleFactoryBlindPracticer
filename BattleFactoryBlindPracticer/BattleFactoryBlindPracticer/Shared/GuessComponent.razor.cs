@@ -10,7 +10,7 @@ namespace BattleFactoryBlindPracticer.Shared
 
         private bool inputBoxDisabled = true;
 
-        private EventCallback PressedEnter { get; set; }
+        public EventCallback OnEnterPressed { get; set; }
 
         [Parameter]
         public string GuessString { get; set; } = string.Empty;
@@ -59,7 +59,7 @@ namespace BattleFactoryBlindPracticer.Shared
         public void HandleOnKeyPress(KeyboardEventArgs args)
         {
             if (args.Code != "Enter" || args.Code != "NumpadEnter") return;
-            PressedEnter.InvokeAsync();
+            OnEnterPressed.InvokeAsync();
         }
 
         public string GetInputValue()
