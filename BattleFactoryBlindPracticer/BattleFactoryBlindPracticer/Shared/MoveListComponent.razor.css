@@ -6,14 +6,18 @@
     display: block;
 }
 
+.move-header{
+    text-align: center;
+}
+
 .guess-component-container{
     box-sizing: border-box;
     width: 100%;
 }
 
 .confirm-button-container{
-    position: absolute;
-    left: auto;
+    margin-left:0;
+    margin-right: auto;
 }
 
 .confirm-button {

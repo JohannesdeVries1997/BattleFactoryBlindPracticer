@@ -1,6 +1,11 @@
 ﻿@inject HttpClient _client
 
 <div class="movelist-component">
+    <div class="move-header">
+        <h4>
+            Moves
+        </h4>
+    </div>
     <div class="movelist-container">
         <div class="guess-component-container">
             <GuessComponent @ref=@Move1 IsGuessable=@IsGuessable OptionList=@AllMoves GuessString=@Moves[0]></GuessComponent>
