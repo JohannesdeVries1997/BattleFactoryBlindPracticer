@@ -59,7 +59,7 @@ namespace BattleFactoryBlindPracticer.Shared
 
         public void HandleOnKeyDown(KeyboardEventArgs args)
         {
-            if (args.Code != "Enter" || args.Code != "NumpadEnter") return;
+            if (args.Code != "Enter" && args.Code != "NumpadEnter") return;
             OnEnterPressed.InvokeAsync();
         }
 

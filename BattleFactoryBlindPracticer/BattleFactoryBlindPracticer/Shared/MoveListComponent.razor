@@ -17,7 +17,7 @@
             <GuessComponent @ref=@Move3 IsGuessable=@IsGuessable OptionList=@AllMoves GuessString=@Moves[2]></GuessComponent>
         </div>
         <div class="guess-component-container">
-            <GuessComponent @ref=@Move4 IsGuessable=@IsGuessable OptionList=@AllMoves GuessString=@Moves[3]></GuessComponent>
+            <GuessComponent @ref=@Move4 OnEnterPressed="ConfirmClick" IsGuessable=@IsGuessable OptionList=@AllMoves GuessString=@Moves[3]></GuessComponent>
         </div>
     </div>
     <div class="confirm-button-container">
