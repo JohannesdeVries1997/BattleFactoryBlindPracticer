@@ -1,5 +1,12 @@
 ﻿body {
 }
+
+.crybutton-container{
+    display:flex;
+    justify-content: center;
+    align-content: center;
+}
+
 #speakerImg {
     width: 30px;
     height: 30px;
