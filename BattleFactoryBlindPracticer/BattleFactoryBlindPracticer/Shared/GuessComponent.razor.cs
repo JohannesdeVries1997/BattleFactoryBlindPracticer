@@ -10,6 +10,7 @@ namespace BattleFactoryBlindPracticer.Shared
 
         private bool inputBoxDisabled = true;
 
+        [Parameter]
         public EventCallback OnEnterPressed { get; set; }
 
         [Parameter]
