@@ -1,2 +1,12 @@
 ﻿body {
 }
+
+.sprite-container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.sprite{
+    box-sizing: border-box;
+}
