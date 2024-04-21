@@ -30,12 +30,12 @@ namespace BattleFactoryBlindPracticer.Pages
 
         private int roundNumber = 1;
         private RoundInfo[] roundInfo = {
-            new RoundInfo(0, 91),
-            new RoundInfo(54, 158),
-            new RoundInfo(159, 263),
-            new RoundInfo(264, 359),
-            new RoundInfo(360, 455),
-            new RoundInfo(456, 551)
+            new RoundInfo(0, 89),
+            new RoundInfo(52, 156),
+            new RoundInfo(157, 261),
+            new RoundInfo(262, 357),
+            new RoundInfo(358, 453),
+            new RoundInfo(454, 549)
         };
         
         protected override async Task OnInitializedAsync()
