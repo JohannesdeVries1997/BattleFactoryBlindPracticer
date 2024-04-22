@@ -28,7 +28,7 @@ namespace BattleFactoryBlindPracticer.Shared
 
         public void ShowType()
         {
-            sourceString = $"/Resources/Types/{PokemonType}.png";
+            sourceString = $"{navManager.BaseUri}/Resources/Types/{PokemonType}.png";
             StateHasChanged();
         }
     }
