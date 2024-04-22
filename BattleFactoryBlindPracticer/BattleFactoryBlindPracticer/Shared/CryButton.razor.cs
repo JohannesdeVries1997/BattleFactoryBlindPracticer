@@ -24,7 +24,7 @@ namespace BattleFactoryBlindPracticer.Shared
         protected override void OnParametersSet()
         {
             base.OnParametersSet();
-            SourceString = $"/Resources/Cries/{pokedexNumber.ToString()}.mp3";
+            SourceString = $"{navManager.BaseUri}/Resources/Cries/{pokedexNumber}.mp3";
             audioId += pokedexNumber.ToString();
             StateHasChanged();
         }

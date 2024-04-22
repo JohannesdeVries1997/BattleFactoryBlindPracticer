@@ -1,6 +1,8 @@
-﻿<div class="crybutton-container">
+﻿@inject NavigationManager navManager;
+
+<div class="crybutton-container">
     <button disabled="@disabled" onclick="document.getElementById('@audioId').play()">
-        <img id="speakerImg" src="/Resources/Images/speaker-filled-audio-tool_59284.png" />
+        <img id="speakerImg" src="@(navManager.BaseUri)/Resources/Images/speaker-filled-audio-tool_59284.png" />
     </button>
     <audio id="@audioId" src="@SourceString"></audio>
 </div>
