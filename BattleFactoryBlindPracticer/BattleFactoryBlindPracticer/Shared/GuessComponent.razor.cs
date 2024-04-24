@@ -59,8 +59,18 @@ namespace BattleFactoryBlindPracticer.Shared
 
         public void HandleOnKeyDown(KeyboardEventArgs args)
         {
-            if (args.Code != "Enter" && args.Code != "NumpadEnter") return;
-            OnEnterPressed.InvokeAsync();
+            switch (args.Code)
+            {
+                case "Enter":
+                    OnEnterPressed.InvokeAsync();
+                    break;
+                case "NumpadEnter":
+                    OnEnterPressed.InvokeAsync();
+                    break;
+                case "Tab":
+                    TakeFirstAutocomplete();
+                    break;
+            }
         }
 
         public string GetInputValue()
@@ -104,6 +114,12 @@ namespace BattleFactoryBlindPracticer.Shared
                 }
             }
             if (autoCompleteList.Count == 1 && _inputValue == autoCompleteList.FirstOrDefault()) autoCompleteList.Clear();
+            StateHasChanged();
+        }
+
+        private void TakeFirstAutocomplete()
+        {
+            inputValue = autoCompleteList.FirstOrDefault() ?? inputValue;
             StateHasChanged();
         }
     }
