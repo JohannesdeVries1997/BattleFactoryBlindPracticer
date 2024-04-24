@@ -21,7 +21,7 @@ namespace BattleFactoryBlindPracticer.Shared
         protected override void OnInitialized()
         {
             base.OnInitialized();
-            sourceString = $"{navManager.BaseUri}/Resources/Sprites/spr_rs_000.png";
+            sourceString = $"{navManager.BaseUri}Resources/Sprites/spr_rs_000.png";
         }
         protected override void OnParametersSet()
         {
@@ -34,7 +34,7 @@ namespace BattleFactoryBlindPracticer.Shared
 
         public void ShowSprite()
         {
-            sourceString = $"{navManager.BaseUri}/Resources/Sprites/spr_rs_{DexNumberToString(pokedexNumber)}.png";
+            sourceString = $"{navManager.BaseUri}Resources/Sprites/spr_rs_{DexNumberToString(pokedexNumber)}.png";
             StateHasChanged();
         }
 

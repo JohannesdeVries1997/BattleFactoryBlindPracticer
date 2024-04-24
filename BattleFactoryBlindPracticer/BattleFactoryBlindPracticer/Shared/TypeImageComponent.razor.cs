@@ -15,7 +15,7 @@ namespace BattleFactoryBlindPracticer.Shared
         protected override void OnInitialized()
         {
             base.OnInitialized();
-            sourceString = $"{navManager.BaseUri}/Resources/Types/Unknown.png";
+            sourceString = $"{navManager.BaseUri}Resources/Types/Unknown.png";
         }
         protected override void OnParametersSet()
         {
@@ -28,7 +28,7 @@ namespace BattleFactoryBlindPracticer.Shared
 
         public void ShowType()
         {
-            sourceString = $"{navManager.BaseUri}/Resources/Types/{PokemonType}.png";
+            sourceString = $"{navManager.BaseUri}Resources/Types/{PokemonType}.png";
             StateHasChanged();
         }
     }
