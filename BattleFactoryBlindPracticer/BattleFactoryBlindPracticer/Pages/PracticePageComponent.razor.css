@@ -2,35 +2,34 @@
 }
 
 .title-container{
-    grid-column: span 2;
+    grid-column: span 3;
     grid-row: span 1;
     margin-top: 2%;
     margin-bottom: auto;
+    text-align: center;
 }
 
 .round_selector-container {
-    grid-column: span 4;
+    grid-column: span 3;
     grid-row: span 1;
-    margin-left: auto;
-    margin-right: 0;
 }
 
 .guesser-container {
-    grid-column: span 2;
+    grid-column: span 3;
     grid-row: span 3;
     margin-top: auto;
     margin-bottom: 0;
 }
 
 .movelist-component-container {
-    grid-column: span 4;
+    grid-column: span 3;
     grid-row: span 3;
     margin-top: auto;
     margin-bottom: 0;
 }
 
 .next-container {
-    grid-column: span 1;
+    grid-column: span 6;
     grid-row: span 1;
     margin-top: 0;
     margin-bottom: auto;
@@ -41,6 +40,12 @@
     gap: 10px;
     grid-template-columns: repeat(6, 1fr);
     grid-auto-rows: 100px;
+}
+
+@media(max-width: 942px){
+    .practice-container{
+        display: block;
+    }
 }
 
 .practice-container > div{

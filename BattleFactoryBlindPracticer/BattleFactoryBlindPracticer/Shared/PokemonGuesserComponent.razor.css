@@ -3,7 +3,6 @@
 .guesser-component-container{
     display:block;
     gap: 5px;
-    width: fit-content;
 }
 
 .pokemons-info-container{
