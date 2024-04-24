@@ -28,6 +28,7 @@ namespace BattleFactoryBlindPracticer.Pages
         private Guid pokemonGuesser_Id = Guid.NewGuid();
         private Guid moveList_Id = Guid.NewGuid();
 
+        private readonly int initialRound = 1;
         private int roundNumber = 1;
         private RoundInfo[] roundInfo = {
             new RoundInfo(0, 89),

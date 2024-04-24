@@ -8,6 +8,10 @@ namespace BattleFactoryBlindPracticer.Shared
         [Parameter]
         public EventCallback<int> OnRoundButtonClicked { get; set; }
 
+        [Parameter]
+        public int InitialRoundSelected { get; set; } = 0;
+        private int roundSelected { get; set; } = 0;
+
         private RoundSelectorButton button1 { get; set; } = new();
         private RoundSelectorButton button2 { get; set; } = new();
         private RoundSelectorButton button3 { get; set; } = new();
@@ -15,13 +19,18 @@ namespace BattleFactoryBlindPracticer.Shared
         private RoundSelectorButton button5 { get; set; } = new();
         private RoundSelectorButton button6 { get; set; } = new();
 
-        protected override void OnInitialized()
+        protected override void OnAfterRender(bool firstRender)
         {
-            base.OnInitialized();
+            base.OnAfterRender(firstRender);
+            if(roundSelected == 0)
+            {
+                PressInitialSelectedButton();
+            }
         }
 
         private async Task HandleRoundButtonClick(int roundNumber)
         {
+            roundSelected = roundNumber;
             await OnRoundButtonClicked.InvokeAsync(roundNumber);
             UnpressButtonsExcept(roundNumber);
         }
@@ -34,6 +43,31 @@ namespace BattleFactoryBlindPracticer.Shared
             if (button4.RoundNumber != roundNumber) button4.Unpress();
             if (button5.RoundNumber != roundNumber) button5.Unpress();
             if (button6.RoundNumber != roundNumber) button6.Unpress();
+        }
+
+        private void PressInitialSelectedButton()
+        {
+            switch (InitialRoundSelected)
+            {
+                case 1:
+                    button1.Press();
+                    break;
+                case 2:
+                    button2.Press();
+                    break;
+                case 3:
+                    button3.Press();
+                    break;
+                case 4:
+                    button4.Press();
+                    break;
+                case 5:
+                    button5.Press();
+                    break;
+                case 6:
+                    button6.Press();
+                    break;
+            }
         }
     }
 }

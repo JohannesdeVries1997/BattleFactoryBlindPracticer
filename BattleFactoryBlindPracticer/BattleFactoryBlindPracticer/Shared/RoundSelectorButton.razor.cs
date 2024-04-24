@@ -38,5 +38,10 @@ namespace BattleFactoryBlindPracticer.Shared
         {
             Pressed = false;
         }
+
+        public void Press()
+        {
+            Pressed = true;
+        }
     }
 }
