@@ -1,0 +1,14 @@
+﻿@inject HttpClient _client;
+
+<div class="ability-component-container">
+    <div class="title-container">
+        <h4>Abilities</h4>
+    </div>
+    <div class="guess-components-container">
+        <GuessComponent GuessString="@Abilities[0]" IsGuessable="@IsGuessable" @ref="@ability1" OptionList="@autoCompleteList" OnEnterPressed="@HandleConfirm" />
+        <GuessComponent GuessString="@Abilities[1]" IsGuessable="@IsGuessable2" @ref="@ability2" OptionList="@autoCompleteList" OnEnterPressed="@HandleConfirm" />
+    </div>
+    <div class="confirm-button-container">
+        <button class="confirm-button" disabled="@confirmButtonDisabled" @onclick="@HandleConfirm">Confirm</button>
+    </div>
+</div>

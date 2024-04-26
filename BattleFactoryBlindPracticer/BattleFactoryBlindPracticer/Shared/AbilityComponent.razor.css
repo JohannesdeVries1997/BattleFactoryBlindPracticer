@@ -1,0 +1,14 @@
+﻿body {
+}
+
+.ability-component-container{
+    display: block;
+}
+
+.title-container{
+    text-align: center;
+}
+
+.guess-components-container {
+    display: block;
+}
