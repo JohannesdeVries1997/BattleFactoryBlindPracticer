@@ -5,7 +5,7 @@
         <h4>Nature</h4>
     </div>
     <div class="guess-component-container">
-        <GuessComponent GuessString="@Nature" IsGuessable="@IsGuessable" OptionList="@autoCompleteList" @ref="@guessComponent"/>
+        <GuessComponent GuessString="@Nature" IsGuessable="@IsGuessable" OptionList="@autoCompleteList" OnEnterPressed="@HandleConfirm" @ref="@guessComponent"/>
     </div>
     <div class="confirm-button-container">
         <button class="confirm-button" disabled="@confirmButtonDisabled" @onclick="@HandleConfirm">Confirm</button>
