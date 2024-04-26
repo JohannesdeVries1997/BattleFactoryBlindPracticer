@@ -33,5 +33,12 @@ namespace BattleFactoryBlindPracticer.Model
             var jsonString = System.Text.Encoding.Default.GetString(result);
             return JsonConvert.DeserializeObject<List<string>>(jsonString) ?? new List<string>();
         }
+
+        public static async Task<List<string>> GetAllAbilities(HttpClient _client)
+        {
+            var result = await _client.GetByteArrayAsync("Resources/AbilityList.json");
+            var jsonString = System.Text.Encoding.Default.GetString(result);
+            return JsonConvert.DeserializeObject<List<string>>(jsonString) ?? new List<string>();
+        }      
     }
 }
