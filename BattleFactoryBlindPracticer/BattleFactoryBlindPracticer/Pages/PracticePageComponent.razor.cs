@@ -21,12 +21,15 @@ namespace BattleFactoryBlindPracticer.Pages
 
         private List<BattleFactorySet> sets = new();
 
-        private BattleFactorySet chosenSet = new BattleFactorySet();
+        private BattleFactorySet chosenSet = new();
+        private Pokemon chosenPokemon = new();
 
         private int pokedexNumber = 0;
 
+
         private Guid pokemonGuesser_Id = Guid.NewGuid();
         private Guid moveList_Id = Guid.NewGuid();
+        private Guid abilityList_Id = Guid.NewGuid();
 
         private readonly int initialRound = 1;
         private int roundNumber = 1;
@@ -52,6 +55,7 @@ namespace BattleFactoryBlindPracticer.Pages
             pokemonGuesser_Id = Guid.NewGuid();
             moveList_Id = Guid.NewGuid();
             GenerateNewPokemon();
+            abilityList_Id = Guid.NewGuid();
         }
 
         private void GenerateNewPokemon()
@@ -64,6 +68,7 @@ namespace BattleFactoryBlindPracticer.Pages
             number += offset;
             chosenSet = sets[number];
             pokedexNumber = BFsetToPokedexNumber(chosenSet);
+            PokemonExtension.TryGetPokemonByDexNumber(pokemons, pokedexNumber, out chosenPokemon);
         }
 
         private int BFsetToPokedexNumber(BattleFactorySet bfSet)

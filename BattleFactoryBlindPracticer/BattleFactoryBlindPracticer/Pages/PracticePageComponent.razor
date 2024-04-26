@@ -14,7 +14,10 @@
         <PokemonGuesserComponent AnswerPokedexNumber="@pokedexNumber" Pokemons="@pokemons" @key="@(pokemonGuesser_Id)"></PokemonGuesserComponent>
     </div>
     <div class="movelist-component-container">
-        <MoveListComponent IsGuessable=true Moves=@chosenSet.Moves @key="@(moveList_Id)"></MoveListComponent>
+        <MoveListComponent IsGuessable=false Moves=@chosenSet.Moves @key="@(moveList_Id)"></MoveListComponent>
+    </div>
+    <div class="ability-component-container">
+        <AbilityComponent Pokemon="@chosenPokemon" IsGuessable=false @key="@(abilityList_Id)" />
     </div>
     <div class="next-container">
         <button id="next-button" @onclick="@HandleNextClick">Next</button>

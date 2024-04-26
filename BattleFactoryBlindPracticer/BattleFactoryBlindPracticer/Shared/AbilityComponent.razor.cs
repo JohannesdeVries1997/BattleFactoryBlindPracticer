@@ -8,11 +8,10 @@ namespace BattleFactoryBlindPracticer.Shared
     public partial class AbilityComponent
     {
         [Parameter]
-        public string[] Abilities { get; set; } = new string[2];
+        public Pokemon Pokemon { get; set; } = new();
 
         [Parameter]
         public bool IsGuessable { get; set; } = false;
-        private bool IsGuessable2 { get; set; } = false;
 
         private bool confirmButtonDisabled = false;
         private List<string> autoCompleteList = new();
@@ -24,16 +23,11 @@ namespace BattleFactoryBlindPracticer.Shared
         {
             base.OnParametersSet();
             confirmButtonDisabled = !IsGuessable;
-            if (Abilities[1] == "None")
+            if (IsGuessable && Pokemon.Ability2 == "None")
             {
-                IsGuessable2 = false;
                 ability2.SetInputValue("None");
+                ability2.SetCorrect();
             }
-            else
-            {
-                IsGuessable2 = IsGuessable;
-            }
-            StateHasChanged();
         }
 
         protected override async Task OnInitializedAsync()
@@ -43,8 +37,9 @@ namespace BattleFactoryBlindPracticer.Shared
 
         private void HandleConfirm()
         {
-            ability1.CheckCorrect(Abilities);
-            ability2.CheckCorrect(Abilities);
+            string[] options = { Pokemon.Ability1, Pokemon.Ability2 };
+            ability1.CheckCorrect(options);
+            ability2.CheckCorrect(options);
             confirmButtonDisabled = true;
         }
     }

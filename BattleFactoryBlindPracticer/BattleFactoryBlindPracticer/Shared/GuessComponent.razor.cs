@@ -29,19 +29,14 @@ namespace BattleFactoryBlindPracticer.Shared
 
         private string inputBoxStyling = string.Empty;
 
-        protected override void OnInitialized()
+        protected override void OnParametersSet()
         {
-            base.OnInitialized();
+            base.OnParametersSet();
             inputBoxDisabled = !IsGuessable;
             if (!IsGuessable)
             {
                 ShowAnswer();
             }
-        }
-
-        protected override void OnParametersSet()
-        {
-            base.OnParametersSet();
             UpdateAutoCompleteList();
         }
 

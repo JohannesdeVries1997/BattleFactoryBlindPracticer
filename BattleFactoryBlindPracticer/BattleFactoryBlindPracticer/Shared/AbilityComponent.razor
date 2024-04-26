@@ -5,8 +5,8 @@
         <h4>Abilities</h4>
     </div>
     <div class="guess-components-container">
-        <GuessComponent GuessString="@Abilities[0]" IsGuessable="@IsGuessable" @ref="@ability1" OptionList="@autoCompleteList" OnEnterPressed="@HandleConfirm" />
-        <GuessComponent GuessString="@Abilities[1]" IsGuessable="@IsGuessable2" @ref="@ability2" OptionList="@autoCompleteList" OnEnterPressed="@HandleConfirm" />
+        <GuessComponent GuessString="@Pokemon.Ability1" IsGuessable="@IsGuessable" @ref="@ability1" OptionList="@autoCompleteList" OnEnterPressed="@HandleConfirm" />
+        <GuessComponent GuessString="@Pokemon.Ability2" IsGuessable="@IsGuessable" @ref="@ability2" OptionList="@autoCompleteList" OnEnterPressed="@HandleConfirm" />
     </div>
     <div class="confirm-button-container">
         <button class="confirm-button" disabled="@confirmButtonDisabled" @onclick="@HandleConfirm">Confirm</button>
