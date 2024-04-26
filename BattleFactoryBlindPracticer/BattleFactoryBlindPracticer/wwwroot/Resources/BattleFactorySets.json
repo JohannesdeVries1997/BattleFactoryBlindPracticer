@@ -37,7 +37,7 @@
     "PokemonName": "Exeggcute",
     "Moves": [
       "Confusion",
-      "Ancient Power",
+      "Ancientpower",
       "Leech Seed",
       "Light Screen"
     ],
@@ -240,7 +240,7 @@
   {
     "PokemonName": "Tentacool",
     "Moves": [
-      "Bubble Beam",
+      "Bubblebeam",
       "Acid",
       "Barrier",
       "Wrap"
@@ -308,7 +308,7 @@
   {
     "PokemonName": "Staryu",
     "Moves": [
-      "Bubble Beam",
+      "Bubblebeam",
       "Minimize",
       "Swift",
       "Light Screen"
@@ -376,7 +376,7 @@
   {
     "PokemonName": "Vibrava",
     "Moves": [
-      "Dragon Breath",
+      "Dragonbreath",
       "Dig",
       "Screech",
       "Rock Tomb"
@@ -429,7 +429,7 @@
     "Moves": [
       "Aerial Ace",
       "Quick Attack",
-      "Feather Dance",
+      "Featherdance",
       "Sand-Attack"
     ],
     "Item": "White Herb",
@@ -480,7 +480,7 @@
     "Moves": [
       "Mud Shot",
       "Water Gun",
-      "Ancient Power",
+      "Ancientpower",
       "Tickle"
     ],
     "Item": "Sitrus Berry",
@@ -496,7 +496,7 @@
     "PokemonName": "Kabuto",
     "Moves": [
       "Mega Drain",
-      "Ancient Power",
+      "Ancientpower",
       "Sand-Attack",
       "Protect"
     ],
@@ -512,7 +512,7 @@
   {
     "PokemonName": "Lileep",
     "Moves": [
-      "Ancient Power",
+      "Ancientpower",
       "Acid",
       "Ingrain",
       "Confuse Ray"
@@ -531,7 +531,7 @@
     "Moves": [
       "Metal Claw",
       "Fury Cutter",
-      "Ancient Power",
+      "Ancientpower",
       "Water Gun"
     ],
     "Item": "Scope Lens",
@@ -563,7 +563,7 @@
   {
     "PokemonName": "Elekid",
     "Moves": [
-      "Thunder Punch",
+      "Thunderpunch",
       "Quick Attack",
       "Swift",
       "Light Screen"
@@ -699,10 +699,10 @@
   {
     "PokemonName": "Corsola",
     "Moves": [
-      "Bubble Beam",
+      "Bubblebeam",
       "Mirror Coat",
       "Attract",
-      "Ancient Power"
+      "Ancientpower"
     ],
     "Item": "Sitrus Berry",
     "Nature": "Impish ( +Def, -SpAtk)",
@@ -786,7 +786,7 @@
     "Moves": [
       "Rock Slide",
       "Bind",
-      "Dragon Breath",
+      "Dragonbreath",
       "Sandstorm"
     ],
     "Item": "Sitrus Berry",
@@ -1041,7 +1041,7 @@
     "Moves": [
       "Magical Leaf",
       "Toxic",
-      "Grass Whistle",
+      "Grasswhistle",
       "Cotton Spore"
     ],
     "Item": "Pecha Berry",
@@ -1396,7 +1396,7 @@
   {
     "PokemonName": "Azumarill",
     "Moves": [
-      "Bubble Beam",
+      "Bubblebeam",
       "Facade",
       "Dig",
       "Protect"
@@ -1549,7 +1549,7 @@
   {
     "PokemonName": "Dragonair",
     "Moves": [
-      "Dragon Breath",
+      "Dragonbreath",
       "Leer",
       "Wrap",
       "Safeguard"
@@ -1618,7 +1618,7 @@
     "PokemonName": "Shelgon",
     "Moves": [
       "Headbutt",
-      "Dragon Breath",
+      "Dragonbreath",
       "Protect",
       "Scary Face"
     ],
@@ -1719,7 +1719,7 @@
   {
     "PokemonName": "Qwilfish",
     "Moves": [
-      "Bubble Beam",
+      "Bubblebeam",
       "Pin Missile",
       "Spikes",
       "Minimize"
@@ -2043,7 +2043,7 @@
     "PokemonName": "Piloswine",
     "Moves": [
       "Dig",
-      "Ancient Power",
+      "Ancientpower",
       "Hail",
       "Light Screen"
     ],
@@ -2281,7 +2281,7 @@
     "PokemonName": "Magneton",
     "Moves": [
       "Shock Wave",
-      "Sonic Boom",
+      "Sonicboom",
       "Thunder Wave",
       "Supersonic"
     ],
@@ -2297,7 +2297,7 @@
   {
     "PokemonName": "Mantine",
     "Moves": [
-      "Bubble Beam",
+      "Bubblebeam",
       "Aerial Ace",
       "Rain Dance",
       "Icy Wind"
@@ -2365,7 +2365,7 @@
   {
     "PokemonName": "Crawdaunt",
     "Moves": [
-      "Bubble Beam",
+      "Bubblebeam",
       "Vice Grip",
       "Knock Off",
       "Protect"
@@ -2383,7 +2383,7 @@
     "PokemonName": "Pidgeot",
     "Moves": [
       "Aerial Ace",
-      "Feather Dance",
+      "Featherdance",
       "Mud-Slap",
       "Faint Attack"
     ],
@@ -2535,7 +2535,7 @@
   {
     "PokemonName": "Relicanth",
     "Moves": [
-      "Ancient Power",
+      "Ancientpower",
       "Water Pulse",
       "Harden",
       "Amnesia"
@@ -2552,10 +2552,10 @@
   {
     "PokemonName": "Omastar",
     "Moves": [
-      "Bubble Beam",
+      "Bubblebeam",
       "Spike Cannon",
       "Tickle",
-      "Ancient Power"
+      "Ancientpower"
     ],
     "Item": "Shell Bell",
     "Nature": "Hardy",
@@ -2589,7 +2589,7 @@
       "Submission",
       "Dig",
       "Rock Tomb",
-      "Bubble Beam"
+      "Bubblebeam"
     ],
     "Item": "Black Belt",
     "Nature": "Adamant ( +Atk, -SpAtk)",
@@ -2756,7 +2756,7 @@
   {
     "PokemonName": "Gloom",
     "Moves": [
-      "Solar Beam",
+      "Solarbeam",
       "Sunny Day",
       "Sludge Bomb",
       "Moonlight"
@@ -2826,7 +2826,7 @@
     "Moves": [
       "Giga Drain",
       "Sludge Bomb",
-      "Grass Whistle",
+      "Grasswhistle",
       "Synthesis"
     ],
     "Item": "Quick Claw",
@@ -2894,7 +2894,7 @@
     "Moves": [
       "Flamethrower",
       "Slash",
-      "Ancient Power",
+      "Ancientpower",
       "Dragon Rage"
     ],
     "Item": "Scope Lens",
@@ -2979,7 +2979,7 @@
     "Moves": [
       "Giga Drain",
       "Body Slam",
-      "Grass Whistle",
+      "Grasswhistle",
       "Rest"
     ],
     "Item": "Chesto Berry",
@@ -3454,7 +3454,7 @@
     "PokemonName": "Sunflora",
     "Moves": [
       "Giga Drain",
-      "Grass Whistle",
+      "Grasswhistle",
       "Growth",
       "Double Team"
     ],
@@ -3642,7 +3642,7 @@
     "Moves": [
       "Hydro Pump",
       "Frustration",
-      "Dragon Breath",
+      "Dragonbreath",
       "Dragon Dance"
     ],
     "Item": "Shell Bell",
@@ -3779,7 +3779,7 @@
       "Seismic Toss",
       "Shadow Ball",
       "Double Team",
-      "Soft Boiled"
+      "Softboiled"
     ],
     "Item": "Leftovers",
     "Nature": "Relaxed ( +Def, -Speed)",
@@ -3895,7 +3895,7 @@
   {
     "PokemonName": "Hitmonchan",
     "Moves": [
-      "Dynamic Punch",
+      "Dynamicpunch",
       "Mach Punch",
       "Detect",
       "Counter"
@@ -4048,7 +4048,7 @@
   {
     "PokemonName": "Tropius",
     "Moves": [
-      "Solar Beam",
+      "Solarbeam",
       "Sunny Day",
       "Synthesis",
       "Body Slam"
@@ -4152,7 +4152,7 @@
     "Moves": [
       "Guillotine",
       "Frustration",
-      "Ancient Power",
+      "Ancientpower",
       "Aerial Ace"
     ],
     "Item": "Quick Claw",
@@ -4186,7 +4186,7 @@
     "Moves": [
       "Psychic",
       "Ice Punch",
-      "Thunder Punch",
+      "Thunderpunch",
       "Fire Punch"
     ],
     "Item": "Lum Berry",
@@ -4252,7 +4252,7 @@
   {
     "PokemonName": "Bellossom",
     "Moves": [
-      "Solar Beam",
+      "Solarbeam",
       "Attract",
       "Sunny Day",
       "Synthesis"
@@ -4934,7 +4934,7 @@
     "Moves": [
       "Surf",
       "Rain Dance",
-      "Thunder Punch",
+      "Thunderpunch",
       "Fire Punch"
     ],
     "Item": "Shell Bell",
@@ -4949,7 +4949,7 @@
   {
     "PokemonName": "Hypno",
     "Moves": [
-      "Thunder Punch",
+      "Thunderpunch",
       "Fire Punch",
       "Ice Punch",
       "Hypnosis"
@@ -5000,7 +5000,7 @@
   {
     "PokemonName": "Alakazam",
     "Moves": [
-      "Thunder Punch",
+      "Thunderpunch",
       "Fire Punch",
       "Ice Punch",
       "Thunder Wave"
@@ -5223,7 +5223,7 @@
     "Moves": [
       "Slash",
       "Aerial Ace",
-      "Ancient Power",
+      "Ancientpower",
       "Protect"
     ],
     "Item": "Scope Lens",
@@ -5392,7 +5392,7 @@
     "PokemonName": "Donphan",
     "Moves": [
       "Earthquake",
-      "Ancient Power",
+      "Ancientpower",
       "Swagger",
       "Rest"
     ],
@@ -5494,7 +5494,7 @@
     "PokemonName": "Steelix",
     "Moves": [
       "Earthquake",
-      "Dragon Breath",
+      "Dragonbreath",
       "Rock Tomb",
       "Roar"
     ],
@@ -5527,8 +5527,8 @@
   {
     "PokemonName": "Aerodactyl",
     "Moves": [
-      "Ancient Power",
-      "Dragon Breath",
+      "Ancientpower",
+      "Dragonbreath",
       "Aerial Ace",
       "Roar"
     ],
@@ -5578,7 +5578,7 @@
   {
     "PokemonName": "Exeggutor",
     "Moves": [
-      "Solar Beam",
+      "Solarbeam",
       "Sunny Day",
       "Synthesis",
       "Light Screen"
@@ -5697,7 +5697,7 @@
   {
     "PokemonName": "Meganium",
     "Moves": [
-      "Solar Beam",
+      "Solarbeam",
       "Sunny Day",
       "Light Screen",
       "Synthesis"
@@ -5970,7 +5970,7 @@
     "PokemonName": "Kingdra",
     "Moves": [
       "Hydro Pump",
-      "Dragon Breath",
+      "Dragonbreath",
       "Icy Wind",
       "Attract"
     ],
@@ -5989,7 +5989,7 @@
       "Toxic",
       "Double Team",
       "Sing",
-      "Soft Boiled"
+      "Softboiled"
     ],
     "Item": "Bright Powder",
     "Nature": "Bold ( +Def, -Atk)",
@@ -6021,7 +6021,7 @@
     "PokemonName": "Arcanine",
     "Moves": [
       "Flamethrower",
-      "Extreme Speed",
+      "Extremespeed",
       "Crunch",
       "Body Slam"
     ],
@@ -6089,7 +6089,7 @@
     "PokemonName": "Dugtrio",
     "Moves": [
       "Earthquake",
-      "Ancient Power",
+      "Ancientpower",
       "Aerial Ace",
       "Tri Attack"
     ],
@@ -6142,7 +6142,7 @@
       "Curse",
       "Attract",
       "Yawn",
-      "Ancient Power"
+      "Ancientpower"
     ],
     "Item": "Leftovers",
     "Nature": "Sassy ( +SpDef, -Speed)",
@@ -6397,7 +6397,7 @@
       "Cross Chop",
       "Fire Punch",
       "Ice Punch",
-      "Thunder Punch"
+      "Thunderpunch"
     ],
     "Item": "Quick Claw",
     "Nature": "Quiet ( +SpAtk, -Speed)",
@@ -6513,7 +6513,7 @@
   {
     "PokemonName": "Exploud",
     "Moves": [
-      "Solar Beam",
+      "Solarbeam",
       "Sunny Day",
       "Earthquake",
       "Counter"
@@ -6566,7 +6566,7 @@
     "Moves": [
       "Surf",
       "Ice Beam",
-      "Thunder Punch",
+      "Thunderpunch",
       "Fire Punch"
     ],
     "Item": "Shell Bell",
@@ -6769,7 +6769,7 @@
     "PokemonName": "Altaria",
     "Moves": [
       "Perish Song",
-      "Dragon Breath",
+      "Dragonbreath",
       "Pursuit",
       "Attract"
     ],
@@ -6821,7 +6821,7 @@
     "Moves": [
       "Fire Blast",
       "Smokescreen",
-      "Thunder Punch",
+      "Thunderpunch",
       "Confuse Ray"
     ],
     "Item": "Quick Claw",
@@ -6837,7 +6837,7 @@
     "PokemonName": "Cradily",
     "Moves": [
       "Earthquake",
-      "Ancient Power",
+      "Ancientpower",
       "Swagger",
       "Psych Up"
     ],
@@ -6854,7 +6854,7 @@
     "PokemonName": "Armaldo",
     "Moves": [
       "Iron Tail",
-      "Ancient Power",
+      "Ancientpower",
       "Brick Break",
       "Knock Off"
     ],
@@ -6907,7 +6907,7 @@
       "Curse",
       "Rest",
       "Sludge Bomb",
-      "Dynamic Punch"
+      "Dynamicpunch"
     ],
     "Item": "Chesto Berry",
     "Nature": "Hardy",
@@ -6938,7 +6938,7 @@
   {
     "PokemonName": "Ampharos",
     "Moves": [
-      "Thunder Punch",
+      "Thunderpunch",
       "Fire Punch",
       "Focus Punch",
       "Thunder Wave"
@@ -7126,7 +7126,7 @@
     "PokemonName": "Steelix",
     "Moves": [
       "Earthquake",
-      "Dragon Breath",
+      "Dragonbreath",
       "Sandstorm",
       "Block"
     ],
@@ -7162,7 +7162,7 @@
       "Hyper Beam",
       "Earthquake",
       "Aerial Ace",
-      "Ancient Power"
+      "Ancientpower"
     ],
     "Item": "Choice Band",
     "Nature": "Adamant ( +Atk, -SpAtk)",
@@ -7176,7 +7176,7 @@
   {
     "PokemonName": "Porygon2",
     "Moves": [
-      "Solar Beam",
+      "Solarbeam",
       "Sunny Day",
       "Thunder Wave",
       "Recover"
@@ -7244,7 +7244,7 @@
   {
     "PokemonName": "Flygon",
     "Moves": [
-      "Solar Beam",
+      "Solarbeam",
       "Fire Blast",
       "Crunch",
       "Sunny Day"
@@ -7332,7 +7332,7 @@
       "Leech Seed",
       "Substitute",
       "Double Team",
-      "Grass Whistle"
+      "Grasswhistle"
     ],
     "Item": "Leftovers",
     "Nature": "Calm ( +SpDef, -Atk)",
@@ -7433,7 +7433,7 @@
     "Moves": [
       "Blaze Kick",
       "Mega Kick",
-      "Thunder Punch",
+      "Thunderpunch",
       "Brick Break"
     ],
     "Item": "Scope Lens",
@@ -7466,7 +7466,7 @@
     "PokemonName": "Sceptile",
     "Moves": [
       "Leaf Blade",
-      "Thunder Punch",
+      "Thunderpunch",
       "Attract",
       "Double Team"
     ],
@@ -7500,7 +7500,7 @@
     "PokemonName": "Typhlosion",
     "Moves": [
       "Flamethrower",
-      "Thunder Punch",
+      "Thunderpunch",
       "Aerial Ace",
       "Rock Slide"
     ],
@@ -7603,7 +7603,7 @@
     "Moves": [
       "Surf",
       "Ice Beam",
-      "Dragon Breath",
+      "Dragonbreath",
       "Rest"
     ],
     "Item": "Chesto Berry",
@@ -7737,8 +7737,8 @@
   {
     "PokemonName": "Medicham",
     "Moves": [
-      "Dynamic Punch",
-      "Thunder Punch",
+      "Dynamicpunch",
+      "Thunderpunch",
       "Ice Punch",
       "Fire Punch"
     ],
@@ -8147,7 +8147,7 @@
     "Moves": [
       "Overheat",
       "Ice Beam",
-      "Thunder Punch",
+      "Thunderpunch",
       "Extrasensory"
     ],
     "Item": "White Herb",
@@ -8162,7 +8162,7 @@
   {
     "PokemonName": "Shiftry",
     "Moves": [
-      "Solar Beam",
+      "Solarbeam",
       "Sunny Day",
       "Explosion",
       "Synthesis"
@@ -8469,7 +8469,7 @@
     "PokemonName": "Cradily",
     "Moves": [
       "Substitute",
-      "Solar Beam",
+      "Solarbeam",
       "Sunny Day",
       "Recover"
     ],
@@ -8520,7 +8520,7 @@
     "PokemonName": "Rapidash",
     "Moves": [
       "Overheat",
-      "Solar Beam",
+      "Solarbeam",
       "Sunny Day",
       "Hypnosis"
     ],
@@ -8622,7 +8622,7 @@
     "PokemonName": "Ursaring",
     "Moves": [
       "Fire Punch",
-      "Thunder Punch",
+      "Thunderpunch",
       "Ice Punch",
       "Crunch"
     ],
@@ -8674,7 +8674,7 @@
     "Moves": [
       "Psychic",
       "Ice Beam",
-      "Solar Beam",
+      "Solarbeam",
       "Sunny Day"
     ],
     "Item": "Shell Bell",
@@ -8725,7 +8725,7 @@
     "Moves": [
       "Cross Chop",
       "Fire Blast",
-      "Thunder Punch",
+      "Thunderpunch",
       "Ice Punch"
     ],
     "Item": "Quick Claw",
@@ -9253,7 +9253,7 @@
       "Fire Blast",
       "Blizzard",
       "Calm Mind",
-      "Soft Boiled"
+      "Softboiled"
     ],
     "Item": "Focus Band",
     "Nature": "Bold ( +Def, -Atk)",
@@ -9285,7 +9285,7 @@
     "PokemonName": "Arcanine",
     "Moves": [
       "Overheat",
-      "Extreme Speed",
+      "Extremespeed",
       "Crunch",
       "Aerial Ace"
     ],
@@ -9644,7 +9644,7 @@
       "Mega Kick",
       "Psychic",
       "Shadow Ball",
-      "Soft Boiled"
+      "Softboiled"
     ],
     "Item": "Focus Band",
     "Nature": "Hardy",
@@ -9726,7 +9726,7 @@
   {
     "PokemonName": "Vileplume",
     "Moves": [
-      "Solar Beam",
+      "Solarbeam",
       "Sludge Bomb",
       "Sunny Day",
       "Synthesis"
@@ -9846,7 +9846,7 @@
     "PokemonName": "Hypno",
     "Moves": [
       "Psychic",
-      "Thunder Punch",
+      "Thunderpunch",
       "Fire Punch",
       "Ice Punch"
     ],
@@ -9897,7 +9897,7 @@
     "PokemonName": "Alakazam",
     "Moves": [
       "Psychic",
-      "Thunder Punch",
+      "Thunderpunch",
       "Fire Punch",
       "Ice Punch"
     ],
@@ -10271,7 +10271,7 @@
     "PokemonName": "Houndoom",
     "Moves": [
       "Overheat",
-      "Solar Beam",
+      "Solarbeam",
       "Crunch",
       "Sunny Day"
     ],
@@ -10525,7 +10525,7 @@
   {
     "PokemonName": "Venusaur",
     "Moves": [
-      "Solar Beam",
+      "Solarbeam",
       "Sludge Bomb",
       "Sunny Day",
       "Earthquake"
@@ -10595,7 +10595,7 @@
     "Moves": [
       "Giga Drain",
       "Earthquake",
-      "Ancient Power",
+      "Ancientpower",
       "Body Slam"
     ],
     "Item": "Bright Powder",
@@ -10697,7 +10697,7 @@
     "Moves": [
       "Overheat",
       "Earthquake",
-      "Thunder Punch",
+      "Thunderpunch",
       "Rock Slide"
     ],
     "Item": "White Herb",
@@ -10732,7 +10732,7 @@
       "Leaf Blade",
       "Dragon Claw",
       "Crunch",
-      "Thunder Punch"
+      "Thunderpunch"
     ],
     "Item": "Bright Powder",
     "Nature": "Modest ( +SpAtk, -Atk)",
@@ -10764,7 +10764,7 @@
     "PokemonName": "Typhlosion",
     "Moves": [
       "Overheat",
-      "Thunder Punch",
+      "Thunderpunch",
       "Earthquake",
       "Crush Claw"
     ],
@@ -10885,7 +10885,7 @@
       "Ice Beam",
       "Calm Mind",
       "Counter",
-      "Soft Boiled"
+      "Softboiled"
     ],
     "Item": "Focus Band",
     "Nature": "Bold ( +Def, -Atk)",
@@ -10917,7 +10917,7 @@
     "PokemonName": "Arcanine",
     "Moves": [
       "Overheat",
-      "Extreme Speed",
+      "Extremespeed",
       "Crunch",
       "Double-Edge"
     ],
