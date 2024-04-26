@@ -29,7 +29,7 @@
         <GuessComponent OnEnterPressed="ConfirmClick" IsGuessable=true GuessString="@answerPokemon.Name" OptionList="@optionList" @ref="@pokemonNameGuessComponent" />
     </div>
     <div class="confirm-button-container">
-        <button id="confirm-button" @onclick="ConfirmClick" disabled="@ConfirmDisabled">
+        <button class="confirm-button" @onclick="ConfirmClick" disabled="@ConfirmDisabled">
             Confirm
         </button>
     </div>
