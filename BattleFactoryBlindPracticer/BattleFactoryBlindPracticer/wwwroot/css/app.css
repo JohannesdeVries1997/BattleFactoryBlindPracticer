@@ -62,3 +62,14 @@ a, .btn-link {
     .blazor-error-boundary::after {
         content: "An error has occurred."
     }
+
+.confirm-button {
+    background-color: #81a4f7;
+    color: black;
+    border-radius: 10%;
+}
+
+    .confirm-button:hover {
+        background-color: white;
+        color: black;
+    }

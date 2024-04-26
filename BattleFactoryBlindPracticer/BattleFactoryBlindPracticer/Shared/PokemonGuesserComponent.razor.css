@@ -47,14 +47,3 @@
     width: 100%;
     left: auto;
 }
-
-#confirm-button {
-    background-color: #81a4f7;
-    color: black;
-    border-radius: 10%;
-}
-
-    #confirm-button:hover {
-        background-color: white;
-        color: black;
-    }
