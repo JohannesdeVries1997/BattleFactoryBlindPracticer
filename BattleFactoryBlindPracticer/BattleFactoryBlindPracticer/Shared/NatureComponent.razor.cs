@@ -24,7 +24,7 @@ namespace BattleFactoryBlindPracticer.Shared
 
         protected async override Task OnInitializedAsync()
         {
-            autoCompleteList = await DataGetter.GetAllNatures(_client);
+            autoCompleteList = await DataGetter.GetOptionList(_client, "Nature");
         }
 
         private void HandleConfirm()

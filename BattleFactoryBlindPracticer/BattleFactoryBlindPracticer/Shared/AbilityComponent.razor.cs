@@ -33,7 +33,7 @@ namespace BattleFactoryBlindPracticer.Shared
 
         protected override async Task OnInitializedAsync()
         {
-            autoCompleteList = await DataGetter.GetAllAbilities(_client);
+            autoCompleteList = await DataGetter.GetOptionList(_client, "Ability");
         }
 
         private void HandleConfirm()

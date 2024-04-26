@@ -28,7 +28,7 @@ namespace BattleFactoryBlindPracticer.Shared
 
         protected override async Task OnInitializedAsync()
         {
-            AllMoves = await DataGetter.GetAllMoves(_client);
+            AllMoves = await DataGetter.GetOptionList(_client, "Move");
         }
     }
 }

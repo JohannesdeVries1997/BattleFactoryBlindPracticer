@@ -20,25 +20,17 @@ namespace BattleFactoryBlindPracticer.Model
             return JsonConvert.DeserializeObject<List<BattleFactorySet>>(jsonString) ?? new List<BattleFactorySet>();
         }
 
-        public static async Task<List<string>> GetAllMoves(HttpClient _client)
+        /// <summary>
+        /// Return a list of options for the autocomplete function.
+        /// </summary>
+        /// <param name="_client"></param>
+        /// <param name="list">possible values: "Move", "Item", "Ability" , "Nature"</param>
+        /// <returns></returns>
+        public static async Task<List<string>> GetOptionList(HttpClient _client, string list)
         {
-            var result = await _client.GetByteArrayAsync("Resources/MoveList.json");
+            var result = await _client.GetByteArrayAsync($"Resources/{list}List.json");
             var jsonString = System.Text.Encoding.Default.GetString(result);
             return JsonConvert.DeserializeObject<List<string>>(jsonString) ?? new List<string>();
-        }
-        
-        public static async Task<List<string>> GetAllNatures(HttpClient _client)
-        {
-            var result = await _client.GetByteArrayAsync("Resources/NatureList.json");
-            var jsonString = System.Text.Encoding.Default.GetString(result);
-            return JsonConvert.DeserializeObject<List<string>>(jsonString) ?? new List<string>();
-        }
-
-        public static async Task<List<string>> GetAllAbilities(HttpClient _client)
-        {
-            var result = await _client.GetByteArrayAsync("Resources/AbilityList.json");
-            var jsonString = System.Text.Encoding.Default.GetString(result);
-            return JsonConvert.DeserializeObject<List<string>>(jsonString) ?? new List<string>();
-        }      
+        } 
     }
 }

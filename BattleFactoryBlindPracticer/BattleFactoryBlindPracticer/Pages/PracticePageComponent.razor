@@ -16,10 +16,13 @@
     @if (pokemonIsGuessed)
     {
         <div class="movelist-component-container">
-            <MoveListComponent IsGuessable=true Moves=@chosenSet.Moves @key="@(moveList_Id)"></MoveListComponent>
+            <MoveListComponent IsGuessable=false Moves=@chosenSet.Moves @key="@(moveList_Id)"></MoveListComponent>
         </div>
         <div class="ability-component-container">
-            <AbilityComponent Ability1="@chosenPokemon.Ability1" Ability2="@chosenPokemon.Ability2" IsGuessable=true @key="@(abilityList_Id)" />
+            <AbilityComponent Ability1="@chosenPokemon.Ability1" Ability2="@chosenPokemon.Ability2" IsGuessable=false @key="@(abilityList_Id)" />
+        </div>
+        <div class="nature-component-container">
+
         </div>
     }
     <div class="next-container">
