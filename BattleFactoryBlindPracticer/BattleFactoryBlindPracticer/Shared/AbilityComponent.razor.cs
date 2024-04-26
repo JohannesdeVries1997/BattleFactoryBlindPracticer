@@ -1,14 +1,15 @@
 ﻿using BattleFactoryBlindPracticer.Model;
 using Microsoft.AspNetCore.Components;
-using System.Runtime.CompilerServices;
-using System.Xml.Serialization;
 
 namespace BattleFactoryBlindPracticer.Shared
 {
     public partial class AbilityComponent
     {
         [Parameter]
-        public Pokemon Pokemon { get; set; } = new();
+        public string Ability1 { get; set; } = string.Empty;
+
+        [Parameter]
+        public string Ability2 { get; set; } = string.Empty;
 
         [Parameter]
         public bool IsGuessable { get; set; } = false;
@@ -16,17 +17,17 @@ namespace BattleFactoryBlindPracticer.Shared
         private bool confirmButtonDisabled = false;
         private List<string> autoCompleteList = new();
 
-        private GuessComponent ability1 = new();
-        private GuessComponent ability2 = new();
+        private GuessComponent guessComponent1 = new();
+        private GuessComponent guessComponent2 = new();
 
         protected override void OnParametersSet()
         {
             base.OnParametersSet();
             confirmButtonDisabled = !IsGuessable;
-            if (IsGuessable && Pokemon.Ability2 == "None")
+            if (IsGuessable && Ability2 == "None")
             {
-                ability2.SetInputValue("None");
-                ability2.SetCorrect();
+                guessComponent2.SetInputValue("None");
+                guessComponent2.SetCorrect();
             }
         }
 
@@ -37,9 +38,9 @@ namespace BattleFactoryBlindPracticer.Shared
 
         private void HandleConfirm()
         {
-            string[] options = { Pokemon.Ability1, Pokemon.Ability2 };
-            ability1.CheckCorrect(options);
-            ability2.CheckCorrect(options);
+            string[] options = { Ability1, Ability2 };
+            guessComponent1.CheckCorrect(options);
+            guessComponent2.CheckCorrect(options);
             confirmButtonDisabled = true;
         }
     }

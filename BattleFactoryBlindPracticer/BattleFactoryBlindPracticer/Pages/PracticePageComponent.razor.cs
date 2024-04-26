@@ -1,5 +1,6 @@
 ﻿using BattleFactoryBlindPracticer.Model;
 using BattleFactoryBlindPracticer.Shared;
+using Microsoft.AspNetCore.Components;
 using System.Net;
 
 namespace BattleFactoryBlindPracticer.Pages
@@ -24,12 +25,14 @@ namespace BattleFactoryBlindPracticer.Pages
         private BattleFactorySet chosenSet = new();
         private Pokemon chosenPokemon = new();
 
-        private int pokedexNumber = 0;
+        private bool pokemonIsGuessed = false;
 
+        private int pokedexNumber = 0;
 
         private Guid pokemonGuesser_Id = Guid.NewGuid();
         private Guid moveList_Id = Guid.NewGuid();
         private Guid abilityList_Id = Guid.NewGuid();
+
 
         private readonly int initialRound = 1;
         private int roundNumber = 1;
@@ -46,7 +49,6 @@ namespace BattleFactoryBlindPracticer.Pages
         {
             pokemons = await DataGetter.GetPokemonData(_client);
             sets = await DataGetter.GetBattleFactoryData(_client);
-
             GenerateNewPokemon();
         }
 
@@ -56,6 +58,7 @@ namespace BattleFactoryBlindPracticer.Pages
             moveList_Id = Guid.NewGuid();
             GenerateNewPokemon();
             abilityList_Id = Guid.NewGuid();
+            pokemonIsGuessed = false;
         }
 
         private void GenerateNewPokemon()
@@ -88,6 +91,11 @@ namespace BattleFactoryBlindPracticer.Pages
         {
             this.roundNumber = roundNumberClicked;
             HandleNextClick();
+        }
+
+        private void PokemonGuessEvent()
+        {
+            pokemonIsGuessed = true;
         }
     }
 }

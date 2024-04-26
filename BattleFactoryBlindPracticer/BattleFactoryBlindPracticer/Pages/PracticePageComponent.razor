@@ -8,17 +8,20 @@
         </h3>
     </div>
     <div class="round_selector-container">
-        <RoundSelectorComponent InitialRoundSelected=@initialRound OnRoundButtonClicked="HandleRoundButtonClick" />
+        <RoundSelectorComponent InitialRoundSelected=@initialRound OnRoundButtonClicked="HandleRoundButtonClick"/>
     </div>
     <div class="guesser-container">
-        <PokemonGuesserComponent AnswerPokedexNumber="@pokedexNumber" Pokemons="@pokemons" @key="@(pokemonGuesser_Id)"></PokemonGuesserComponent>
+        <PokemonGuesserComponent AnswerPokedexNumber="@pokedexNumber" Pokemons="@pokemons" @key="@(pokemonGuesser_Id)" OnConfirmClicked="PokemonGuessEvent"></PokemonGuesserComponent>
     </div>
-    <div class="movelist-component-container">
-        <MoveListComponent IsGuessable=false Moves=@chosenSet.Moves @key="@(moveList_Id)"></MoveListComponent>
-    </div>
-    <div class="ability-component-container">
-        <AbilityComponent Pokemon="@chosenPokemon" IsGuessable=false @key="@(abilityList_Id)" />
-    </div>
+    @if (pokemonIsGuessed)
+    {
+        <div class="movelist-component-container">
+            <MoveListComponent IsGuessable=true Moves=@chosenSet.Moves @key="@(moveList_Id)"></MoveListComponent>
+        </div>
+        <div class="ability-component-container">
+            <AbilityComponent Ability1="@chosenPokemon.Ability1" Ability2="@chosenPokemon.Ability2" IsGuessable=true @key="@(abilityList_Id)" />
+        </div>
+    }
     <div class="next-container">
         <button id="next-button" @onclick="@HandleNextClick">Next</button>
     </div>
