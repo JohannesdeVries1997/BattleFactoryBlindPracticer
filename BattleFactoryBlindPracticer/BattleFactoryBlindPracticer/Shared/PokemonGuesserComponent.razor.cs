@@ -11,6 +11,9 @@ namespace BattleFactoryBlindPracticer.Shared
         [Parameter]
         public List<Pokemon> Pokemons { get; set; } = new();
 
+        [Parameter]
+        public EventCallback OnConfirmClicked { get; set; }
+
         private Pokemon answerPokemon { get; set; } = new();
         private Pokemon guessPokemon { get; set; } = new();
         private List<string> optionList { get; set; } = new();
@@ -68,6 +71,7 @@ namespace BattleFactoryBlindPracticer.Shared
             ShowGuess();
             RevealAnswer();
             ConfirmDisabled = true;
+            OnConfirmClicked.InvokeAsync();
             StateHasChanged();
         }
 
