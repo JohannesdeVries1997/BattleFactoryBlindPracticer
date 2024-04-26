@@ -22,7 +22,7 @@ namespace BattleFactoryBlindPracticer.Model
         {
             foreach (Pokemon p in pokemons)
             {
-                if (CompareStrings(p.Name, pokemonName))
+                if (StringHelper.CompareStrings(p.Name, pokemonName))
                 {
                     pokemon = p;
                     return true;
@@ -46,13 +46,6 @@ namespace BattleFactoryBlindPracticer.Model
             pokemon.SpAtt = 0;
             pokemon.SpDef = 0;
             pokemon.Spe = 0;
-        }
-
-        private static bool CompareStrings(string a, string b)
-        {
-            string aLower = a.ToLower();
-            string bLower = b.ToLower();
-            return (aLower == bLower);
         }
     }
 }
