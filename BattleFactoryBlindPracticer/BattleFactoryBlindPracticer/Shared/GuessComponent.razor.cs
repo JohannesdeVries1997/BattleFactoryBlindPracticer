@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Web;
+using BattleFactoryBlindPracticer.Model;
 
 namespace BattleFactoryBlindPracticer.Shared
 {
@@ -78,6 +79,23 @@ namespace BattleFactoryBlindPracticer.Shared
             return inputValue;
         }
 
+        public void SetInputValue(string value)
+        {
+            inputValue = value;
+        }
+
+        public void SetCorrect()
+        {
+            ShowAnswer();
+            SetStyleCorrect();
+        }
+
+        public void SetIncorrect()
+        {
+            ShowAnswer();
+            SetStyleInCorrect();
+        }
+
         private void ShowAnswer()
         {
             inputBoxDisabled = true;
@@ -87,9 +105,17 @@ namespace BattleFactoryBlindPracticer.Shared
 
         private bool IsCorrect()
         {
-            string inputLower = _inputValue.ToLower();
-            string answerLower = GuessString.ToLower();
-            return (inputLower == answerLower);
+            return StringHelper.CompareStrings(_inputValue, GuessString);
+        }
+
+        private void SetStyleCorrect()
+        {
+            SetInputBoxStyle("border-color: lightgreen");
+        }
+
+        private void SetStyleInCorrect()
+        {
+            SetInputBoxStyle("border-color: salmon");
         }
 
         private void SetInputBoxStyle(string styling)
