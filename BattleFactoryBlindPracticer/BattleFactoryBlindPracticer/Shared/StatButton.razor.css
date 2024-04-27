@@ -15,17 +15,17 @@ button {
     }
 
 .pressed {
-    background-color: lightgreen;
+    background-color: yellow;
 }
 
     .pressed:hover {
-        border-color: lightgreen;
+        border-color: black;
     }
 
 .unpressed {
-    background-color: salmon;
+    background-color: white;
 }
 
     .unpressed:hover {
-        border-color: salmon;
+        border-color: yellow;
     }

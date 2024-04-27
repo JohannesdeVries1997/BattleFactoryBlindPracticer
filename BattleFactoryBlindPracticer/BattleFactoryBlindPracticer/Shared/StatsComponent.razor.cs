@@ -7,94 +7,83 @@ namespace BattleFactoryBlindPracticer.Shared
     {
         [Parameter]
         public int HP { get; set; } = 0;
-        private int displayedHP = 0;
+        private int guessedHP = 0;
+        private string guessedHPClass = string.Empty;
 
         [Parameter]
         public int Att { get; set; } = 0;
-        private int displayedAtt = 0;
+        private int guessedAtt = 0;
+        private string guessedAttClass = string.Empty;
 
         [Parameter]
         public int Def { get; set; } = 0;
-        private int displayedDef = 0;
+        private int guessedDef = 0;
+        private string guessedDefClass = string.Empty;
 
         [Parameter]
         public int SpAtt { get; set; } = 0;
-        private int displayedSpAtt = 0;
+        private int guessedSpAtt = 0;
+        private string guessedSpAttClass = string.Empty;
 
         [Parameter]
         public int SpDef { get; set; } = 0;
-        private int displayedSpDef = 0;
+        private int guessedSpDef = 0;
+        private string guessedSpDefClass = string.Empty;
 
         [Parameter]
         public int Spe { get; set; } = 0;
-        private int displayedSpe = 0;
+        private int guessedSpe = 0;
+        private string guessedSpeClass = string.Empty;
 
         [Parameter]
         public int HPEvs { get; set; } = 0;
-        private int displayedHPEvs = 0;
+        private int guessedHPEvs = 0;
+        private string guessedHPEvsClass = string.Empty;
 
         [Parameter]
         public int AttEvs { get; set; } = 0;
-        private int displayedAttEvs = 0;
+        private int guessedAttEvs = 0;
+        private string guessedAttEvsClass = string.Empty;
 
         [Parameter]
         public int DefEvs { get; set; } = 0;
-        private int displayedDefEvs = 0;
+        private int guessedDefEvs = 0;
+        private string guessedDefEvsClass = string.Empty;
 
         [Parameter]
         public int SpAttEvs { get; set; } = 0;
-        private int displayedSpAttEvs = 0;
+        private int guessedSpAttEvs = 0;
+        private string guessedSpAttEvsClass = string.Empty;
 
         [Parameter]
         public int SpDefEvs { get; set; } = 0;
-        private int displayedSpDefEvs = 0;
+        private int guessedSpDefEvs = 0;
+        private string guessedSpDefEvsClass = string.Empty;
 
         [Parameter]
         public int SpeEvs { get; set; } = 0;
-        private int displayedSpeEvs = 0;
+        private int guessedSpeEvs = 0;
+        private string guessedSpeEvsClass = string.Empty;
 
         [Parameter]
-        public bool IsShown { get; set; } = true;
+        public bool ShowStats { get; set; } = true;
 
         [Parameter]
-        public bool IsGuessable { get; set; } = true;
+        public bool ShowEvs { get; set; } = true;
+
+        [Parameter]
+        public bool StatIsGuessable { get; set; } = true;
+
+        [Parameter]
+        public bool EvIsGuessable { get; set; } = false;
+
+        private bool StatIsGuessed = false;
+
+        private bool EvIsGuessed = false;
 
         private List<string> chosenEvs = new();
 
-        protected override void OnParametersSet()
-        {
-            base.OnParametersSet();
-            if (IsShown)
-            {
-                ShowStats();
-            }
-            if (!IsGuessable)
-            {
-                ShowEvs();
-            }
-        }
-
-        private void ShowStats()
-        {
-            displayedHP = HP;
-            displayedAtt = Att;
-            displayedDef = Def;
-            displayedSpAtt = SpAtt;
-            displayedSpDef = SpDef;
-            displayedSpe = Spe;
-        }
-
-        private void ShowEvs()
-        {
-            displayedHPEvs = HPEvs;
-            displayedAttEvs = AttEvs;
-            displayedDefEvs = DefEvs;
-            displayedSpAttEvs = SpAttEvs;
-            displayedSpDefEvs = SpDefEvs;
-            displayedSpeEvs = SpeEvs;
-        }
-
-        private void HandleButtonClick(string stat)
+        private void HandleEvButtonClick(string stat)
         {
             if(chosenEvs.Contains(stat))
             {
@@ -121,24 +110,60 @@ namespace BattleFactoryBlindPracticer.Shared
             switch (stat)
             {
                 case "HP":
-                    displayedHPEvs = maxEvs / divider;
+                    guessedHPEvs = maxEvs / divider;
                     break;
                 case "Att":
-                    displayedAttEvs = maxEvs / divider;
+                    guessedAttEvs = maxEvs / divider;
                     break;
                 case "Def":
-                    displayedDefEvs = maxEvs / divider;
+                    guessedDefEvs = maxEvs / divider;
                     break;
                 case "SpAtt":
-                    displayedSpAttEvs = maxEvs / divider;
+                    guessedSpAttEvs = maxEvs / divider;
                     break;
                 case "SpDef":
-                    displayedSpDefEvs = maxEvs / divider;
+                    guessedSpDefEvs = maxEvs / divider;
                     break;
                 case "Spe":
-                    displayedSpeEvs = maxEvs / divider;
+                    guessedSpeEvs = maxEvs / divider;
                     break;
             }
+        }
+
+        private void HandleStatConfirm()
+        {
+            HandleGuessCheck(HP, guessedHP, ref guessedHPClass);
+            HandleGuessCheck(Att, guessedAtt, ref guessedAttClass);
+            HandleGuessCheck(Def, guessedDef, ref guessedDefClass);
+            HandleGuessCheck(SpAtt, guessedSpAtt, ref guessedSpAttClass);
+            HandleGuessCheck(SpDef, guessedSpDef, ref guessedSpDefClass);
+            HandleGuessCheck(Spe, guessedSpe, ref guessedSpeClass);
+            StatIsGuessed = true;
+            StateHasChanged();
+        }
+
+        private void HandleGuessCheck(int answer, int guess, ref string styleClass)
+        {
+            if(answer == guess)
+            {
+                styleClass = "correct";
+            }
+            else
+            {
+                styleClass = "incorrect";
+            }
+        }
+
+        private void HandleEvConfirm()
+        {
+            HandleGuessCheck(HPEvs, guessedHPEvs, ref guessedHPEvsClass);
+            HandleGuessCheck(AttEvs, guessedAttEvs, ref guessedAttEvsClass);
+            HandleGuessCheck(DefEvs, guessedDefEvs, ref guessedDefEvsClass);
+            HandleGuessCheck(SpAttEvs, guessedSpAttEvs, ref guessedSpAttEvsClass);
+            HandleGuessCheck(SpDefEvs, guessedSpDefEvs, ref guessedSpDefEvsClass);
+            HandleGuessCheck(SpeEvs, guessedSpeEvs, ref guessedSpeEvsClass);
+            EvIsGuessed = true;
+            StateHasChanged();
         }
     }
 }

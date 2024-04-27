@@ -10,6 +10,9 @@ namespace BattleFactoryBlindPracticer.Shared
         [Parameter]
         public EventCallback<string> OnButtonPressed { get; set; }
 
+        [Parameter]
+        public bool Disabled { get; set; } = false;
+
         private bool On = false;
 
         private string buttonClass = "unpressed";

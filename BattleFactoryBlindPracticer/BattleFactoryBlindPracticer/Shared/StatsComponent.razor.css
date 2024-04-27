@@ -23,6 +23,7 @@
             grid-column: span 1;
             grid-row: span 1;
             border: 2px solid black;
+            min-width: 82px;
         }
             .stat-container > div > div > p {
                 margin: auto;
@@ -32,7 +33,31 @@
     background-color: #81a4f7;
 }
 
+    .header > p {
+        font-weight: bold;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
 .side-text {
     font-weight: bold;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input{
+    width: 100%;
+    margin: 2px;
+    text-align: center;
+}
+
+    input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+
+.correct {
+    background-color: lightgreen;
+}
+
+.incorrect {
+    background-color: salmon;
 }

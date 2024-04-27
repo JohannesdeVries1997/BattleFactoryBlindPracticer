@@ -22,74 +22,224 @@
             <p>Spe</p>
         </div>
     </div>
-    <div class="stat-row">
-        <div>
-            <p class="side-text">Stats</p>
+    @if (StatIsGuessable)
+    {
+        <div class="stat-row">
+            <div>
+                <p class="side-text">Stats</p>
+            </div>
+            @if (StatIsGuessed)
+            {
+                <div class="stat">
+                    <p>@HP</p>
+                </div>
+                <div class="stat">
+                    <p>@Att</p>
+                </div>
+                <div class="stat">
+                    <p>@Def</p>
+                </div>
+                <div class="stat">
+                    <p>@SpAtt</p>
+                </div>
+                <div class="stat">
+                    <p>@SpDef</p>
+                </div>
+                <div class="stat">
+                    <p>@Spe</p>
+                </div>
+            }
+            else
+            {
+                <div>
+                    <p>?</p>
+                </div>
+                <div>
+                    <p>?</p>
+                </div>
+                <div>
+                    <p>?</p>
+                </div>
+                <div>
+                    <p>?</p>
+                </div>
+                <div>
+                    <p>?</p>
+                </div>
+                <div>
+                    <p>?</p>
+                </div>
+            }
         </div>
-        <div class="stat">
-            <p>@displayedHP</p>
+        <div class="stat-row">
+            <div>
+                <button class="confirm-button" @onclick="@HandleStatConfirm" disabled="@StatIsGuessed">Confirm</button>
+            </div>
+            <div class="stat @guessedHPClass">
+                <input type="number" @bind="@guessedHP" @bind:event="oninput" onclick="this.select()" disabled="@StatIsGuessed" />
+            </div>
+            <div class="stat @guessedAttClass">
+                <input type="number" @bind="@guessedAtt" @bind:event="oninput" onclick="this.select()" disabled="@StatIsGuessed" />
+            </div>
+            <div class="stat @guessedDefClass">
+                <input type="number" @bind="@guessedDef" @bind:event="oninput" onclick="this.select()" disabled="@StatIsGuessed" />
+            </div>
+            <div class="stat @guessedSpAttClass">
+                <input type="number" @bind="@guessedSpAtt" @bind:event="oninput" onclick="this.select()" disabled="@StatIsGuessed" />
+            </div>
+            <div class="stat @guessedSpDefClass">
+                <input type="number" @bind="@guessedSpDef" @bind:event="oninput" onclick="this.select()" disabled="@StatIsGuessed" />
+            </div>
+            <div class="stat @guessedSpeClass">
+                <input type="number" @bind="@guessedSpe" @bind:event="oninput" onclick="this.select()" disabled="@StatIsGuessed" />
+            </div>
         </div>
-        <div class="stat">
-            <p>@displayedAtt</p>
+    }
+    else
+    {
+        <div class="stat-row">
+            <div>
+                <p class="side-text">Stats</p>
+            </div>
+            <div class="stat">
+                <p>@HP</p>
+            </div>
+            <div class="stat">
+                <p>@Att</p>
+            </div>
+            <div class="stat">
+                <p>@Def</p>
+            </div>
+            <div class="stat">
+                <p>@SpAtt</p>
+            </div>
+            <div class="stat">
+                <p>@SpDef</p>
+            </div>
+            <div class="stat">
+                <p>@Spe</p>
+            </div>
         </div>
-        <div class="stat">
-            <p>@displayedDef</p>
+    }
+
+    @if(EvIsGuessable){
+        <div class="ev-row">
+            <div>
+                <p class="side-text">EVs</p>
+            </div>
+            @if (EvIsGuessed)
+            {
+                <div>
+                    <p>@HPEvs</p>
+                </div>
+                <div>
+                    <p>@AttEvs</p>
+                </div>
+                <div>
+                    <p>@DefEvs</p>
+                </div>
+                <div>
+                    <p>@SpAttEvs</p>
+                </div>
+                <div>
+                    <p>@SpDefEvs</p>
+                </div>
+                <div>
+                    <p>@SpeEvs</p>
+                </div>
+            }
+            else
+            {
+                <div>
+                    <p>?</p>
+                </div>
+                <div>
+                    <p>?</p>
+                </div>
+                <div>
+                    <p>?</p>
+                </div>
+                <div>
+                    <p>?</p>
+                </div>
+                <div>
+                    <p>?</p>
+                </div>
+                <div>
+                    <p>?</p>
+                </div>
+            }
         </div>
-        <div class="stat">
-            <p>@displayedSpAtt</p>
-        </div>
-        <div class="stat">
-            <p>@displayedSpDef</p>
-        </div>
-        <div class="stat">
-            <p>@displayedSpe</p>
-        </div>
-    </div>
-    <div class="ev-row">
-        <div>
-            <p class="side-text">EVs</p>
-        </div>
-        <div>
-            <p>@displayedHPEvs</p>
-        </div>
-        <div>
-            <p>@displayedAttEvs</p>
-        </div>
-        <div>
-            <p>@displayedDefEvs</p>
-        </div>
-        <div>
-            <p>@displayedSpAttEvs</p>
-        </div>
-        <div>
-            <p>@displayedSpDefEvs</p>
-        </div>
-        <div>
-            <p>@displayedSpeEvs</p>
-        </div>
-    </div>
-    @if(IsGuessable){
-        <div class="button-row">
+        <div class="ev-row">
             <div>
                 <p class="side-text"></p>
             </div>
+            <div class="@guessedHPEvsClass">
+                <p>@guessedHPEvs</p>
+            </div>
+            <div class="@guessedAttEvsClass">
+                <p>@guessedAttEvs</p>
+            </div>
+            <div class="@guessedDefEvsClass">
+                <p>@guessedDefEvs</p>
+            </div>
+            <div class="@guessedSpAttEvsClass">
+                <p>@guessedSpAttEvs</p>
+            </div>
+            <div class="@guessedSpDefEvsClass">
+                <p>@guessedSpDefEvs</p>
+            </div>
+            <div class="@guessedSpeEvsClass">
+                <p>@guessedSpeEvs</p>
+            </div>
+        </div>
+        <div class="button-row">
             <div>
-                <StatButton Stat="HP" OnButtonPressed="@HandleButtonClick" />
+                <button class="confirm-button" @onclick="@HandleEvConfirm" disabled="@EvIsGuessed">Confirm</button>
             </div>
             <div>
-                <StatButton Stat="Att" OnButtonPressed="@HandleButtonClick" />
+                <StatButton Stat="HP" OnButtonPressed="@HandleEvButtonClick" Disabled="@EvIsGuessed"/>
             </div>
             <div>
-                <StatButton Stat="Def" OnButtonPressed="@HandleButtonClick" />
+                <StatButton Stat="Att" OnButtonPressed="@HandleEvButtonClick" Disabled="@EvIsGuessed" />
             </div>
             <div>
-                <StatButton Stat="SpAtt" OnButtonPressed="@HandleButtonClick" />
+                <StatButton Stat="Def" OnButtonPressed="@HandleEvButtonClick" Disabled="@EvIsGuessed" />
             </div>
             <div>
-                <StatButton Stat="SpDef" OnButtonPressed="@HandleButtonClick" />
+                <StatButton Stat="SpAtt" OnButtonPressed="@HandleEvButtonClick" Disabled="@EvIsGuessed" />
             </div>
             <div>
-                <StatButton Stat="Spe" OnButtonPressed="@HandleButtonClick" />
+                <StatButton Stat="SpDef" OnButtonPressed="@HandleEvButtonClick" Disabled="@EvIsGuessed" />
+            </div>
+            <div>
+                <StatButton Stat="Spe" OnButtonPressed="@HandleEvButtonClick" Disabled="@EvIsGuessed" />
+            </div>
+        </div>
+    }
+    else
+    {
+        <div class="ev-row">
+            <div>
+                <p class="side-text">EVs</p>
+            </div>
+            <div>
+                <p>@HPEvs</p>
+            </div>
+            <div>
+                <p>@AttEvs</p>
+            </div>
+            <div>
+                <p>@DefEvs</p>
+            </div>
+            <div>
+                <p>@SpAttEvs</p>
+            </div>
+            <div>
+                <p>@SpDefEvs</p>
+            </div>
+            <div>
+                <p>@SpeEvs</p>
             </div>
         </div>
     }
