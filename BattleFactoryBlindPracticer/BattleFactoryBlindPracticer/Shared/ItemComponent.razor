@@ -8,6 +8,6 @@
         <GuessComponent IsGuessable=@IsGuessable OnEnterPressed="@ConfirmClick" GuessString="@Item" OptionList="@autoCompleteList" @ref="@guessComponent"/>
     </div>
     <div class="confirm-button-container">
-        <button class="confirm-button" @onclick="@ConfirmClick">Confirm</button>
+        <button class="confirm-button" @onclick="@ConfirmClick" disabled="@confirmButtonDisabled">Confirm</button>
     </div>
 </div>
