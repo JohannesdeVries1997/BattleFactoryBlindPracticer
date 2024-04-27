@@ -66,12 +66,6 @@ namespace BattleFactoryBlindPracticer.Shared
         private string guessedSpeEvsClass = string.Empty;
 
         [Parameter]
-        public bool ShowStats { get; set; } = true;
-
-        [Parameter]
-        public bool ShowEvs { get; set; } = true;
-
-        [Parameter]
         public bool StatIsGuessable { get; set; } = true;
 
         [Parameter]
