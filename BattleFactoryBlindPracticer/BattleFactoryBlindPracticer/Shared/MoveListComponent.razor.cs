@@ -11,6 +11,8 @@ namespace BattleFactoryBlindPracticer.Shared
         [Parameter]
         public string[] Moves { get; set; } = { "None", "None", "None", "None" };
 
+        private bool confirmButtonDisable { get; set; } = false;
+
         private List<string> AllMoves = new();
 
         private GuessComponent Move1 = new();
@@ -24,11 +26,18 @@ namespace BattleFactoryBlindPracticer.Shared
             Move2.HandleGuessCheck();
             Move3.HandleGuessCheck();
             Move4.HandleGuessCheck();
+            confirmButtonDisable = true;
         }
 
         protected override async Task OnInitializedAsync()
         {
             AllMoves = await DataGetter.GetOptionList(_client, "Move");
+        }
+
+        protected override void OnParametersSet()
+        {
+            base.OnParametersSet();
+            confirmButtonDisable = !IsGuessable;
         }
     }
 }
