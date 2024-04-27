@@ -52,10 +52,6 @@ namespace PokemonJSONTool.PokemonDataStrategy
             string increasedStat = pokemonData[6];
             string decreasedStat = pokemonData[7];
             string natureString = $"{StatEffectToNature(increasedStat, decreasedStat)}";
-            if(increasedStat != "-")
-            {
-                natureString += $" ( +{increasedStat}, -{ decreasedStat})";
-            }
             battleFactorySet.Nature = natureString;
 
             var evs = GetOrderedEvs(pokemonData.SubArray(8, 6));
