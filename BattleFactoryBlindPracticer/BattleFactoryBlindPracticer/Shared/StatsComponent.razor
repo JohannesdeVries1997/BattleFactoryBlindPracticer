@@ -1,0 +1,96 @@
+﻿<div class="stat-container">
+    <div class="header-row">
+        <div class="header">
+            <p></p>
+        </div>
+        <div class="header">
+            <p>HP</p>
+        </div>
+        <div class="header">
+            <p>Att</p>
+        </div>
+        <div class="header">
+            <p>Def</p>
+        </div>
+        <div class="header">
+            <p>SpAtt</p>
+        </div>
+        <div class="header">
+            <p>SpDef</p>
+        </div>
+        <div class="header">
+            <p>Spe</p>
+        </div>
+    </div>
+    <div class="stat-row">
+        <div>
+            <p class="side-text">Stats</p>
+        </div>
+        <div class="stat">
+            <p>@displayedHP</p>
+        </div>
+        <div class="stat">
+            <p>@displayedAtt</p>
+        </div>
+        <div class="stat">
+            <p>@displayedDef</p>
+        </div>
+        <div class="stat">
+            <p>@displayedSpAtt</p>
+        </div>
+        <div class="stat">
+            <p>@displayedSpDef</p>
+        </div>
+        <div class="stat">
+            <p>@displayedSpe</p>
+        </div>
+    </div>
+    <div class="ev-row">
+        <div>
+            <p class="side-text">EVs</p>
+        </div>
+        <div>
+            <p>@displayedHPEvs</p>
+        </div>
+        <div>
+            <p>@displayedAttEvs</p>
+        </div>
+        <div>
+            <p>@displayedDefEvs</p>
+        </div>
+        <div>
+            <p>@displayedSpAttEvs</p>
+        </div>
+        <div>
+            <p>@displayedSpDefEvs</p>
+        </div>
+        <div>
+            <p>@displayedSpeEvs</p>
+        </div>
+    </div>
+    @if(IsGuessable){
+        <div class="button-row">
+            <div>
+                <p class="side-text"></p>
+            </div>
+            <div>
+                <StatButton Stat="HP" OnButtonPressed="@HandleButtonClick" />
+            </div>
+            <div>
+                <StatButton Stat="Att" OnButtonPressed="@HandleButtonClick" />
+            </div>
+            <div>
+                <StatButton Stat="Def" OnButtonPressed="@HandleButtonClick" />
+            </div>
+            <div>
+                <StatButton Stat="SpAtt" OnButtonPressed="@HandleButtonClick" />
+            </div>
+            <div>
+                <StatButton Stat="SpDef" OnButtonPressed="@HandleButtonClick" />
+            </div>
+            <div>
+                <StatButton Stat="Spe" OnButtonPressed="@HandleButtonClick" />
+            </div>
+        </div>
+    }
+</div>

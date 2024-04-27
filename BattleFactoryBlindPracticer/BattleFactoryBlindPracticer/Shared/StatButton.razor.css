@@ -1,0 +1,31 @@
+﻿body {
+}
+
+button {
+    box-sizing: border-box;
+    border-radius: 10%;
+    width: 75%;
+    height: 80%;
+    margin: 3px;
+    border-color: grey;
+}
+
+    button:hover {
+        background-color: white;
+    }
+
+.pressed {
+    background-color: lightgreen;
+}
+
+    .pressed:hover {
+        border-color: lightgreen;
+    }
+
+.unpressed {
+    background-color: salmon;
+}
+
+    .unpressed:hover {
+        border-color: salmon;
+    }
