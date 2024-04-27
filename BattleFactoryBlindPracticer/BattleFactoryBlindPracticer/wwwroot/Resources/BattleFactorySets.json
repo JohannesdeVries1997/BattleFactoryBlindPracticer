@@ -42,7 +42,7 @@
       "Light Screen"
     ],
     "Item": "Persim Berry",
-    "Nature": "Naughty ( +Atk, -SpDef)",
+    "Nature": "Naughty",
     "HPEv": 255,
     "AttEv": 0,
     "DefEv": 0,
@@ -127,7 +127,7 @@
       "Rest"
     ],
     "Item": "Chesto Berry",
-    "Nature": "Relaxed ( +Def, -Speed)",
+    "Nature": "Relaxed",
     "HPEv": 255,
     "AttEv": 255,
     "DefEv": 0,
@@ -178,7 +178,7 @@
       "Sandstorm"
     ],
     "Item": "Lax Incense",
-    "Nature": "Naughty ( +Atk, -SpDef)",
+    "Nature": "Naughty",
     "HPEv": 255,
     "AttEv": 255,
     "DefEv": 0,
@@ -195,7 +195,7 @@
       "Confuse Ray"
     ],
     "Item": "Sitrus Berry",
-    "Nature": "Relaxed ( +Def, -Speed)",
+    "Nature": "Relaxed",
     "HPEv": 255,
     "AttEv": 0,
     "DefEv": 0,
@@ -229,7 +229,7 @@
       "Rain Dance"
     ],
     "Item": "Quick Claw",
-    "Nature": "Relaxed ( +Def, -Speed)",
+    "Nature": "Relaxed",
     "HPEv": 255,
     "AttEv": 0,
     "DefEv": 0,
@@ -467,7 +467,7 @@
       "Agility"
     ],
     "Item": "Stick",
-    "Nature": "Relaxed ( +Def, -Speed)",
+    "Nature": "Relaxed",
     "HPEv": 170,
     "AttEv": 0,
     "DefEv": 170,
@@ -552,7 +552,7 @@
       "Agility"
     ],
     "Item": "Silk Scarf",
-    "Nature": "Relaxed ( +Def, -Speed)",
+    "Nature": "Relaxed",
     "HPEv": 255,
     "AttEv": 255,
     "DefEv": 0,
@@ -569,7 +569,7 @@
       "Light Screen"
     ],
     "Item": "Cheri Berry",
-    "Nature": "Naive ( +Speed, -SpDef)",
+    "Nature": "Naive",
     "HPEv": 255,
     "AttEv": 0,
     "DefEv": 0,
@@ -586,7 +586,7 @@
       "Supersonic"
     ],
     "Item": "Focus Band",
-    "Nature": "Relaxed ( +Def, -Speed)",
+    "Nature": "Relaxed",
     "HPEv": 255,
     "AttEv": 255,
     "DefEv": 0,
@@ -603,7 +603,7 @@
       "Faint Attack"
     ],
     "Item": "Sitrus Berry",
-    "Nature": "Relaxed ( +Def, -Speed)",
+    "Nature": "Relaxed",
     "HPEv": 255,
     "AttEv": 255,
     "DefEv": 0,
@@ -654,7 +654,7 @@
       "Light Screen"
     ],
     "Item": "Magnet",
-    "Nature": "Mild ( +SpAtk, -Def)",
+    "Nature": "Mild",
     "HPEv": 255,
     "AttEv": 0,
     "DefEv": 0,
@@ -688,7 +688,7 @@
       "Sandstorm"
     ],
     "Item": "Hard Stone",
-    "Nature": "Sassy ( +SpDef, -Speed)",
+    "Nature": "Sassy",
     "HPEv": 255,
     "AttEv": 0,
     "DefEv": 0,
@@ -705,7 +705,7 @@
       "Ancientpower"
     ],
     "Item": "Sitrus Berry",
-    "Nature": "Impish ( +Def, -SpAtk)",
+    "Nature": "Impish",
     "HPEv": 170,
     "AttEv": 0,
     "DefEv": 170,
@@ -756,7 +756,7 @@
       "Agility"
     ],
     "Item": "Scope Lens",
-    "Nature": "Naughty ( +Atk, -SpDef)",
+    "Nature": "Naughty",
     "HPEv": 0,
     "AttEv": 255,
     "DefEv": 0,
@@ -875,7 +875,7 @@
       "Detect"
     ],
     "Item": "Lax Incense",
-    "Nature": "Relaxed ( +Def, -Speed)",
+    "Nature": "Relaxed",
     "HPEv": 0,
     "AttEv": 0,
     "DefEv": 255,
@@ -892,7 +892,7 @@
       "Heal Bell"
     ],
     "Item": "Sitrus Berry",
-    "Nature": "Lonely ( +Atk, -Def)",
+    "Nature": "Lonely",
     "HPEv": 255,
     "AttEv": 255,
     "DefEv": 0,
@@ -909,7 +909,7 @@
       "Fake Out"
     ],
     "Item": "Black Glasses",
-    "Nature": "Lonely ( +Atk, -Def)",
+    "Nature": "Lonely",
     "HPEv": 255,
     "AttEv": 255,
     "DefEv": 0,
@@ -943,7 +943,7 @@
       "Sweet Scent"
     ],
     "Item": "Scope Lens",
-    "Nature": "Quiet ( +SpAtk, -Speed)",
+    "Nature": "Quiet",
     "HPEv": 255,
     "AttEv": 0,
     "DefEv": 0,
@@ -960,7 +960,7 @@
       "Brick Break"
     ],
     "Item": "Focus Band",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 170,
     "AttEv": 170,
     "DefEv": 0,
@@ -994,7 +994,7 @@
       "Agility"
     ],
     "Item": "Sitrus Berry",
-    "Nature": "Relaxed ( +Def, -Speed)",
+    "Nature": "Relaxed",
     "HPEv": 255,
     "AttEv": 0,
     "DefEv": 0,
@@ -1011,7 +1011,7 @@
       "Disable"
     ],
     "Item": "Twisted Spoon",
-    "Nature": "Impish ( +Def, -SpAtk)",
+    "Nature": "Impish",
     "HPEv": 255,
     "AttEv": 0,
     "DefEv": 255,
@@ -1096,7 +1096,7 @@
       "Fury Cutter"
     ],
     "Item": "Persim Berry",
-    "Nature": "Gentle ( +SpDef, -Def)",
+    "Nature": "Gentle",
     "HPEv": 255,
     "AttEv": 0,
     "DefEv": 0,
@@ -1113,7 +1113,7 @@
       "Aerial Ace"
     ],
     "Item": "Scope Lens",
-    "Nature": "Naughty ( +Atk, -SpDef)",
+    "Nature": "Naughty",
     "HPEv": 255,
     "AttEv": 255,
     "DefEv": 0,
@@ -1147,7 +1147,7 @@
       "Flash"
     ],
     "Item": "Sitrus Berry",
-    "Nature": "Rash ( +SpAtk, -SpDef)",
+    "Nature": "Rash",
     "HPEv": 0,
     "AttEv": 0,
     "DefEv": 255,
@@ -1164,7 +1164,7 @@
       "Scary Face"
     ],
     "Item": "Focus Band",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 255,
     "AttEv": 0,
     "DefEv": 0,
@@ -1181,7 +1181,7 @@
       "Grudge"
     ],
     "Item": "Persim Berry",
-    "Nature": "Rash ( +SpAtk, -SpDef)",
+    "Nature": "Rash",
     "HPEv": 255,
     "AttEv": 255,
     "DefEv": 0,
@@ -1249,7 +1249,7 @@
       "Follow Me"
     ],
     "Item": "Lax Incense",
-    "Nature": "Relaxed ( +Def, -Speed)",
+    "Nature": "Relaxed",
     "HPEv": 255,
     "AttEv": 0,
     "DefEv": 255,
@@ -1283,7 +1283,7 @@
       "Safeguard"
     ],
     "Item": "Focus Band",
-    "Nature": "Careful ( +SpDef, -SpAtk)",
+    "Nature": "Careful",
     "HPEv": 170,
     "AttEv": 0,
     "DefEv": 170,
@@ -1334,7 +1334,7 @@
       "Double Team"
     ],
     "Item": "Bright Powder",
-    "Nature": "Relaxed ( +Def, -Speed)",
+    "Nature": "Relaxed",
     "HPEv": 255,
     "AttEv": 255,
     "DefEv": 0,
@@ -1436,7 +1436,7 @@
       "Sandstorm"
     ],
     "Item": "Lax Incense",
-    "Nature": "Gentle ( +SpDef, -Def)",
+    "Nature": "Gentle",
     "HPEv": 255,
     "AttEv": 0,
     "DefEv": 0,
@@ -1487,7 +1487,7 @@
       "Quick Attack"
     ],
     "Item": "Silk Scarf",
-    "Nature": "Naive ( +Speed, -SpDef)",
+    "Nature": "Naive",
     "HPEv": 170,
     "AttEv": 170,
     "DefEv": 0,
@@ -1504,7 +1504,7 @@
       "Stun Spore"
     ],
     "Item": "Cheri Berry",
-    "Nature": "Relaxed ( +Def, -Speed)",
+    "Nature": "Relaxed",
     "HPEv": 0,
     "AttEv": 255,
     "DefEv": 255,
@@ -1572,7 +1572,7 @@
       "Roar"
     ],
     "Item": "Mental Herb",
-    "Nature": "Timid ( +Speed, -Atk)",
+    "Nature": "Timid",
     "HPEv": 0,
     "AttEv": 255,
     "DefEv": 0,
@@ -1589,7 +1589,7 @@
       "Tickle"
     ],
     "Item": "White Herb",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 255,
     "AttEv": 255,
     "DefEv": 0,
@@ -1606,7 +1606,7 @@
       "Icy Wind"
     ],
     "Item": "Petaya Berry",
-    "Nature": "Hasty ( +Speed, -Def)",
+    "Nature": "Hasty",
     "HPEv": 255,
     "AttEv": 0,
     "DefEv": 0,
@@ -1657,7 +1657,7 @@
       "Secret Power"
     ],
     "Item": "Silk Scarf",
-    "Nature": "Relaxed ( +Def, -Speed)",
+    "Nature": "Relaxed",
     "HPEv": 0,
     "AttEv": 0,
     "DefEv": 255,
@@ -1691,7 +1691,7 @@
       "Safeguard"
     ],
     "Item": "Twisted Spoon",
-    "Nature": "Sassy ( +SpDef, -Speed)",
+    "Nature": "Sassy",
     "HPEv": 255,
     "AttEv": 0,
     "DefEv": 0,
@@ -1708,7 +1708,7 @@
       "Quick Attack"
     ],
     "Item": "Scope Lens",
-    "Nature": "Hasty ( +Speed, -Def)",
+    "Nature": "Hasty",
     "HPEv": 255,
     "AttEv": 0,
     "DefEv": 0,
@@ -1725,7 +1725,7 @@
       "Minimize"
     ],
     "Item": "Cheri Berry",
-    "Nature": "Impish ( +Def, -SpAtk)",
+    "Nature": "Impish",
     "HPEv": 0,
     "AttEv": 0,
     "DefEv": 0,
@@ -1742,7 +1742,7 @@
       "Quick Attack"
     ],
     "Item": "Persim Berry",
-    "Nature": "Relaxed ( +Def, -Speed)",
+    "Nature": "Relaxed",
     "HPEv": 170,
     "AttEv": 0,
     "DefEv": 170,
@@ -1759,7 +1759,7 @@
       "Swallow"
     ],
     "Item": "Sitrus Berry",
-    "Nature": "Quiet ( +SpAtk, -Speed)",
+    "Nature": "Quiet",
     "HPEv": 255,
     "AttEv": 0,
     "DefEv": 0,
@@ -1776,7 +1776,7 @@
       "Quick Attack"
     ],
     "Item": "Kings Rock",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 255,
     "AttEv": 0,
     "DefEv": 0,
@@ -1793,7 +1793,7 @@
       "Protect"
     ],
     "Item": "Metal Coat",
-    "Nature": "Sassy ( +SpDef, -Speed)",
+    "Nature": "Sassy",
     "HPEv": 255,
     "AttEv": 0,
     "DefEv": 0,
@@ -1827,7 +1827,7 @@
       "Glare"
     ],
     "Item": "Persim Berry",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 255,
     "AttEv": 255,
     "DefEv": 0,
@@ -1861,7 +1861,7 @@
       "Rain Dance"
     ],
     "Item": "Mystic Water",
-    "Nature": "Sassy ( +SpDef, -Speed)",
+    "Nature": "Sassy",
     "HPEv": 255,
     "AttEv": 0,
     "DefEv": 0,
@@ -1878,7 +1878,7 @@
       "Seismic Toss"
     ],
     "Item": "Focus Band",
-    "Nature": "Naive ( +Speed, -SpDef)",
+    "Nature": "Naive",
     "HPEv": 170,
     "AttEv": 170,
     "DefEv": 170,
@@ -1895,7 +1895,7 @@
       "Uproar"
     ],
     "Item": "Focus Band",
-    "Nature": "Lonely ( +Atk, -Def)",
+    "Nature": "Lonely",
     "HPEv": 255,
     "AttEv": 255,
     "DefEv": 0,
@@ -1912,7 +1912,7 @@
       "Sandstorm"
     ],
     "Item": "Sitrus Berry",
-    "Nature": "Quiet ( +SpAtk, -Speed)",
+    "Nature": "Quiet",
     "HPEv": 255,
     "AttEv": 0,
     "DefEv": 255,
@@ -1929,7 +1929,7 @@
       "Sandstorm"
     ],
     "Item": "Sitrus Berry",
-    "Nature": "Quiet ( +SpAtk, -Speed)",
+    "Nature": "Quiet",
     "HPEv": 255,
     "AttEv": 0,
     "DefEv": 0,
@@ -1946,7 +1946,7 @@
       "Reflect"
     ],
     "Item": "Persim Berry",
-    "Nature": "Relaxed ( +Def, -Speed)",
+    "Nature": "Relaxed",
     "HPEv": 255,
     "AttEv": 0,
     "DefEv": 255,
@@ -1963,7 +1963,7 @@
       "Sandstorm"
     ],
     "Item": "Sitrus Berry",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 255,
     "AttEv": 0,
     "DefEv": 0,
@@ -1997,7 +1997,7 @@
       "Minimize"
     ],
     "Item": "Sitrus Berry",
-    "Nature": "Relaxed ( +Def, -Speed)",
+    "Nature": "Relaxed",
     "HPEv": 0,
     "AttEv": 0,
     "DefEv": 255,
@@ -2065,7 +2065,7 @@
       "Steel Wing"
     ],
     "Item": "Scope Lens",
-    "Nature": "Relaxed ( +Def, -Speed)",
+    "Nature": "Relaxed",
     "HPEv": 255,
     "AttEv": 255,
     "DefEv": 0,
@@ -2099,7 +2099,7 @@
       "Facade"
     ],
     "Item": "Black Belt",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 255,
     "AttEv": 0,
     "DefEv": 255,
@@ -2116,7 +2116,7 @@
       "Counter"
     ],
     "Item": "Kings Rock",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 255,
     "AttEv": 0,
     "DefEv": 255,
@@ -2133,7 +2133,7 @@
       "Skill Swap"
     ],
     "Item": "Petaya Berry",
-    "Nature": "Quiet ( +SpAtk, -Speed)",
+    "Nature": "Quiet",
     "HPEv": 255,
     "AttEv": 0,
     "DefEv": 0,
@@ -2167,7 +2167,7 @@
       "Knock Off"
     ],
     "Item": "Rawst Berry",
-    "Nature": "Sassy ( +SpDef, -Speed)",
+    "Nature": "Sassy",
     "HPEv": 170,
     "AttEv": 0,
     "DefEv": 170,
@@ -2184,7 +2184,7 @@
       "Dig"
     ],
     "Item": "Petaya Berry",
-    "Nature": "Mild ( +SpAtk, -Def)",
+    "Nature": "Mild",
     "HPEv": 170,
     "AttEv": 0,
     "DefEv": 170,
@@ -2252,7 +2252,7 @@
       "Scary Face"
     ],
     "Item": "Scope Lens",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 0,
     "AttEv": 255,
     "DefEv": 0,
@@ -2286,7 +2286,7 @@
       "Supersonic"
     ],
     "Item": "Cheri Berry",
-    "Nature": "Lonely ( +Atk, -Def)",
+    "Nature": "Lonely",
     "HPEv": 0,
     "AttEv": 0,
     "DefEv": 0,
@@ -2320,7 +2320,7 @@
       "Sand-Attack"
     ],
     "Item": "Twisted Spoon",
-    "Nature": "Gentle ( +SpDef, -Def)",
+    "Nature": "Gentle",
     "HPEv": 255,
     "AttEv": 0,
     "DefEv": 0,
@@ -2337,7 +2337,7 @@
       "Quick Attack"
     ],
     "Item": "Bright Powder",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 255,
     "AttEv": 255,
     "DefEv": 0,
@@ -2371,7 +2371,7 @@
       "Protect"
     ],
     "Item": "Persim Berry",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 170,
     "AttEv": 0,
     "DefEv": 170,
@@ -2405,7 +2405,7 @@
       "Magic Coat"
     ],
     "Item": "Petaya Berry",
-    "Nature": "Relaxed ( +Def, -Speed)",
+    "Nature": "Relaxed",
     "HPEv": 255,
     "AttEv": 0,
     "DefEv": 0,
@@ -2422,7 +2422,7 @@
       "Amnesia"
     ],
     "Item": "Sitrus Berry",
-    "Nature": "Relaxed ( +Def, -Speed)",
+    "Nature": "Relaxed",
     "HPEv": 255,
     "AttEv": 0,
     "DefEv": 0,
@@ -2456,7 +2456,7 @@
       "Mega Punch"
     ],
     "Item": "Scope Lens",
-    "Nature": "Hasty ( +Speed, -Def)",
+    "Nature": "Hasty",
     "HPEv": 255,
     "AttEv": 0,
     "DefEv": 0,
@@ -2473,7 +2473,7 @@
       "Synthesis"
     ],
     "Item": "Persim Berry",
-    "Nature": "Quiet ( +SpAtk, -Speed)",
+    "Nature": "Quiet",
     "HPEv": 255,
     "AttEv": 0,
     "DefEv": 0,
@@ -2507,7 +2507,7 @@
       "Bite"
     ],
     "Item": "Persim Berry",
-    "Nature": "Quiet ( +SpAtk, -Speed)",
+    "Nature": "Quiet",
     "HPEv": 255,
     "AttEv": 255,
     "DefEv": 0,
@@ -2524,7 +2524,7 @@
       "Confusion"
     ],
     "Item": "Persim Berry",
-    "Nature": "Brave ( +Atk, -Speed)",
+    "Nature": "Brave",
     "HPEv": 255,
     "AttEv": 0,
     "DefEv": 0,
@@ -2541,7 +2541,7 @@
       "Amnesia"
     ],
     "Item": "Liechi Berry",
-    "Nature": "Sassy ( +SpDef, -Speed)",
+    "Nature": "Sassy",
     "HPEv": 170,
     "AttEv": 0,
     "DefEv": 0,
@@ -2575,7 +2575,7 @@
       "Knock Off"
     ],
     "Item": "Scope Lens",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 255,
     "AttEv": 255,
     "DefEv": 0,
@@ -2592,7 +2592,7 @@
       "Bubblebeam"
     ],
     "Item": "Black Belt",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 255,
     "AttEv": 255,
     "DefEv": 0,
@@ -2609,7 +2609,7 @@
       "Double Team"
     ],
     "Item": "Liechi Berry",
-    "Nature": "Relaxed ( +Def, -Speed)",
+    "Nature": "Relaxed",
     "HPEv": 255,
     "AttEv": 255,
     "DefEv": 0,
@@ -2626,7 +2626,7 @@
       "Revenge"
     ],
     "Item": "Black Belt",
-    "Nature": "Naughty ( +Atk, -SpDef)",
+    "Nature": "Naughty",
     "HPEv": 255,
     "AttEv": 255,
     "DefEv": 0,
@@ -2643,7 +2643,7 @@
       "Swagger"
     ],
     "Item": "Shell Bell",
-    "Nature": "Relaxed ( +Def, -Speed)",
+    "Nature": "Relaxed",
     "HPEv": 0,
     "AttEv": 0,
     "DefEv": 255,
@@ -2660,7 +2660,7 @@
       "Protect"
     ],
     "Item": "Never Melt Ice",
-    "Nature": "Sassy ( +SpDef, -Speed)",
+    "Nature": "Sassy",
     "HPEv": 255,
     "AttEv": 0,
     "DefEv": 0,
@@ -2677,7 +2677,7 @@
       "Ice Beam"
     ],
     "Item": "Quick Claw",
-    "Nature": "Modest ( +SpAtk, -Atk)",
+    "Nature": "Modest",
     "HPEv": 0,
     "AttEv": 0,
     "DefEv": 0,
@@ -2711,7 +2711,7 @@
       "Rock Slide"
     ],
     "Item": "Cheri Berry",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 0,
     "AttEv": 170,
     "DefEv": 170,
@@ -2745,7 +2745,7 @@
       "Counter"
     ],
     "Item": "Focus Band",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 255,
     "AttEv": 0,
     "DefEv": 0,
@@ -2779,7 +2779,7 @@
       "Recover"
     ],
     "Item": "Cheri Berry",
-    "Nature": "Quiet ( +SpAtk, -Speed)",
+    "Nature": "Quiet",
     "HPEv": 0,
     "AttEv": 255,
     "DefEv": 0,
@@ -2796,7 +2796,7 @@
       "Recover"
     ],
     "Item": "Twisted Spoon",
-    "Nature": "Modest ( +SpAtk, -Atk)",
+    "Nature": "Modest",
     "HPEv": 255,
     "AttEv": 0,
     "DefEv": 255,
@@ -2932,7 +2932,7 @@
       "Double Team"
     ],
     "Item": "Leftovers",
-    "Nature": "Calm ( +SpDef, -Atk)",
+    "Nature": "Calm",
     "HPEv": 170,
     "AttEv": 0,
     "DefEv": 170,
@@ -2949,7 +2949,7 @@
       "Scary Face"
     ],
     "Item": "Scope Lens",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 255,
     "AttEv": 255,
     "DefEv": 0,
@@ -2966,7 +2966,7 @@
       "Confuse Ray"
     ],
     "Item": "Lum Berry",
-    "Nature": "Relaxed ( +Def, -Speed)",
+    "Nature": "Relaxed",
     "HPEv": 170,
     "AttEv": 0,
     "DefEv": 170,
@@ -3017,7 +3017,7 @@
       "Dig"
     ],
     "Item": "Focus Band",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 255,
     "AttEv": 255,
     "DefEv": 0,
@@ -3034,7 +3034,7 @@
       "Yawn"
     ],
     "Item": "Scope Lens",
-    "Nature": "Relaxed ( +Def, -Speed)",
+    "Nature": "Relaxed",
     "HPEv": 255,
     "AttEv": 0,
     "DefEv": 255,
@@ -3068,7 +3068,7 @@
       "Destiny Bond"
     ],
     "Item": "Focus Band",
-    "Nature": "Careful ( +SpDef, -SpAtk)",
+    "Nature": "Careful",
     "HPEv": 0,
     "AttEv": 0,
     "DefEv": 255,
@@ -3187,7 +3187,7 @@
       "Dig"
     ],
     "Item": "Shell Bell",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 255,
     "AttEv": 0,
     "DefEv": 0,
@@ -3221,7 +3221,7 @@
       "Body Slam"
     ],
     "Item": "Quick Claw",
-    "Nature": "Quiet ( +SpAtk, -Speed)",
+    "Nature": "Quiet",
     "HPEv": 255,
     "AttEv": 0,
     "DefEv": 0,
@@ -3255,7 +3255,7 @@
       "Hail"
     ],
     "Item": "Sitrus Berry",
-    "Nature": "Quiet ( +SpAtk, -Speed)",
+    "Nature": "Quiet",
     "HPEv": 255,
     "AttEv": 0,
     "DefEv": 0,
@@ -3272,7 +3272,7 @@
       "Scary Face"
     ],
     "Item": "Focus Band",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 0,
     "AttEv": 255,
     "DefEv": 0,
@@ -3289,7 +3289,7 @@
       "Stun Spore"
     ],
     "Item": "Lax Incense",
-    "Nature": "Quiet ( +SpAtk, -Speed)",
+    "Nature": "Quiet",
     "HPEv": 0,
     "AttEv": 0,
     "DefEv": 255,
@@ -3306,7 +3306,7 @@
       "Follow Me"
     ],
     "Item": "Choice Band",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 0,
     "AttEv": 255,
     "DefEv": 0,
@@ -3323,7 +3323,7 @@
       "Shadow Ball"
     ],
     "Item": "Lax Incense",
-    "Nature": "Quiet ( +SpAtk, -Speed)",
+    "Nature": "Quiet",
     "HPEv": 0,
     "AttEv": 0,
     "DefEv": 255,
@@ -3340,7 +3340,7 @@
       "Dragon Dance"
     ],
     "Item": "Chesto Berry",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 255,
     "AttEv": 0,
     "DefEv": 0,
@@ -3374,7 +3374,7 @@
       "Sand-Attack"
     ],
     "Item": "Choice Band",
-    "Nature": "Jolly ( +Speed, -SpAtk)",
+    "Nature": "Jolly",
     "HPEv": 0,
     "AttEv": 255,
     "DefEv": 0,
@@ -3391,7 +3391,7 @@
       "Water Pulse"
     ],
     "Item": "Lax Incense",
-    "Nature": "Modest ( +SpAtk, -Atk)",
+    "Nature": "Modest",
     "HPEv": 255,
     "AttEv": 0,
     "DefEv": 0,
@@ -3459,7 +3459,7 @@
       "Double Team"
     ],
     "Item": "Leftovers",
-    "Nature": "Quiet ( +SpAtk, -Speed)",
+    "Nature": "Quiet",
     "HPEv": 255,
     "AttEv": 0,
     "DefEv": 255,
@@ -3476,7 +3476,7 @@
       "Heal Bell"
     ],
     "Item": "Twisted Spoon",
-    "Nature": "Quiet ( +SpAtk, -Speed)",
+    "Nature": "Quiet",
     "HPEv": 170,
     "AttEv": 0,
     "DefEv": 170,
@@ -3493,7 +3493,7 @@
       "Screech"
     ],
     "Item": "Quick Claw",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 255,
     "AttEv": 0,
     "DefEv": 0,
@@ -3510,7 +3510,7 @@
       "Destiny Bond"
     ],
     "Item": "Focus Band",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 255,
     "AttEv": 0,
     "DefEv": 0,
@@ -3527,7 +3527,7 @@
       "Screech"
     ],
     "Item": "Kings Rock",
-    "Nature": "Jolly ( +Speed, -SpAtk)",
+    "Nature": "Jolly",
     "HPEv": 170,
     "AttEv": 0,
     "DefEv": 170,
@@ -3544,7 +3544,7 @@
       "Protect"
     ],
     "Item": "Shell Bell",
-    "Nature": "Quiet ( +SpAtk, -Speed)",
+    "Nature": "Quiet",
     "HPEv": 255,
     "AttEv": 0,
     "DefEv": 0,
@@ -3561,7 +3561,7 @@
       "Double Team"
     ],
     "Item": "Kings Rock",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 255,
     "AttEv": 0,
     "DefEv": 0,
@@ -3578,7 +3578,7 @@
       "Protect"
     ],
     "Item": "Sitrus Berry",
-    "Nature": "Sassy ( +SpDef, -Speed)",
+    "Nature": "Sassy",
     "HPEv": 255,
     "AttEv": 0,
     "DefEv": 0,
@@ -3595,7 +3595,7 @@
       "Amnesia"
     ],
     "Item": "Chesto Berry",
-    "Nature": "Calm ( +SpDef, -Atk)",
+    "Nature": "Calm",
     "HPEv": 255,
     "AttEv": 0,
     "DefEv": 0,
@@ -3612,7 +3612,7 @@
       "Glare"
     ],
     "Item": "Lum Berry",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 255,
     "AttEv": 0,
     "DefEv": 255,
@@ -3680,7 +3680,7 @@
       "Shadow Ball"
     ],
     "Item": "Salac Berry",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 0,
     "AttEv": 255,
     "DefEv": 0,
@@ -3697,7 +3697,7 @@
       "Calm Mind"
     ],
     "Item": "Lax Incense",
-    "Nature": "Quiet ( +SpAtk, -Speed)",
+    "Nature": "Quiet",
     "HPEv": 255,
     "AttEv": 0,
     "DefEv": 255,
@@ -3731,7 +3731,7 @@
       "Reflect"
     ],
     "Item": "Persim Berry",
-    "Nature": "Quiet ( +SpAtk, -Speed)",
+    "Nature": "Quiet",
     "HPEv": 0,
     "AttEv": 0,
     "DefEv": 255,
@@ -3748,7 +3748,7 @@
       "Sandstorm"
     ],
     "Item": "Quick Claw",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 255,
     "AttEv": 0,
     "DefEv": 0,
@@ -3782,7 +3782,7 @@
       "Softboiled"
     ],
     "Item": "Leftovers",
-    "Nature": "Relaxed ( +Def, -Speed)",
+    "Nature": "Relaxed",
     "HPEv": 0,
     "AttEv": 0,
     "DefEv": 255,
@@ -3799,7 +3799,7 @@
       "Rest"
     ],
     "Item": "Quick Claw",
-    "Nature": "Impish ( +Def, -SpAtk)",
+    "Nature": "Impish",
     "HPEv": 170,
     "AttEv": 0,
     "DefEv": 170,
@@ -3816,7 +3816,7 @@
       "Double Team"
     ],
     "Item": "Leftovers",
-    "Nature": "Bold ( +Def, -Atk)",
+    "Nature": "Bold",
     "HPEv": 0,
     "AttEv": 0,
     "DefEv": 255,
@@ -3833,7 +3833,7 @@
       "Roar"
     ],
     "Item": "Shell Bell",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 0,
     "AttEv": 0,
     "DefEv": 255,
@@ -3850,7 +3850,7 @@
       "Air Cutter"
     ],
     "Item": "Scope Lens",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 255,
     "AttEv": 255,
     "DefEv": 0,
@@ -3884,7 +3884,7 @@
       "Rock Tomb"
     ],
     "Item": "Lax Incense",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 255,
     "AttEv": 0,
     "DefEv": 255,
@@ -3901,7 +3901,7 @@
       "Counter"
     ],
     "Item": "Kings Rock",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 255,
     "AttEv": 0,
     "DefEv": 255,
@@ -3918,7 +3918,7 @@
       "Agility"
     ],
     "Item": "Lum Berry",
-    "Nature": "Modest ( +SpAtk, -Atk)",
+    "Nature": "Modest",
     "HPEv": 0,
     "AttEv": 0,
     "DefEv": 255,
@@ -3935,7 +3935,7 @@
       "Counter"
     ],
     "Item": "Focus Band",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 255,
     "AttEv": 0,
     "DefEv": 255,
@@ -3952,7 +3952,7 @@
       "Will-O-Wisp"
     ],
     "Item": "Lax Incense",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 0,
     "AttEv": 0,
     "DefEv": 255,
@@ -4003,7 +4003,7 @@
       "Aerial Ace"
     ],
     "Item": "Scope Lens",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 0,
     "AttEv": 255,
     "DefEv": 0,
@@ -4054,7 +4054,7 @@
       "Body Slam"
     ],
     "Item": "Focus Band",
-    "Nature": "Quiet ( +SpAtk, -Speed)",
+    "Nature": "Quiet",
     "HPEv": 0,
     "AttEv": 255,
     "DefEv": 0,
@@ -4088,7 +4088,7 @@
       "Confuse Ray"
     ],
     "Item": "Shell Bell",
-    "Nature": "Modest ( +SpAtk, -Atk)",
+    "Nature": "Modest",
     "HPEv": 255,
     "AttEv": 0,
     "DefEv": 255,
@@ -4105,7 +4105,7 @@
       "Confuse Ray"
     ],
     "Item": "Lax Incense",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 0,
     "AttEv": 255,
     "DefEv": 0,
@@ -4122,7 +4122,7 @@
       "Iron Tail"
     ],
     "Item": "Choice Band",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 0,
     "AttEv": 255,
     "DefEv": 0,
@@ -4139,7 +4139,7 @@
       "Counter"
     ],
     "Item": "Leftovers",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 255,
     "AttEv": 255,
     "DefEv": 0,
@@ -4156,7 +4156,7 @@
       "Aerial Ace"
     ],
     "Item": "Quick Claw",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 255,
     "AttEv": 0,
     "DefEv": 0,
@@ -4173,7 +4173,7 @@
       "Mud-Slap"
     ],
     "Item": "Scope Lens",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 0,
     "AttEv": 255,
     "DefEv": 0,
@@ -4190,7 +4190,7 @@
       "Fire Punch"
     ],
     "Item": "Lum Berry",
-    "Nature": "Modest ( +SpAtk, -Atk)",
+    "Nature": "Modest",
     "HPEv": 0,
     "AttEv": 0,
     "DefEv": 255,
@@ -4207,7 +4207,7 @@
       "Protect"
     ],
     "Item": "White Herb",
-    "Nature": "Sassy ( +SpDef, -Speed)",
+    "Nature": "Sassy",
     "HPEv": 255,
     "AttEv": 0,
     "DefEv": 0,
@@ -4224,7 +4224,7 @@
       "Endure"
     ],
     "Item": "Salac Berry",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 255,
     "AttEv": 0,
     "DefEv": 0,
@@ -4258,7 +4258,7 @@
       "Synthesis"
     ],
     "Item": "Bright Powder",
-    "Nature": "Modest ( +SpAtk, -Atk)",
+    "Nature": "Modest",
     "HPEv": 0,
     "AttEv": 0,
     "DefEv": 255,
@@ -4292,7 +4292,7 @@
       "Body Slam"
     ],
     "Item": "Shell Bell",
-    "Nature": "Quiet ( +SpAtk, -Speed)",
+    "Nature": "Quiet",
     "HPEv": 255,
     "AttEv": 0,
     "DefEv": 0,
@@ -4309,7 +4309,7 @@
       "Body Slam"
     ],
     "Item": "Shell Bell",
-    "Nature": "Quiet ( +SpAtk, -Speed)",
+    "Nature": "Quiet",
     "HPEv": 255,
     "AttEv": 0,
     "DefEv": 0,
@@ -4326,7 +4326,7 @@
       "Rest"
     ],
     "Item": "Chesto Berry",
-    "Nature": "Sassy ( +SpDef, -Speed)",
+    "Nature": "Sassy",
     "HPEv": 255,
     "AttEv": 0,
     "DefEv": 0,
@@ -4343,7 +4343,7 @@
       "Protect"
     ],
     "Item": "Sitrus Berry",
-    "Nature": "Modest ( +SpAtk, -Atk)",
+    "Nature": "Modest",
     "HPEv": 255,
     "AttEv": 0,
     "DefEv": 0,
@@ -4360,7 +4360,7 @@
       "Endure"
     ],
     "Item": "Salac Berry",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 0,
     "AttEv": 255,
     "DefEv": 0,
@@ -4377,7 +4377,7 @@
       "Belly Drum"
     ],
     "Item": "Chesto Berry",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 255,
     "AttEv": 255,
     "DefEv": 0,
@@ -4394,7 +4394,7 @@
       "Double Team"
     ],
     "Item": "Bright Powder",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 0,
     "AttEv": 255,
     "DefEv": 0,
@@ -4411,7 +4411,7 @@
       "Endure"
     ],
     "Item": "Salac Berry",
-    "Nature": "Jolly ( +Speed, -SpAtk)",
+    "Nature": "Jolly",
     "HPEv": 255,
     "AttEv": 0,
     "DefEv": 0,
@@ -4428,7 +4428,7 @@
       "Swagger"
     ],
     "Item": "Lax Incense",
-    "Nature": "Modest ( +SpAtk, -Atk)",
+    "Nature": "Modest",
     "HPEv": 0,
     "AttEv": 0,
     "DefEv": 255,
@@ -4445,7 +4445,7 @@
       "Protect"
     ],
     "Item": "Leftovers",
-    "Nature": "Careful ( +SpDef, -SpAtk)",
+    "Nature": "Careful",
     "HPEv": 255,
     "AttEv": 0,
     "DefEv": 0,
@@ -4462,7 +4462,7 @@
       "Sand Tomb"
     ],
     "Item": "Soft Sand",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 0,
     "AttEv": 255,
     "DefEv": 0,
@@ -4496,7 +4496,7 @@
       "Thunder Wave"
     ],
     "Item": "Focus Band",
-    "Nature": "Impish ( +Def, -SpAtk)",
+    "Nature": "Impish",
     "HPEv": 255,
     "AttEv": 0,
     "DefEv": 255,
@@ -4513,7 +4513,7 @@
       "Mud-Slap"
     ],
     "Item": "Sharp Beak",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 0,
     "AttEv": 255,
     "DefEv": 0,
@@ -4530,7 +4530,7 @@
       "Roar"
     ],
     "Item": "Cheri Berry",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 255,
     "AttEv": 255,
     "DefEv": 0,
@@ -4547,7 +4547,7 @@
       "Attract"
     ],
     "Item": "Shell Bell",
-    "Nature": "Modest ( +SpAtk, -Atk)",
+    "Nature": "Modest",
     "HPEv": 255,
     "AttEv": 0,
     "DefEv": 0,
@@ -4564,7 +4564,7 @@
       "Confuse Ray"
     ],
     "Item": "Leftovers",
-    "Nature": "Impish ( +Def, -SpAtk)",
+    "Nature": "Impish",
     "HPEv": 170,
     "AttEv": 0,
     "DefEv": 170,
@@ -4581,7 +4581,7 @@
       "Rest"
     ],
     "Item": "Chesto Berry",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 0,
     "AttEv": 255,
     "DefEv": 0,
@@ -4598,7 +4598,7 @@
       "Reflect"
     ],
     "Item": "Leftovers",
-    "Nature": "Relaxed ( +Def, -Speed)",
+    "Nature": "Relaxed",
     "HPEv": 255,
     "AttEv": 0,
     "DefEv": 255,
@@ -4615,7 +4615,7 @@
       "Thunder Wave"
     ],
     "Item": "Cheri Berry",
-    "Nature": "Quiet ( +SpAtk, -Speed)",
+    "Nature": "Quiet",
     "HPEv": 0,
     "AttEv": 0,
     "DefEv": 255,
@@ -4632,7 +4632,7 @@
       "Counter"
     ],
     "Item": "Kings Rock",
-    "Nature": "Jolly ( +Speed, -SpAtk)",
+    "Nature": "Jolly",
     "HPEv": 0,
     "AttEv": 255,
     "DefEv": 0,
@@ -4649,7 +4649,7 @@
       "Spikes"
     ],
     "Item": "Focus Band",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 0,
     "AttEv": 255,
     "DefEv": 0,
@@ -4666,7 +4666,7 @@
       "Rest"
     ],
     "Item": "Chesto Berry",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 255,
     "AttEv": 255,
     "DefEv": 0,
@@ -4700,7 +4700,7 @@
       "Agility"
     ],
     "Item": "Scope Lens",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 170,
     "AttEv": 170,
     "DefEv": 0,
@@ -4717,7 +4717,7 @@
       "Headbutt"
     ],
     "Item": "Thick Club",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 255,
     "AttEv": 255,
     "DefEv": 0,
@@ -4734,7 +4734,7 @@
       "Mud-Slap"
     ],
     "Item": "Focus Band",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 0,
     "AttEv": 255,
     "DefEv": 0,
@@ -4751,7 +4751,7 @@
       "Follow Me"
     ],
     "Item": "Leftovers",
-    "Nature": "Brave ( +Atk, -Speed)",
+    "Nature": "Brave",
     "HPEv": 0,
     "AttEv": 0,
     "DefEv": 255,
@@ -4768,7 +4768,7 @@
       "Fake Out"
     ],
     "Item": "Focus Band",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 170,
     "AttEv": 0,
     "DefEv": 170,
@@ -4785,7 +4785,7 @@
       "Double Team"
     ],
     "Item": "Bright Powder",
-    "Nature": "Modest ( +SpAtk, -Atk)",
+    "Nature": "Modest",
     "HPEv": 0,
     "AttEv": 0,
     "DefEv": 170,
@@ -4802,7 +4802,7 @@
       "Fake Out"
     ],
     "Item": "Never Melt Ice",
-    "Nature": "Quiet ( +SpAtk, -Speed)",
+    "Nature": "Quiet",
     "HPEv": 255,
     "AttEv": 0,
     "DefEv": 0,
@@ -4819,7 +4819,7 @@
       "Roar"
     ],
     "Item": "Magnet",
-    "Nature": "Modest ( +SpAtk, -Atk)",
+    "Nature": "Modest",
     "HPEv": 0,
     "AttEv": 0,
     "DefEv": 0,
@@ -4836,7 +4836,7 @@
       "Aromatherapy"
     ],
     "Item": "Persim Berry",
-    "Nature": "Impish ( +Def, -SpAtk)",
+    "Nature": "Impish",
     "HPEv": 255,
     "AttEv": 255,
     "DefEv": 0,
@@ -4853,7 +4853,7 @@
       "Synthesis"
     ],
     "Item": "Sitrus Berry",
-    "Nature": "Quiet ( +SpAtk, -Speed)",
+    "Nature": "Quiet",
     "HPEv": 0,
     "AttEv": 0,
     "DefEv": 255,
@@ -4870,7 +4870,7 @@
       "Protect"
     ],
     "Item": "Focus Band",
-    "Nature": "Quiet ( +SpAtk, -Speed)",
+    "Nature": "Quiet",
     "HPEv": 255,
     "AttEv": 0,
     "DefEv": 0,
@@ -4887,7 +4887,7 @@
       "Rest"
     ],
     "Item": "Chesto Berry",
-    "Nature": "Impish ( +Def, -SpAtk)",
+    "Nature": "Impish",
     "HPEv": 255,
     "AttEv": 255,
     "DefEv": 0,
@@ -4904,7 +4904,7 @@
       "Fake Out"
     ],
     "Item": "Miracle Seed",
-    "Nature": "Quiet ( +SpAtk, -Speed)",
+    "Nature": "Quiet",
     "HPEv": 0,
     "AttEv": 0,
     "DefEv": 170,
@@ -4921,7 +4921,7 @@
       "Protect"
     ],
     "Item": "Petaya Berry",
-    "Nature": "Modest ( +SpAtk, -Atk)",
+    "Nature": "Modest",
     "HPEv": 255,
     "AttEv": 0,
     "DefEv": 0,
@@ -4938,7 +4938,7 @@
       "Fire Punch"
     ],
     "Item": "Shell Bell",
-    "Nature": "Quiet ( +SpAtk, -Speed)",
+    "Nature": "Quiet",
     "HPEv": 170,
     "AttEv": 0,
     "DefEv": 170,
@@ -4955,7 +4955,7 @@
       "Hypnosis"
     ],
     "Item": "Twisted Spoon",
-    "Nature": "Quiet ( +SpAtk, -Speed)",
+    "Nature": "Quiet",
     "HPEv": 0,
     "AttEv": 0,
     "DefEv": 255,
@@ -4972,7 +4972,7 @@
       "Rock Tomb"
     ],
     "Item": "Quick Claw",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 0,
     "AttEv": 255,
     "DefEv": 0,
@@ -4989,7 +4989,7 @@
       "Brick Break"
     ],
     "Item": "Quick Claw",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 170,
     "AttEv": 170,
     "DefEv": 0,
@@ -5006,7 +5006,7 @@
       "Thunder Wave"
     ],
     "Item": "Focus Band",
-    "Nature": "Modest ( +SpAtk, -Atk)",
+    "Nature": "Modest",
     "HPEv": 0,
     "AttEv": 0,
     "DefEv": 255,
@@ -5023,7 +5023,7 @@
       "Smokescreen"
     ],
     "Item": "Bright Powder",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 255,
     "AttEv": 255,
     "DefEv": 0,
@@ -5040,7 +5040,7 @@
       "Fake Out"
     ],
     "Item": "Focus Band",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 255,
     "AttEv": 255,
     "DefEv": 0,
@@ -5057,7 +5057,7 @@
       "Light Screen"
     ],
     "Item": "Cheri Berry",
-    "Nature": "Relaxed ( +Def, -Speed)",
+    "Nature": "Relaxed",
     "HPEv": 170,
     "AttEv": 0,
     "DefEv": 170,
@@ -5074,7 +5074,7 @@
       "Facade"
     ],
     "Item": "Persim Berry",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 0,
     "AttEv": 255,
     "DefEv": 0,
@@ -5091,7 +5091,7 @@
       "Ice Punch"
     ],
     "Item": "Shell Bell",
-    "Nature": "Quiet ( +SpAtk, -Speed)",
+    "Nature": "Quiet",
     "HPEv": 255,
     "AttEv": 0,
     "DefEv": 0,
@@ -5108,7 +5108,7 @@
       "Attract"
     ],
     "Item": "Leftovers",
-    "Nature": "Quiet ( +SpAtk, -Speed)",
+    "Nature": "Quiet",
     "HPEv": 255,
     "AttEv": 0,
     "DefEv": 255,
@@ -5125,7 +5125,7 @@
       "Milk Drink"
     ],
     "Item": "Focus Band",
-    "Nature": "Careful ( +SpDef, -SpAtk)",
+    "Nature": "Careful",
     "HPEv": 170,
     "AttEv": 0,
     "DefEv": 170,
@@ -5159,7 +5159,7 @@
       "Counter"
     ],
     "Item": "Focus Band",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 255,
     "AttEv": 255,
     "DefEv": 0,
@@ -5176,7 +5176,7 @@
       "Counter"
     ],
     "Item": "Quick Claw",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 255,
     "AttEv": 255,
     "DefEv": 0,
@@ -5193,7 +5193,7 @@
       "Barrier"
     ],
     "Item": "Rawst Berry",
-    "Nature": "Relaxed ( +Def, -Speed)",
+    "Nature": "Relaxed",
     "HPEv": 170,
     "AttEv": 0,
     "DefEv": 170,
@@ -5210,7 +5210,7 @@
       "Confuse Ray"
     ],
     "Item": "Leftovers",
-    "Nature": "Relaxed ( +Def, -Speed)",
+    "Nature": "Relaxed",
     "HPEv": 170,
     "AttEv": 0,
     "DefEv": 170,
@@ -5227,7 +5227,7 @@
       "Protect"
     ],
     "Item": "Scope Lens",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 255,
     "AttEv": 255,
     "DefEv": 0,
@@ -5244,7 +5244,7 @@
       "Light Screen"
     ],
     "Item": "Shell Bell",
-    "Nature": "Quiet ( +SpAtk, -Speed)",
+    "Nature": "Quiet",
     "HPEv": 0,
     "AttEv": 255,
     "DefEv": 0,
@@ -5261,7 +5261,7 @@
       "Protect"
     ],
     "Item": "Charcoal",
-    "Nature": "Quiet ( +SpAtk, -Speed)",
+    "Nature": "Quiet",
     "HPEv": 0,
     "AttEv": 0,
     "DefEv": 0,
@@ -5278,7 +5278,7 @@
       "Minimize"
     ],
     "Item": "Poison Barb",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 255,
     "AttEv": 255,
     "DefEv": 0,
@@ -5295,7 +5295,7 @@
       "Attract"
     ],
     "Item": "Leftovers",
-    "Nature": "Timid ( +Speed, -Atk)",
+    "Nature": "Timid",
     "HPEv": 170,
     "AttEv": 0,
     "DefEv": 0,
@@ -5312,7 +5312,7 @@
       "Attract"
     ],
     "Item": "Magnet",
-    "Nature": "Relaxed ( +Def, -Speed)",
+    "Nature": "Relaxed",
     "HPEv": 255,
     "AttEv": 0,
     "DefEv": 0,
@@ -5329,7 +5329,7 @@
       "Quick Attack"
     ],
     "Item": "Focus Band",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 0,
     "AttEv": 255,
     "DefEv": 0,
@@ -5346,7 +5346,7 @@
       "Counter"
     ],
     "Item": "Focus Band",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 0,
     "AttEv": 255,
     "DefEv": 255,
@@ -5397,7 +5397,7 @@
       "Rest"
     ],
     "Item": "Chesto Berry",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 255,
     "AttEv": 255,
     "DefEv": 0,
@@ -5414,7 +5414,7 @@
       "Psych Up"
     ],
     "Item": "Lum Berry",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 255,
     "AttEv": 255,
     "DefEv": 0,
@@ -5431,7 +5431,7 @@
       "Roar"
     ],
     "Item": "Shell Bell",
-    "Nature": "Sassy ( +SpDef, -Speed)",
+    "Nature": "Sassy",
     "HPEv": 170,
     "AttEv": 0,
     "DefEv": 170,
@@ -5448,7 +5448,7 @@
       "Will-O-Wisp"
     ],
     "Item": "Rawst Berry",
-    "Nature": "Modest ( +SpAtk, -Atk)",
+    "Nature": "Modest",
     "HPEv": 0,
     "AttEv": 0,
     "DefEv": 0,
@@ -5465,7 +5465,7 @@
       "Scary Face"
     ],
     "Item": "Scope Lens",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 255,
     "AttEv": 255,
     "DefEv": 0,
@@ -5482,7 +5482,7 @@
       "Rest"
     ],
     "Item": "Chesto Berry",
-    "Nature": "Brave ( +Atk, -Speed)",
+    "Nature": "Brave",
     "HPEv": 0,
     "AttEv": 0,
     "DefEv": 255,
@@ -5499,7 +5499,7 @@
       "Roar"
     ],
     "Item": "Sitrus Berry",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 0,
     "AttEv": 255,
     "DefEv": 0,
@@ -5516,7 +5516,7 @@
       "Confuse Ray"
     ],
     "Item": "Persim Berry",
-    "Nature": "Impish ( +Def, -SpAtk)",
+    "Nature": "Impish",
     "HPEv": 0,
     "AttEv": 255,
     "DefEv": 255,
@@ -5533,7 +5533,7 @@
       "Roar"
     ],
     "Item": "Kings Rock",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 170,
     "AttEv": 170,
     "DefEv": 0,
@@ -5550,7 +5550,7 @@
       "Recover"
     ],
     "Item": "Leftovers",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 255,
     "AttEv": 255,
     "DefEv": 0,
@@ -5567,7 +5567,7 @@
       "Reflect"
     ],
     "Item": "Leftovers",
-    "Nature": "Timid ( +Speed, -Atk)",
+    "Nature": "Timid",
     "HPEv": 170,
     "AttEv": 0,
     "DefEv": 170,
@@ -5584,7 +5584,7 @@
       "Light Screen"
     ],
     "Item": "Quick Claw",
-    "Nature": "Quiet ( +SpAtk, -Speed)",
+    "Nature": "Quiet",
     "HPEv": 0,
     "AttEv": 0,
     "DefEv": 255,
@@ -5601,7 +5601,7 @@
       "Recover"
     ],
     "Item": "Shell Bell",
-    "Nature": "Modest ( +SpAtk, -Atk)",
+    "Nature": "Modest",
     "HPEv": 255,
     "AttEv": 0,
     "DefEv": 0,
@@ -5618,7 +5618,7 @@
       "Facade"
     ],
     "Item": "Bright Powder",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 0,
     "AttEv": 255,
     "DefEv": 0,
@@ -5635,7 +5635,7 @@
       "Sleep Powder"
     ],
     "Item": "Chesto Berry",
-    "Nature": "Quiet ( +SpAtk, -Speed)",
+    "Nature": "Quiet",
     "HPEv": 255,
     "AttEv": 0,
     "DefEv": 0,
@@ -5652,7 +5652,7 @@
       "Quick Attack"
     ],
     "Item": "Mystic Water",
-    "Nature": "Modest ( +SpAtk, -Atk)",
+    "Nature": "Modest",
     "HPEv": 0,
     "AttEv": 0,
     "DefEv": 170,
@@ -5669,7 +5669,7 @@
       "Protect"
     ],
     "Item": "Cheri Berry",
-    "Nature": "Modest ( +SpAtk, -Atk)",
+    "Nature": "Modest",
     "HPEv": 0,
     "AttEv": 0,
     "DefEv": 0,
@@ -5686,7 +5686,7 @@
       "Sand-Attack"
     ],
     "Item": "Sitrus Berry",
-    "Nature": "Modest ( +SpAtk, -Atk)",
+    "Nature": "Modest",
     "HPEv": 0,
     "AttEv": 0,
     "DefEv": 255,
@@ -5703,7 +5703,7 @@
       "Synthesis"
     ],
     "Item": "Bright Powder",
-    "Nature": "Modest ( +SpAtk, -Atk)",
+    "Nature": "Modest",
     "HPEv": 255,
     "AttEv": 0,
     "DefEv": 0,
@@ -5720,7 +5720,7 @@
       "Baton Pass"
     ],
     "Item": "Lum Berry",
-    "Nature": "Modest ( +SpAtk, -Atk)",
+    "Nature": "Modest",
     "HPEv": 0,
     "AttEv": 0,
     "DefEv": 170,
@@ -5737,7 +5737,7 @@
       "Baton Pass"
     ],
     "Item": "Bright Powder",
-    "Nature": "Bold ( +Def, -Atk)",
+    "Nature": "Bold",
     "HPEv": 170,
     "AttEv": 0,
     "DefEv": 170,
@@ -5754,7 +5754,7 @@
       "Seismic Toss"
     ],
     "Item": "Shell Bell",
-    "Nature": "Modest ( +SpAtk, -Atk)",
+    "Nature": "Modest",
     "HPEv": 255,
     "AttEv": 0,
     "DefEv": 0,
@@ -5771,7 +5771,7 @@
       "Roar"
     ],
     "Item": "Lum Berry",
-    "Nature": "Quiet ( +SpAtk, -Speed)",
+    "Nature": "Quiet",
     "HPEv": 170,
     "AttEv": 0,
     "DefEv": 0,
@@ -5788,7 +5788,7 @@
       "Roar"
     ],
     "Item": "Quick Claw",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 255,
     "AttEv": 255,
     "DefEv": 0,
@@ -5822,7 +5822,7 @@
       "Protect"
     ],
     "Item": "Leftovers",
-    "Nature": "Quiet ( +SpAtk, -Speed)",
+    "Nature": "Quiet",
     "HPEv": 170,
     "AttEv": 0,
     "DefEv": 170,
@@ -5839,7 +5839,7 @@
       "Detect"
     ],
     "Item": "Leftovers",
-    "Nature": "Modest ( +SpAtk, -Atk)",
+    "Nature": "Modest",
     "HPEv": 0,
     "AttEv": 0,
     "DefEv": 0,
@@ -5856,7 +5856,7 @@
       "Scary Face"
     ],
     "Item": "Focus Band",
-    "Nature": "Modest ( +SpAtk, -Atk)",
+    "Nature": "Modest",
     "HPEv": 0,
     "AttEv": 0,
     "DefEv": 0,
@@ -5873,7 +5873,7 @@
       "Roar"
     ],
     "Item": "Focus Band",
-    "Nature": "Modest ( +SpAtk, -Atk)",
+    "Nature": "Modest",
     "HPEv": 0,
     "AttEv": 0,
     "DefEv": 0,
@@ -5890,7 +5890,7 @@
       "Sing"
     ],
     "Item": "Leftovers",
-    "Nature": "Bold ( +Def, -Atk)",
+    "Nature": "Bold",
     "HPEv": 0,
     "AttEv": 0,
     "DefEv": 255,
@@ -5924,7 +5924,7 @@
       "Curse"
     ],
     "Item": "Lum Berry",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 170,
     "AttEv": 0,
     "DefEv": 170,
@@ -5941,7 +5941,7 @@
       "Dragon Dance"
     ],
     "Item": "Lum Berry",
-    "Nature": "Careful ( +SpDef, -SpAtk)",
+    "Nature": "Careful",
     "HPEv": 255,
     "AttEv": 0,
     "DefEv": 0,
@@ -5958,7 +5958,7 @@
       "Double Team"
     ],
     "Item": "Leftovers",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 0,
     "AttEv": 255,
     "DefEv": 255,
@@ -5975,7 +5975,7 @@
       "Attract"
     ],
     "Item": "Lum Berry",
-    "Nature": "Modest ( +SpAtk, -Atk)",
+    "Nature": "Modest",
     "HPEv": 255,
     "AttEv": 0,
     "DefEv": 0,
@@ -5992,7 +5992,7 @@
       "Softboiled"
     ],
     "Item": "Bright Powder",
-    "Nature": "Bold ( +Def, -Atk)",
+    "Nature": "Bold",
     "HPEv": 0,
     "AttEv": 0,
     "DefEv": 255,
@@ -6009,7 +6009,7 @@
       "Mirror Coat"
     ],
     "Item": "Lum Berry",
-    "Nature": "Modest ( +SpAtk, -Atk)",
+    "Nature": "Modest",
     "HPEv": 170,
     "AttEv": 0,
     "DefEv": 170,
@@ -6026,7 +6026,7 @@
       "Body Slam"
     ],
     "Item": "Kings Rock",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 0,
     "AttEv": 255,
     "DefEv": 0,
@@ -6060,7 +6060,7 @@
       "Light Screen"
     ],
     "Item": "Leftovers",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 0,
     "AttEv": 170,
     "DefEv": 0,
@@ -6077,7 +6077,7 @@
       "Aerial Ace"
     ],
     "Item": "Scope Lens",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 170,
     "AttEv": 0,
     "DefEv": 170,
@@ -6094,7 +6094,7 @@
       "Tri Attack"
     ],
     "Item": "Kings Rock",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 0,
     "AttEv": 255,
     "DefEv": 0,
@@ -6128,7 +6128,7 @@
       "Icy Wind"
     ],
     "Item": "Thick Club",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 0,
     "AttEv": 255,
     "DefEv": 0,
@@ -6145,7 +6145,7 @@
       "Ancientpower"
     ],
     "Item": "Leftovers",
-    "Nature": "Sassy ( +SpDef, -Speed)",
+    "Nature": "Sassy",
     "HPEv": 0,
     "AttEv": 0,
     "DefEv": 255,
@@ -6162,7 +6162,7 @@
       "Confuse Ray"
     ],
     "Item": "Leftovers",
-    "Nature": "Bold ( +Def, -Atk)",
+    "Nature": "Bold",
     "HPEv": 0,
     "AttEv": 0,
     "DefEv": 255,
@@ -6179,7 +6179,7 @@
       "Pursuit"
     ],
     "Item": "Focus Band",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 0,
     "AttEv": 255,
     "DefEv": 0,
@@ -6196,7 +6196,7 @@
       "Facade"
     ],
     "Item": "White Herb",
-    "Nature": "Quiet ( +SpAtk, -Speed)",
+    "Nature": "Quiet",
     "HPEv": 0,
     "AttEv": 0,
     "DefEv": 0,
@@ -6213,7 +6213,7 @@
       "Protect"
     ],
     "Item": "Bright Powder",
-    "Nature": "Impish ( +Def, -SpAtk)",
+    "Nature": "Impish",
     "HPEv": 255,
     "AttEv": 0,
     "DefEv": 255,
@@ -6230,7 +6230,7 @@
       "Protect"
     ],
     "Item": "Leftovers",
-    "Nature": "Impish ( +Def, -SpAtk)",
+    "Nature": "Impish",
     "HPEv": 170,
     "AttEv": 0,
     "DefEv": 170,
@@ -6247,7 +6247,7 @@
       "Protect"
     ],
     "Item": "Kings Rock",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 0,
     "AttEv": 255,
     "DefEv": 0,
@@ -6264,7 +6264,7 @@
       "Psychic"
     ],
     "Item": "Liechi Berry",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 170,
     "AttEv": 0,
     "DefEv": 170,
@@ -6315,7 +6315,7 @@
       "Protect"
     ],
     "Item": "Lum Berry",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 0,
     "AttEv": 255,
     "DefEv": 0,
@@ -6332,7 +6332,7 @@
       "Toxic"
     ],
     "Item": "Bright Powder",
-    "Nature": "Careful ( +SpDef, -SpAtk)",
+    "Nature": "Careful",
     "HPEv": 170,
     "AttEv": 170,
     "DefEv": 0,
@@ -6366,7 +6366,7 @@
       "Attract"
     ],
     "Item": "Leftovers",
-    "Nature": "Impish ( +Def, -SpAtk)",
+    "Nature": "Impish",
     "HPEv": 170,
     "AttEv": 0,
     "DefEv": 170,
@@ -6383,7 +6383,7 @@
       "Follow Me"
     ],
     "Item": "Focus Band",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 0,
     "AttEv": 255,
     "DefEv": 255,
@@ -6400,7 +6400,7 @@
       "Thunderpunch"
     ],
     "Item": "Quick Claw",
-    "Nature": "Quiet ( +SpAtk, -Speed)",
+    "Nature": "Quiet",
     "HPEv": 0,
     "AttEv": 255,
     "DefEv": 0,
@@ -6417,7 +6417,7 @@
       "Agility"
     ],
     "Item": "Lum Berry",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 0,
     "AttEv": 255,
     "DefEv": 0,
@@ -6451,7 +6451,7 @@
       "Roar"
     ],
     "Item": "Petaya Berry",
-    "Nature": "Modest ( +SpAtk, -Atk)",
+    "Nature": "Modest",
     "HPEv": 0,
     "AttEv": 0,
     "DefEv": 0,
@@ -6468,7 +6468,7 @@
       "Giga Drain"
     ],
     "Item": "Bright Powder",
-    "Nature": "Bold ( +Def, -Atk)",
+    "Nature": "Bold",
     "HPEv": 170,
     "AttEv": 0,
     "DefEv": 170,
@@ -6502,7 +6502,7 @@
       "Swagger"
     ],
     "Item": "Bright Powder",
-    "Nature": "Modest ( +SpAtk, -Atk)",
+    "Nature": "Modest",
     "HPEv": 170,
     "AttEv": 0,
     "DefEv": 170,
@@ -6536,7 +6536,7 @@
       "Rest"
     ],
     "Item": "Chesto Berry",
-    "Nature": "Impish ( +Def, -SpAtk)",
+    "Nature": "Impish",
     "HPEv": 0,
     "AttEv": 0,
     "DefEv": 255,
@@ -6570,7 +6570,7 @@
       "Fire Punch"
     ],
     "Item": "Shell Bell",
-    "Nature": "Modest ( +SpAtk, -Atk)",
+    "Nature": "Modest",
     "HPEv": 255,
     "AttEv": 0,
     "DefEv": 0,
@@ -6587,7 +6587,7 @@
       "Psychic"
     ],
     "Item": "Twisted Spoon",
-    "Nature": "Modest ( +SpAtk, -Atk)",
+    "Nature": "Modest",
     "HPEv": 0,
     "AttEv": 0,
     "DefEv": 255,
@@ -6604,7 +6604,7 @@
       "Rest"
     ],
     "Item": "Chesto Berry",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 255,
     "AttEv": 255,
     "DefEv": 0,
@@ -6621,7 +6621,7 @@
       "Brick Break"
     ],
     "Item": "Quick Claw",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 0,
     "AttEv": 255,
     "DefEv": 0,
@@ -6638,7 +6638,7 @@
       "Recover"
     ],
     "Item": "Lum Berry",
-    "Nature": "Modest ( +SpAtk, -Atk)",
+    "Nature": "Modest",
     "HPEv": 0,
     "AttEv": 0,
     "DefEv": 255,
@@ -6655,7 +6655,7 @@
       "Destiny Bond"
     ],
     "Item": "Sitrus Berry",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 255,
     "AttEv": 255,
     "DefEv": 0,
@@ -6672,7 +6672,7 @@
       "Rest"
     ],
     "Item": "Lum Berry",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 255,
     "AttEv": 255,
     "DefEv": 0,
@@ -6706,7 +6706,7 @@
       "Rest"
     ],
     "Item": "Chesto Berry",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 255,
     "AttEv": 255,
     "DefEv": 0,
@@ -6723,7 +6723,7 @@
       "Yawn"
     ],
     "Item": "Leftovers",
-    "Nature": "Modest ( +SpAtk, -Atk)",
+    "Nature": "Modest",
     "HPEv": 0,
     "AttEv": 255,
     "DefEv": 0,
@@ -6740,7 +6740,7 @@
       "Psychic"
     ],
     "Item": "Shell Bell",
-    "Nature": "Modest ( +SpAtk, -Atk)",
+    "Nature": "Modest",
     "HPEv": 0,
     "AttEv": 0,
     "DefEv": 255,
@@ -6757,7 +6757,7 @@
       "Thunder Wave"
     ],
     "Item": "Leftovers",
-    "Nature": "Careful ( +SpDef, -SpAtk)",
+    "Nature": "Careful",
     "HPEv": 170,
     "AttEv": 170,
     "DefEv": 0,
@@ -6774,7 +6774,7 @@
       "Attract"
     ],
     "Item": "Leftovers",
-    "Nature": "Bold ( +Def, -Atk)",
+    "Nature": "Bold",
     "HPEv": 170,
     "AttEv": 0,
     "DefEv": 170,
@@ -6791,7 +6791,7 @@
       "Rock Slide"
     ],
     "Item": "Shell Bell",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 255,
     "AttEv": 255,
     "DefEv": 0,
@@ -6808,7 +6808,7 @@
       "Brick Break"
     ],
     "Item": "Shell Bell",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 255,
     "AttEv": 255,
     "DefEv": 0,
@@ -6825,7 +6825,7 @@
       "Confuse Ray"
     ],
     "Item": "Quick Claw",
-    "Nature": "Modest ( +SpAtk, -Atk)",
+    "Nature": "Modest",
     "HPEv": 0,
     "AttEv": 0,
     "DefEv": 0,
@@ -6842,7 +6842,7 @@
       "Psych Up"
     ],
     "Item": "Sitrus Berry",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 255,
     "AttEv": 255,
     "DefEv": 0,
@@ -6859,7 +6859,7 @@
       "Knock Off"
     ],
     "Item": "Quick Claw",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 255,
     "AttEv": 255,
     "DefEv": 0,
@@ -6927,7 +6927,7 @@
       "Will-O-Wisp"
     ],
     "Item": "Leftovers",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 0,
     "AttEv": 255,
     "DefEv": 0,
@@ -6961,7 +6961,7 @@
       "Light Screen"
     ],
     "Item": "Quick Claw",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 0,
     "AttEv": 255,
     "DefEv": 0,
@@ -6978,7 +6978,7 @@
       "Bulk Up"
     ],
     "Item": "Lum Berry",
-    "Nature": "Jolly ( +Speed, -SpAtk)",
+    "Nature": "Jolly",
     "HPEv": 255,
     "AttEv": 0,
     "DefEv": 0,
@@ -6995,7 +6995,7 @@
       "Counter"
     ],
     "Item": "Quick Claw",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 255,
     "AttEv": 255,
     "DefEv": 0,
@@ -7012,7 +7012,7 @@
       "Rest"
     ],
     "Item": "Lum Berry",
-    "Nature": "Modest ( +SpAtk, -Atk)",
+    "Nature": "Modest",
     "HPEv": 0,
     "AttEv": 0,
     "DefEv": 0,
@@ -7029,7 +7029,7 @@
       "Rock Tomb"
     ],
     "Item": "Quick Claw",
-    "Nature": "Jolly ( +Speed, -SpAtk)",
+    "Nature": "Jolly",
     "HPEv": 0,
     "AttEv": 255,
     "DefEv": 0,
@@ -7046,7 +7046,7 @@
       "Cosmic Power"
     ],
     "Item": "Leftovers",
-    "Nature": "Calm ( +SpDef, -Atk)",
+    "Nature": "Calm",
     "HPEv": 170,
     "AttEv": 0,
     "DefEv": 170,
@@ -7063,7 +7063,7 @@
       "Amnesia"
     ],
     "Item": "Chesto Berry",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 170,
     "AttEv": 0,
     "DefEv": 170,
@@ -7097,7 +7097,7 @@
       "Rest"
     ],
     "Item": "Chesto Berry",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 170,
     "AttEv": 0,
     "DefEv": 170,
@@ -7114,7 +7114,7 @@
       "Double Team"
     ],
     "Item": "Leftovers",
-    "Nature": "Careful ( +SpDef, -SpAtk)",
+    "Nature": "Careful",
     "HPEv": 0,
     "AttEv": 0,
     "DefEv": 255,
@@ -7165,7 +7165,7 @@
       "Ancientpower"
     ],
     "Item": "Choice Band",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 170,
     "AttEv": 170,
     "DefEv": 0,
@@ -7182,7 +7182,7 @@
       "Recover"
     ],
     "Item": "Lum Berry",
-    "Nature": "Modest ( +SpAtk, -Atk)",
+    "Nature": "Modest",
     "HPEv": 255,
     "AttEv": 0,
     "DefEv": 0,
@@ -7199,7 +7199,7 @@
       "Rest"
     ],
     "Item": "Chesto Berry",
-    "Nature": "Modest ( +SpAtk, -Atk)",
+    "Nature": "Modest",
     "HPEv": 255,
     "AttEv": 0,
     "DefEv": 255,
@@ -7233,7 +7233,7 @@
       "Recover"
     ],
     "Item": "Shell Bell",
-    "Nature": "Modest ( +SpAtk, -Atk)",
+    "Nature": "Modest",
     "HPEv": 170,
     "AttEv": 0,
     "DefEv": 170,
@@ -7250,7 +7250,7 @@
       "Sunny Day"
     ],
     "Item": "Bright Powder",
-    "Nature": "Modest ( +SpAtk, -Atk)",
+    "Nature": "Modest",
     "HPEv": 0,
     "AttEv": 0,
     "DefEv": 0,
@@ -7267,7 +7267,7 @@
       "Light Screen"
     ],
     "Item": "Bright Powder",
-    "Nature": "Bold ( +Def, -Atk)",
+    "Nature": "Bold",
     "HPEv": 170,
     "AttEv": 0,
     "DefEv": 170,
@@ -7318,7 +7318,7 @@
       "Shadow Ball"
     ],
     "Item": "Quick Claw",
-    "Nature": "Relaxed ( +Def, -Speed)",
+    "Nature": "Relaxed",
     "HPEv": 170,
     "AttEv": 0,
     "DefEv": 170,
@@ -7335,7 +7335,7 @@
       "Grasswhistle"
     ],
     "Item": "Leftovers",
-    "Nature": "Calm ( +SpDef, -Atk)",
+    "Nature": "Calm",
     "HPEv": 170,
     "AttEv": 0,
     "DefEv": 170,
@@ -7369,7 +7369,7 @@
       "Double-Edge"
     ],
     "Item": "Leftovers",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 170,
     "AttEv": 170,
     "DefEv": 0,
@@ -7386,7 +7386,7 @@
       "Mirror Coat"
     ],
     "Item": "Shell Bell",
-    "Nature": "Brave ( +Atk, -Speed)",
+    "Nature": "Brave",
     "HPEv": 170,
     "AttEv": 170,
     "DefEv": 0,
@@ -7403,7 +7403,7 @@
       "Scary Face"
     ],
     "Item": "Quick Claw",
-    "Nature": "Sassy ( +SpDef, -Speed)",
+    "Nature": "Sassy",
     "HPEv": 170,
     "AttEv": 0,
     "DefEv": 0,
@@ -7420,7 +7420,7 @@
       "Thunder Wave"
     ],
     "Item": "Scope Lens",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 255,
     "AttEv": 255,
     "DefEv": 0,
@@ -7471,7 +7471,7 @@
       "Double Team"
     ],
     "Item": "Lum Berry",
-    "Nature": "Modest ( +SpAtk, -Atk)",
+    "Nature": "Modest",
     "HPEv": 0,
     "AttEv": 0,
     "DefEv": 0,
@@ -7488,7 +7488,7 @@
       "Smokescreen"
     ],
     "Item": "Bright Powder",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 0,
     "AttEv": 255,
     "DefEv": 0,
@@ -7522,7 +7522,7 @@
       "Roar"
     ],
     "Item": "Quick Claw",
-    "Nature": "Timid ( +Speed, -Atk)",
+    "Nature": "Timid",
     "HPEv": 0,
     "AttEv": 0,
     "DefEv": 0,
@@ -7539,7 +7539,7 @@
       "Double Team"
     ],
     "Item": "Leftovers",
-    "Nature": "Calm ( +SpDef, -Atk)",
+    "Nature": "Calm",
     "HPEv": 170,
     "AttEv": 0,
     "DefEv": 170,
@@ -7573,7 +7573,7 @@
       "Blizzard"
     ],
     "Item": "Shell Bell",
-    "Nature": "Modest ( +SpAtk, -Atk)",
+    "Nature": "Modest",
     "HPEv": 0,
     "AttEv": 0,
     "DefEv": 0,
@@ -7590,7 +7590,7 @@
       "Rest"
     ],
     "Item": "Chesto Berry",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 170,
     "AttEv": 0,
     "DefEv": 170,
@@ -7607,7 +7607,7 @@
       "Rest"
     ],
     "Item": "Chesto Berry",
-    "Nature": "Modest ( +SpAtk, -Atk)",
+    "Nature": "Modest",
     "HPEv": 170,
     "AttEv": 0,
     "DefEv": 170,
@@ -7624,7 +7624,7 @@
       "Substitute"
     ],
     "Item": "Leftovers",
-    "Nature": "Bold ( +Def, -Atk)",
+    "Nature": "Bold",
     "HPEv": 0,
     "AttEv": 0,
     "DefEv": 255,
@@ -7641,7 +7641,7 @@
       "Mirror Coat"
     ],
     "Item": "Focus Band",
-    "Nature": "Modest ( +SpAtk, -Atk)",
+    "Nature": "Modest",
     "HPEv": 255,
     "AttEv": 0,
     "DefEv": 0,
@@ -7692,7 +7692,7 @@
       "Swagger"
     ],
     "Item": "Lum Berry",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 170,
     "AttEv": 0,
     "DefEv": 0,
@@ -7709,7 +7709,7 @@
       "Amnesia"
     ],
     "Item": "Leftovers",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 0,
     "AttEv": 0,
     "DefEv": 255,
@@ -7726,7 +7726,7 @@
       "Fissure"
     ],
     "Item": "Kings Rock",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 0,
     "AttEv": 255,
     "DefEv": 0,
@@ -7760,7 +7760,7 @@
       "Confuse Ray"
     ],
     "Item": "Bright Powder",
-    "Nature": "Bold ( +Def, -Atk)",
+    "Nature": "Bold",
     "HPEv": 255,
     "AttEv": 0,
     "DefEv": 255,
@@ -7794,7 +7794,7 @@
       "Rock Slide"
     ],
     "Item": "Quick Claw",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 255,
     "AttEv": 255,
     "DefEv": 0,
@@ -7828,7 +7828,7 @@
       "Earthquake"
     ],
     "Item": "Leftovers",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 170,
     "AttEv": 0,
     "DefEv": 170,
@@ -7845,7 +7845,7 @@
       "Faint Attack"
     ],
     "Item": "Lum Berry",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 0,
     "AttEv": 255,
     "DefEv": 0,
@@ -7862,7 +7862,7 @@
       "Thunderbolt"
     ],
     "Item": "Choice Band",
-    "Nature": "Modest ( +SpAtk, -Atk)",
+    "Nature": "Modest",
     "HPEv": 255,
     "AttEv": 0,
     "DefEv": 0,
@@ -7879,7 +7879,7 @@
       "Rain Dance"
     ],
     "Item": "Bright Powder",
-    "Nature": "Modest ( +SpAtk, -Atk)",
+    "Nature": "Modest",
     "HPEv": 0,
     "AttEv": 0,
     "DefEv": 0,
@@ -7896,7 +7896,7 @@
       "Spore"
     ],
     "Item": "Leftovers",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 0,
     "AttEv": 255,
     "DefEv": 0,
@@ -7913,7 +7913,7 @@
       "Zap Cannon"
     ],
     "Item": "Focus Band",
-    "Nature": "Quiet ( +SpAtk, -Speed)",
+    "Nature": "Quiet",
     "HPEv": 0,
     "AttEv": 170,
     "DefEv": 0,
@@ -7947,7 +7947,7 @@
       "Steel Wing"
     ],
     "Item": "Kings Rock",
-    "Nature": "Jolly ( +Speed, -SpAtk)",
+    "Nature": "Jolly",
     "HPEv": 0,
     "AttEv": 170,
     "DefEv": 0,
@@ -7964,7 +7964,7 @@
       "Fly"
     ],
     "Item": "Chesto Berry",
-    "Nature": "Careful ( +SpDef, -SpAtk)",
+    "Nature": "Careful",
     "HPEv": 255,
     "AttEv": 0,
     "DefEv": 0,
@@ -7981,7 +7981,7 @@
       "Brick Break"
     ],
     "Item": "Thick Club",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 0,
     "AttEv": 255,
     "DefEv": 0,
@@ -7998,7 +7998,7 @@
       "Curse"
     ],
     "Item": "Quick Claw",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 0,
     "AttEv": 255,
     "DefEv": 0,
@@ -8015,7 +8015,7 @@
       "Magical Leaf"
     ],
     "Item": "Lum Berry",
-    "Nature": "Modest ( +SpAtk, -Atk)",
+    "Nature": "Modest",
     "HPEv": 0,
     "AttEv": 0,
     "DefEv": 255,
@@ -8032,7 +8032,7 @@
       "Facade"
     ],
     "Item": "Quick Claw",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 255,
     "AttEv": 255,
     "DefEv": 0,
@@ -8066,7 +8066,7 @@
       "Rest"
     ],
     "Item": "Chesto Berry",
-    "Nature": "Bold ( +Def, -Atk)",
+    "Nature": "Bold",
     "HPEv": 255,
     "AttEv": 0,
     "DefEv": 255,
@@ -8134,7 +8134,7 @@
       "Endure"
     ],
     "Item": "Liechi Berry",
-    "Nature": "Naughty ( +Atk, -SpDef)",
+    "Nature": "Naughty",
     "HPEv": 0,
     "AttEv": 255,
     "DefEv": 0,
@@ -8151,7 +8151,7 @@
       "Extrasensory"
     ],
     "Item": "White Herb",
-    "Nature": "Modest ( +SpAtk, -Atk)",
+    "Nature": "Modest",
     "HPEv": 0,
     "AttEv": 0,
     "DefEv": 0,
@@ -8202,7 +8202,7 @@
       "Giga Drain"
     ],
     "Item": "Leftovers",
-    "Nature": "Bold ( +Def, -Atk)",
+    "Nature": "Bold",
     "HPEv": 170,
     "AttEv": 0,
     "DefEv": 170,
@@ -8219,7 +8219,7 @@
       "Shadow Ball"
     ],
     "Item": "Lum Berry",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 255,
     "AttEv": 255,
     "DefEv": 0,
@@ -8236,7 +8236,7 @@
       "Brick Break"
     ],
     "Item": "Quick Claw",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 0,
     "AttEv": 255,
     "DefEv": 0,
@@ -8253,7 +8253,7 @@
       "Horn Drill"
     ],
     "Item": "Quick Claw",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 255,
     "AttEv": 255,
     "DefEv": 0,
@@ -8270,7 +8270,7 @@
       "Skill Swap"
     ],
     "Item": "Choice Band",
-    "Nature": "Modest ( +SpAtk, -Atk)",
+    "Nature": "Modest",
     "HPEv": 0,
     "AttEv": 0,
     "DefEv": 255,
@@ -8304,7 +8304,7 @@
       "Earthquake"
     ],
     "Item": "Salac Berry",
-    "Nature": "Jolly ( +Speed, -SpAtk)",
+    "Nature": "Jolly",
     "HPEv": 0,
     "AttEv": 255,
     "DefEv": 0,
@@ -8355,7 +8355,7 @@
       "Attract"
     ],
     "Item": "Quick Claw",
-    "Nature": "Quiet ( +SpAtk, -Speed)",
+    "Nature": "Quiet",
     "HPEv": 0,
     "AttEv": 0,
     "DefEv": 0,
@@ -8372,7 +8372,7 @@
       "Earthquake"
     ],
     "Item": "Quick Claw",
-    "Nature": "Quiet ( +SpAtk, -Speed)",
+    "Nature": "Quiet",
     "HPEv": 0,
     "AttEv": 170,
     "DefEv": 170,
@@ -8389,7 +8389,7 @@
       "Shadow Ball"
     ],
     "Item": "Salac Berry",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 0,
     "AttEv": 255,
     "DefEv": 0,
@@ -8406,7 +8406,7 @@
       "Aerial Ace"
     ],
     "Item": "Lum Berry",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 255,
     "AttEv": 255,
     "DefEv": 0,
@@ -8423,7 +8423,7 @@
       "Crunch"
     ],
     "Item": "Lum Berry",
-    "Nature": "Modest ( +SpAtk, -Atk)",
+    "Nature": "Modest",
     "HPEv": 255,
     "AttEv": 0,
     "DefEv": 0,
@@ -8440,7 +8440,7 @@
       "Surf"
     ],
     "Item": "Leppa Berry",
-    "Nature": "Modest ( +SpAtk, -Atk)",
+    "Nature": "Modest",
     "HPEv": 255,
     "AttEv": 0,
     "DefEv": 0,
@@ -8457,7 +8457,7 @@
       "Counter"
     ],
     "Item": "Scope Lens",
-    "Nature": "Impish ( +Def, -SpAtk)",
+    "Nature": "Impish",
     "HPEv": 0,
     "AttEv": 255,
     "DefEv": 255,
@@ -8474,7 +8474,7 @@
       "Recover"
     ],
     "Item": "Leftovers",
-    "Nature": "Modest ( +SpAtk, -Atk)",
+    "Nature": "Modest",
     "HPEv": 0,
     "AttEv": 0,
     "DefEv": 170,
@@ -8491,7 +8491,7 @@
       "Swords Dance"
     ],
     "Item": "Quick Claw",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 255,
     "AttEv": 255,
     "DefEv": 0,
@@ -8525,7 +8525,7 @@
       "Hypnosis"
     ],
     "Item": "White Herb",
-    "Nature": "Modest ( +SpAtk, -Atk)",
+    "Nature": "Modest",
     "HPEv": 170,
     "AttEv": 0,
     "DefEv": 0,
@@ -8542,7 +8542,7 @@
       "Ice Punch"
     ],
     "Item": "Lum Berry",
-    "Nature": "Quiet ( +SpAtk, -Speed)",
+    "Nature": "Quiet",
     "HPEv": 0,
     "AttEv": 0,
     "DefEv": 255,
@@ -8559,7 +8559,7 @@
       "Skill Swap"
     ],
     "Item": "Quick Claw",
-    "Nature": "Modest ( +SpAtk, -Atk)",
+    "Nature": "Modest",
     "HPEv": 0,
     "AttEv": 0,
     "DefEv": 0,
@@ -8593,7 +8593,7 @@
       "Slash"
     ],
     "Item": "Focus Band",
-    "Nature": "Careful ( +SpDef, -SpAtk)",
+    "Nature": "Careful",
     "HPEv": 0,
     "AttEv": 255,
     "DefEv": 0,
@@ -8610,7 +8610,7 @@
       "Brick Break"
     ],
     "Item": "Bright Powder",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 0,
     "AttEv": 255,
     "DefEv": 0,
@@ -8627,7 +8627,7 @@
       "Crunch"
     ],
     "Item": "Lum Berry",
-    "Nature": "Modest ( +SpAtk, -Atk)",
+    "Nature": "Modest",
     "HPEv": 170,
     "AttEv": 0,
     "DefEv": 0,
@@ -8661,7 +8661,7 @@
       "Secret Power"
     ],
     "Item": "Quick Claw",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 255,
     "AttEv": 255,
     "DefEv": 0,
@@ -8678,7 +8678,7 @@
       "Sunny Day"
     ],
     "Item": "Shell Bell",
-    "Nature": "Modest ( +SpAtk, -Atk)",
+    "Nature": "Modest",
     "HPEv": 255,
     "AttEv": 0,
     "DefEv": 0,
@@ -8695,7 +8695,7 @@
       "Rest"
     ],
     "Item": "Chesto Berry",
-    "Nature": "Modest ( +SpAtk, -Atk)",
+    "Nature": "Modest",
     "HPEv": 170,
     "AttEv": 0,
     "DefEv": 170,
@@ -8746,7 +8746,7 @@
       "Double Team"
     ],
     "Item": "Leftovers",
-    "Nature": "Careful ( +SpDef, -SpAtk)",
+    "Nature": "Careful",
     "HPEv": 0,
     "AttEv": 0,
     "DefEv": 255,
@@ -8763,7 +8763,7 @@
       "Explosion"
     ],
     "Item": "Quick Claw",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 0,
     "AttEv": 255,
     "DefEv": 0,
@@ -8780,7 +8780,7 @@
       "Mirror Coat"
     ],
     "Item": "Shell Bell",
-    "Nature": "Modest ( +SpAtk, -Atk)",
+    "Nature": "Modest",
     "HPEv": 0,
     "AttEv": 0,
     "DefEv": 170,
@@ -8814,7 +8814,7 @@
       "Recover"
     ],
     "Item": "Lum Berry",
-    "Nature": "Modest ( +SpAtk, -Atk)",
+    "Nature": "Modest",
     "HPEv": 255,
     "AttEv": 0,
     "DefEv": 0,
@@ -8831,7 +8831,7 @@
       "Magical Leaf"
     ],
     "Item": "Lum Berry",
-    "Nature": "Modest ( +SpAtk, -Atk)",
+    "Nature": "Modest",
     "HPEv": 0,
     "AttEv": 0,
     "DefEv": 0,
@@ -8865,7 +8865,7 @@
       "Ice Beam"
     ],
     "Item": "Lum Berry",
-    "Nature": "Modest ( +SpAtk, -Atk)",
+    "Nature": "Modest",
     "HPEv": 0,
     "AttEv": 0,
     "DefEv": 0,
@@ -8899,7 +8899,7 @@
       "Sleep Powder"
     ],
     "Item": "Scope Lens",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 0,
     "AttEv": 170,
     "DefEv": 170,
@@ -8916,7 +8916,7 @@
       "Baton Pass"
     ],
     "Item": "Quick Claw",
-    "Nature": "Calm ( +SpDef, -Atk)",
+    "Nature": "Calm",
     "HPEv": 170,
     "AttEv": 0,
     "DefEv": 170,
@@ -8933,7 +8933,7 @@
       "Baton Pass"
     ],
     "Item": "Bright Powder",
-    "Nature": "Bold ( +Def, -Atk)",
+    "Nature": "Bold",
     "HPEv": 170,
     "AttEv": 0,
     "DefEv": 170,
@@ -8950,7 +8950,7 @@
       "Overheat"
     ],
     "Item": "Quick Claw",
-    "Nature": "Jolly ( +Speed, -SpAtk)",
+    "Nature": "Jolly",
     "HPEv": 0,
     "AttEv": 255,
     "DefEv": 0,
@@ -8967,7 +8967,7 @@
       "Giga Drain"
     ],
     "Item": "Salac Berry",
-    "Nature": "Jolly ( +Speed, -SpAtk)",
+    "Nature": "Jolly",
     "HPEv": 0,
     "AttEv": 255,
     "DefEv": 0,
@@ -8984,7 +8984,7 @@
       "Reflect"
     ],
     "Item": "Lum Berry",
-    "Nature": "Modest ( +SpAtk, -Atk)",
+    "Nature": "Modest",
     "HPEv": 0,
     "AttEv": 0,
     "DefEv": 0,
@@ -9001,7 +9001,7 @@
       "Shadow Ball"
     ],
     "Item": "Bright Powder",
-    "Nature": "Bold ( +Def, -Atk)",
+    "Nature": "Bold",
     "HPEv": 170,
     "AttEv": 0,
     "DefEv": 170,
@@ -9052,7 +9052,7 @@
       "Blizzard"
     ],
     "Item": "Bright Powder",
-    "Nature": "Modest ( +SpAtk, -Atk)",
+    "Nature": "Modest",
     "HPEv": 255,
     "AttEv": 0,
     "DefEv": 0,
@@ -9120,7 +9120,7 @@
       "Brick Break"
     ],
     "Item": "Lum Berry",
-    "Nature": "Modest ( +SpAtk, -Atk)",
+    "Nature": "Modest",
     "HPEv": 0,
     "AttEv": 0,
     "DefEv": 0,
@@ -9137,7 +9137,7 @@
       "Reversal"
     ],
     "Item": "Salac Berry",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 0,
     "AttEv": 255,
     "DefEv": 0,
@@ -9171,7 +9171,7 @@
       "Screech"
     ],
     "Item": "Scope Lens",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 0,
     "AttEv": 255,
     "DefEv": 0,
@@ -9188,7 +9188,7 @@
       "Counter"
     ],
     "Item": "Shell Bell",
-    "Nature": "Brave ( +Atk, -Speed)",
+    "Nature": "Brave",
     "HPEv": 0,
     "AttEv": 255,
     "DefEv": 0,
@@ -9222,7 +9222,7 @@
       "Psych Up"
     ],
     "Item": "Quick Claw",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 0,
     "AttEv": 0,
     "DefEv": 255,
@@ -9239,7 +9239,7 @@
       "Endure"
     ],
     "Item": "Salac Berry",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 170,
     "AttEv": 0,
     "DefEv": 170,
@@ -9256,7 +9256,7 @@
       "Softboiled"
     ],
     "Item": "Focus Band",
-    "Nature": "Bold ( +Def, -Atk)",
+    "Nature": "Bold",
     "HPEv": 0,
     "AttEv": 0,
     "DefEv": 255,
@@ -9273,7 +9273,7 @@
       "Recover"
     ],
     "Item": "Leftovers",
-    "Nature": "Bold ( +Def, -Atk)",
+    "Nature": "Bold",
     "HPEv": 170,
     "AttEv": 0,
     "DefEv": 170,
@@ -9290,7 +9290,7 @@
       "Aerial Ace"
     ],
     "Item": "White Herb",
-    "Nature": "Modest ( +SpAtk, -Atk)",
+    "Nature": "Modest",
     "HPEv": 0,
     "AttEv": 0,
     "DefEv": 0,
@@ -9324,7 +9324,7 @@
       "Rest"
     ],
     "Item": "Chesto Berry",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 170,
     "AttEv": 170,
     "DefEv": 0,
@@ -9341,7 +9341,7 @@
       "Brick Break"
     ],
     "Item": "Choice Band",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 0,
     "AttEv": 0,
     "DefEv": 255,
@@ -9358,7 +9358,7 @@
       "Fissure"
     ],
     "Item": "Kings Rock",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 0,
     "AttEv": 255,
     "DefEv": 0,
@@ -9392,7 +9392,7 @@
       "Thunderbolt"
     ],
     "Item": "Lum Berry",
-    "Nature": "Timid ( +Speed, -Atk)",
+    "Nature": "Timid",
     "HPEv": 0,
     "AttEv": 0,
     "DefEv": 0,
@@ -9426,7 +9426,7 @@
       "Shadow Ball"
     ],
     "Item": "Choice Band",
-    "Nature": "Brave ( +Atk, -Speed)",
+    "Nature": "Brave",
     "HPEv": 0,
     "AttEv": 255,
     "DefEv": 0,
@@ -9443,7 +9443,7 @@
       "Fake Tears"
     ],
     "Item": "Lum Berry",
-    "Nature": "Modest ( +SpAtk, -Atk)",
+    "Nature": "Modest",
     "HPEv": 255,
     "AttEv": 0,
     "DefEv": 0,
@@ -9460,7 +9460,7 @@
       "Rest"
     ],
     "Item": "Chesto Berry",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 255,
     "AttEv": 255,
     "DefEv": 0,
@@ -9477,7 +9477,7 @@
       "Facade"
     ],
     "Item": "Salac Berry",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 0,
     "AttEv": 255,
     "DefEv": 0,
@@ -9494,7 +9494,7 @@
       "Fire Punch"
     ],
     "Item": "Bright Powder",
-    "Nature": "Modest ( +SpAtk, -Atk)",
+    "Nature": "Modest",
     "HPEv": 255,
     "AttEv": 0,
     "DefEv": 0,
@@ -9511,7 +9511,7 @@
       "Confuse Ray"
     ],
     "Item": "Lum Berry",
-    "Nature": "Modest ( +SpAtk, -Atk)",
+    "Nature": "Modest",
     "HPEv": 0,
     "AttEv": 0,
     "DefEv": 0,
@@ -9528,7 +9528,7 @@
       "Double Team"
     ],
     "Item": "Quick Claw",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 0,
     "AttEv": 255,
     "DefEv": 0,
@@ -9545,7 +9545,7 @@
       "Double-Edge"
     ],
     "Item": "Quick Claw",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 0,
     "AttEv": 255,
     "DefEv": 0,
@@ -9562,7 +9562,7 @@
       "Ice Beam"
     ],
     "Item": "Quick Claw",
-    "Nature": "Quiet ( +SpAtk, -Speed)",
+    "Nature": "Quiet",
     "HPEv": 0,
     "AttEv": 255,
     "DefEv": 0,
@@ -9596,7 +9596,7 @@
       "Rock Slide"
     ],
     "Item": "Quick Claw",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 255,
     "AttEv": 255,
     "DefEv": 0,
@@ -9613,7 +9613,7 @@
       "Mega Kick"
     ],
     "Item": "Thick Club",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 0,
     "AttEv": 255,
     "DefEv": 0,
@@ -9630,7 +9630,7 @@
       "Amnesia"
     ],
     "Item": "Leftovers",
-    "Nature": "Sassy ( +SpDef, -Speed)",
+    "Nature": "Sassy",
     "HPEv": 0,
     "AttEv": 170,
     "DefEv": 0,
@@ -9664,7 +9664,7 @@
       "Fake Out"
     ],
     "Item": "Scope Lens",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 255,
     "AttEv": 255,
     "DefEv": 0,
@@ -9715,7 +9715,7 @@
       "Roar"
     ],
     "Item": "Lum Berry",
-    "Nature": "Modest ( +SpAtk, -Atk)",
+    "Nature": "Modest",
     "HPEv": 0,
     "AttEv": 0,
     "DefEv": 0,
@@ -9732,7 +9732,7 @@
       "Synthesis"
     ],
     "Item": "Quick Claw",
-    "Nature": "Quiet ( +SpAtk, -Speed)",
+    "Nature": "Quiet",
     "HPEv": 0,
     "AttEv": 255,
     "DefEv": 0,
@@ -9766,7 +9766,7 @@
       "Mirror Coat"
     ],
     "Item": "Lum Berry",
-    "Nature": "Naughty ( +Atk, -SpDef)",
+    "Nature": "Naughty",
     "HPEv": 0,
     "AttEv": 255,
     "DefEv": 0,
@@ -9834,7 +9834,7 @@
       "Toxic"
     ],
     "Item": "Leftovers",
-    "Nature": "Bold ( +Def, -Atk)",
+    "Nature": "Bold",
     "HPEv": 170,
     "AttEv": 0,
     "DefEv": 170,
@@ -9851,7 +9851,7 @@
       "Ice Punch"
     ],
     "Item": "Lum Berry",
-    "Nature": "Modest ( +SpAtk, -Atk)",
+    "Nature": "Modest",
     "HPEv": 255,
     "AttEv": 0,
     "DefEv": 0,
@@ -9868,7 +9868,7 @@
       "Double-Edge"
     ],
     "Item": "Quick Claw",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 0,
     "AttEv": 255,
     "DefEv": 0,
@@ -9885,7 +9885,7 @@
       "Horn Drill"
     ],
     "Item": "Quick Claw",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 255,
     "AttEv": 255,
     "DefEv": 0,
@@ -9902,7 +9902,7 @@
       "Ice Punch"
     ],
     "Item": "Bright Powder",
-    "Nature": "Modest ( +SpAtk, -Atk)",
+    "Nature": "Modest",
     "HPEv": 0,
     "AttEv": 0,
     "DefEv": 255,
@@ -9919,7 +9919,7 @@
       "Shadow Ball"
     ],
     "Item": "Focus Band",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 255,
     "AttEv": 255,
     "DefEv": 0,
@@ -9936,7 +9936,7 @@
       "Shadow Ball"
     ],
     "Item": "Bright Powder",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 0,
     "AttEv": 255,
     "DefEv": 0,
@@ -9987,7 +9987,7 @@
       "Ice Beam"
     ],
     "Item": "Quick Claw",
-    "Nature": "Sassy ( +SpDef, -Speed)",
+    "Nature": "Sassy",
     "HPEv": 0,
     "AttEv": 0,
     "DefEv": 0,
@@ -10004,7 +10004,7 @@
       "Flamethrower"
     ],
     "Item": "Quick Claw",
-    "Nature": "Modest ( +SpAtk, -Atk)",
+    "Nature": "Modest",
     "HPEv": 0,
     "AttEv": 0,
     "DefEv": 255,
@@ -10021,7 +10021,7 @@
       "Milk Drink"
     ],
     "Item": "Lum Berry",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 0,
     "AttEv": 255,
     "DefEv": 0,
@@ -10055,7 +10055,7 @@
       "Shadow Ball"
     ],
     "Item": "White Herb",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 255,
     "AttEv": 255,
     "DefEv": 0,
@@ -10106,7 +10106,7 @@
       "Giga Drain"
     ],
     "Item": "Leftovers",
-    "Nature": "Bold ( +Def, -Atk)",
+    "Nature": "Bold",
     "HPEv": 170,
     "AttEv": 0,
     "DefEv": 170,
@@ -10123,7 +10123,7 @@
       "Rock Slide"
     ],
     "Item": "Choice Band",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 255,
     "AttEv": 255,
     "DefEv": 0,
@@ -10174,7 +10174,7 @@
       "Explosion"
     ],
     "Item": "Quick Claw",
-    "Nature": "Brave ( +Atk, -Speed)",
+    "Nature": "Brave",
     "HPEv": 0,
     "AttEv": 255,
     "DefEv": 255,
@@ -10191,7 +10191,7 @@
       "Destiny Bond"
     ],
     "Item": "Lum Berry",
-    "Nature": "Modest ( +SpAtk, -Atk)",
+    "Nature": "Modest",
     "HPEv": 0,
     "AttEv": 0,
     "DefEv": 0,
@@ -10208,7 +10208,7 @@
       "Reflect"
     ],
     "Item": "Lum Berry",
-    "Nature": "Modest ( +SpAtk, -Atk)",
+    "Nature": "Modest",
     "HPEv": 0,
     "AttEv": 0,
     "DefEv": 255,
@@ -10225,7 +10225,7 @@
       "Baton Pass"
     ],
     "Item": "Bright Powder",
-    "Nature": "Careful ( +SpDef, -SpAtk)",
+    "Nature": "Careful",
     "HPEv": 255,
     "AttEv": 0,
     "DefEv": 0,
@@ -10242,7 +10242,7 @@
       "Endure"
     ],
     "Item": "Salac Berry",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 0,
     "AttEv": 255,
     "DefEv": 0,
@@ -10259,7 +10259,7 @@
       "Aerial Ace"
     ],
     "Item": "Bright Powder",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 255,
     "AttEv": 255,
     "DefEv": 0,
@@ -10276,7 +10276,7 @@
       "Sunny Day"
     ],
     "Item": "White Herb",
-    "Nature": "Modest ( +SpAtk, -Atk)",
+    "Nature": "Modest",
     "HPEv": 0,
     "AttEv": 0,
     "DefEv": 0,
@@ -10293,7 +10293,7 @@
       "Iron Tail"
     ],
     "Item": "Quick Claw",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 255,
     "AttEv": 255,
     "DefEv": 0,
@@ -10310,7 +10310,7 @@
       "Explosion"
     ],
     "Item": "Focus Band",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 255,
     "AttEv": 255,
     "DefEv": 0,
@@ -10378,7 +10378,7 @@
       "Rest"
     ],
     "Item": "Chesto Berry",
-    "Nature": "Careful ( +SpDef, -SpAtk)",
+    "Nature": "Careful",
     "HPEv": 0,
     "AttEv": 0,
     "DefEv": 255,
@@ -10395,7 +10395,7 @@
       "Explosion"
     ],
     "Item": "Quick Claw",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 0,
     "AttEv": 255,
     "DefEv": 0,
@@ -10446,7 +10446,7 @@
       "Recover"
     ],
     "Item": "Bright Powder",
-    "Nature": "Modest ( +SpAtk, -Atk)",
+    "Nature": "Modest",
     "HPEv": 255,
     "AttEv": 0,
     "DefEv": 0,
@@ -10463,7 +10463,7 @@
       "Fire Punch"
     ],
     "Item": "Bright Powder",
-    "Nature": "Modest ( +SpAtk, -Atk)",
+    "Nature": "Modest",
     "HPEv": 0,
     "AttEv": 0,
     "DefEv": 0,
@@ -10497,7 +10497,7 @@
       "Recover"
     ],
     "Item": "Lum Berry",
-    "Nature": "Modest ( +SpAtk, -Atk)",
+    "Nature": "Modest",
     "HPEv": 0,
     "AttEv": 0,
     "DefEv": 0,
@@ -10548,7 +10548,7 @@
       "Rest"
     ],
     "Item": "Lum Berry",
-    "Nature": "Calm ( +SpDef, -Atk)",
+    "Nature": "Calm",
     "HPEv": 170,
     "AttEv": 0,
     "DefEv": 0,
@@ -10565,7 +10565,7 @@
       "Shadow Ball"
     ],
     "Item": "Kings Rock",
-    "Nature": "Timid ( +Speed, -Atk)",
+    "Nature": "Timid",
     "HPEv": 0,
     "AttEv": 0,
     "DefEv": 0,
@@ -10582,7 +10582,7 @@
       "Shadow Ball"
     ],
     "Item": "Quick Claw",
-    "Nature": "Quiet ( +SpAtk, -Speed)",
+    "Nature": "Quiet",
     "HPEv": 0,
     "AttEv": 255,
     "DefEv": 0,
@@ -10616,7 +10616,7 @@
       "Calm Mind"
     ],
     "Item": "Bright Powder",
-    "Nature": "Modest ( +SpAtk, -Atk)",
+    "Nature": "Modest",
     "HPEv": 0,
     "AttEv": 0,
     "DefEv": 0,
@@ -10633,7 +10633,7 @@
       "Double Team"
     ],
     "Item": "Leftovers",
-    "Nature": "Bold ( +Def, -Atk)",
+    "Nature": "Bold",
     "HPEv": 170,
     "AttEv": 0,
     "DefEv": 170,
@@ -10684,7 +10684,7 @@
       "Aerial Ace"
     ],
     "Item": "Quick Claw",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 255,
     "AttEv": 255,
     "DefEv": 0,
@@ -10718,7 +10718,7 @@
       "Sheer Cold"
     ],
     "Item": "Bright Powder",
-    "Nature": "Quiet ( +SpAtk, -Speed)",
+    "Nature": "Quiet",
     "HPEv": 0,
     "AttEv": 255,
     "DefEv": 0,
@@ -10735,7 +10735,7 @@
       "Thunderpunch"
     ],
     "Item": "Bright Powder",
-    "Nature": "Modest ( +SpAtk, -Atk)",
+    "Nature": "Modest",
     "HPEv": 0,
     "AttEv": 0,
     "DefEv": 0,
@@ -10786,7 +10786,7 @@
       "Psychic"
     ],
     "Item": "Lum Berry",
-    "Nature": "Modest ( +SpAtk, -Atk)",
+    "Nature": "Modest",
     "HPEv": 255,
     "AttEv": 0,
     "DefEv": 0,
@@ -10803,7 +10803,7 @@
       "Confuse Ray"
     ],
     "Item": "Bright Powder",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 0,
     "AttEv": 255,
     "DefEv": 0,
@@ -10820,7 +10820,7 @@
       "Mirror Coat"
     ],
     "Item": "Shell Bell",
-    "Nature": "Quiet ( +SpAtk, -Speed)",
+    "Nature": "Quiet",
     "HPEv": 0,
     "AttEv": 255,
     "DefEv": 0,
@@ -10837,7 +10837,7 @@
       "Rest"
     ],
     "Item": "Chesto Berry",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 170,
     "AttEv": 0,
     "DefEv": 170,
@@ -10854,7 +10854,7 @@
       "Curse"
     ],
     "Item": "Quick Claw",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 0,
     "AttEv": 255,
     "DefEv": 255,
@@ -10888,7 +10888,7 @@
       "Softboiled"
     ],
     "Item": "Focus Band",
-    "Nature": "Bold ( +Def, -Atk)",
+    "Nature": "Bold",
     "HPEv": 0,
     "AttEv": 0,
     "DefEv": 255,
@@ -10905,7 +10905,7 @@
       "Mirror Coat"
     ],
     "Item": "Leftovers",
-    "Nature": "Modest ( +SpAtk, -Atk)",
+    "Nature": "Modest",
     "HPEv": 0,
     "AttEv": 0,
     "DefEv": 170,
@@ -10939,7 +10939,7 @@
       "Dragon Dance"
     ],
     "Item": "Bright Powder",
-    "Nature": "Adamant ( +Atk, -SpAtk)",
+    "Nature": "Adamant",
     "HPEv": 255,
     "AttEv": 255,
     "DefEv": 0,
@@ -10973,7 +10973,7 @@
       "Yawn"
     ],
     "Item": "Lum Berry",
-    "Nature": "Modest ( +SpAtk, -Atk)",
+    "Nature": "Modest",
     "HPEv": 0,
     "AttEv": 0,
     "DefEv": 0,
