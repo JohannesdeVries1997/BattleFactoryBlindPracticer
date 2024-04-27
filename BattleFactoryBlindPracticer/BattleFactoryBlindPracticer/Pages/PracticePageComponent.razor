@@ -1,5 +1,6 @@
 ﻿@page "/practice"
 @inject HttpClient _client;
+@using BattleFactoryBlindPracticer.Model;
 
 <div class="practice-container">
     <div class="title-container">
@@ -16,22 +17,22 @@
     @if (pokemonIsGuessed)
     {
         <div class="ability-component-container">
-            <AbilityComponent IsGuessable=true Ability1="@chosenPokemon.Ability1" Ability2="@chosenPokemon.Ability2" @key="@(abilityList_Id)" />
+            <AbilityComponent IsGuessable=@Settings.AbilitiesIsGuessable Ability1="@chosenPokemon.Ability1" Ability2="@chosenPokemon.Ability2" @key="@(abilityList_Id)" />
         </div>
         <div class="movelist-component-container">
-            <MoveListComponent IsGuessable=true Moves=@chosenSet.Moves @key="@(moveList_Id)"></MoveListComponent>
+            <MoveListComponent IsGuessable=@Settings.MoveListIsGuessable Moves=@chosenSet.Moves @key="@(moveList_Id)"></MoveListComponent>
         </div>
         <div class="nature-item-container">
             <div class="nature-component-container">
-                <NatureComponent IsGuessable=true Nature="@chosenSet.Nature" />
+                <NatureComponent IsGuessable=@Settings.NatureIsGuessable Nature="@chosenSet.Nature" />
             </div>
             <div class="item-component-container">
-                <ItemComponent IsGuessable=true Item="@chosenSet.Item" />
+                <ItemComponent IsGuessable=@Settings.ItemIsGuessable Item="@chosenSet.Item" />
             </div>
         </div>
         <div class="stat-component-container">
             <StatsComponent 
-                StatIsGuessable=false EvIsGuessable=true
+                StatIsGuessable=@Settings.StatIsGuessable EvIsGuessable=@Settings.EvIsGuessable
                 HP="@chosenPokemon.HP" Att="@chosenPokemon.Att" Def="@chosenPokemon.Def" SpAtt="@chosenPokemon.SpAtt" SpDef="@chosenPokemon.SpDef" Spe="@chosenPokemon.Spe"
                 HPEvs="@chosenSet.HPEv" AttEvs="@chosenSet.AttEv" DefEvs="@chosenSet.DefEv" SpAttEvs="@chosenSet.SpAttEv" SpDefEvs="@chosenSet.SpDefEv" SpeEvs="@chosenSet.SpeEv"/>
         </div>

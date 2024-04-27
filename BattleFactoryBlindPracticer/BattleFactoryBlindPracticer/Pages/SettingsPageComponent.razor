@@ -1,0 +1,72 @@
+﻿@page "/settings"
+@using BattleFactoryBlindPracticer.Model;
+
+<h1>Select which aspects you want to be able to guess</h1>
+<div id="settings-container">
+    <div class="individual-setting">
+        <div>
+            <h5>Moves</h5>
+        </div>
+        <div>
+            <label class="switch">
+                <input type="checkbox" @bind="@Settings.MoveListIsGuessable" @bind:event="oninput">
+                <span class="slider round"></span>
+            </label>
+        </div>
+    </div>
+    <div class="individual-setting">
+        <div>
+            <h5>Abilities</h5>
+        </div>
+        <div>
+            <label class="switch">
+                <input type="checkbox" @bind="@Settings.AbilitiesIsGuessable" @bind:event="oninput">
+                <span class="slider round"></span>
+            </label>
+        </div>
+    </div>
+    <div class="individual-setting">
+        <div>
+            <h5>Nature</h5>
+        </div>
+        <div>
+            <label class="switch">
+                <input type="checkbox" @bind="@Settings.NatureIsGuessable" @bind:event="oninput" >
+                <span class="slider round"></span>
+            </label>
+        </div>
+    </div>
+    <div class="individual-setting">
+        <div>
+            <h5>Item</h5>
+        </div>
+        <div>
+            <label class="switch">
+                <input type="checkbox" @bind="@Settings.ItemIsGuessable" @bind:event="oninput">
+                <span class="slider round"></span>
+            </label>
+        </div>
+    </div>
+    <div class="individual-setting">
+        <div>
+            <h5>Stats</h5>
+        </div>
+        <div>
+            <label class="switch">
+                <input type="checkbox" @bind="@Settings.StatIsGuessable" @bind:event="oninput">
+                <span class="slider round"></span>
+            </label>
+        </div>
+    </div>
+    <div class="individual-setting">
+        <div>
+            <h5>EVs</h5>
+        </div>
+        <div>
+            <label class="switch">
+                <input type="checkbox" @bind="@Settings.EvIsGuessable" @bind:event="oninput">
+                <span class="slider round"></span>
+            </label>
+        </div>
+    </div>
+</div>
