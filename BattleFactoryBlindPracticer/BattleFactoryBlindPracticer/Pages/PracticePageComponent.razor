@@ -27,6 +27,12 @@
         <div class="movelist-component-container">
             <MoveListComponent IsGuessable=true Moves=@chosenSet.Moves @key="@(moveList_Id)"></MoveListComponent>
         </div>
+        <div class="stat-component-container">
+            <StatsComponent 
+                StatIsGuessable=false EvIsGuessable=true
+                HP="@chosenPokemon.HP" Att="@chosenPokemon.Att" Def="@chosenPokemon.Def" SpAtt="@chosenPokemon.SpAtt" SpDef="@chosenPokemon.SpDef" Spe="@chosenPokemon.Spe"
+                HPEvs="@chosenSet.HPEv" AttEvs="@chosenSet.AttEv" DefEvs="@chosenSet.DefEv" SpAttEvs="@chosenSet.SpAttEv" SpDefEvs="@chosenSet.SpDefEv" SpeEvs="@chosenSet.SpeEv"/>
+        </div>
     }
     <div class="next-container">
         <button id="next-button" @onclick="@HandleNextClick">Next</button>
